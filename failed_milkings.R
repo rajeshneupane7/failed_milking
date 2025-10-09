@@ -2,10 +2,10 @@ library(lme4)
 library(dplyr)
 library(tidyr)
 library(broom.mixed)
-setwd("/work/failed_milkings")
+
 
 # Load your CSV file into R
-data <- read.csv("/home/rajesh/work/failed_milkings/final_df_with_days_relative.csv")
+data <- read.csv("/home/rajesh/work/failed_milkings/corrected_pen_df.csv")
 
 data <- data %>%
   mutate(lac_no = if_else(lac_no == 1, "primiparous", "multiparous")) %>%
@@ -14,11 +14,11 @@ data <- data %>%
 
 # Convert appropriate columns to factors
 cat_columns <- c('event_new_disease', 'lac_no', 'lac_stage', 'Animal.Number',
-                 'thi_class', 'milk_yield_cat', 'milk_speed_cat', 'milking_int_cat')
+                 'thi_class', 'milk_yield_cat', 'milk_speed_cat', 'milking_int_cat', 'correct_pen', 'Device.Name')
 
 data[cat_columns] <- lapply(data[cat_columns], as.factor)
 
-# Stratified sampling (~20% of each 'failed' group)
+
 
 data$failed <- as.factor(data$failed)
 data$event_new_disease <- as.factor(data$event_new_disease)
@@ -52,4 +52,88 @@ ctrl <- glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 100000), calc
 
 
 
+#model_failed_pen_robot <- glmer(
+#  failed ~ event_new_disease + thi_class + lac_no + lac_stage + milking_int_cat + milk_yield_cat + milk_speed_cat + correct_pen+
+#    + (1 |Animal.Number)+ (1|correct_pen/Device.Name),
+#  data = data,
+#  family = binomial(link = "logit"),
+#  control = ctrl
+#)
 
+#===========================================================================================================================
+# Install if not already installed
+
+
+# Load libraries
+library(glmmTMB)
+library(performance)
+library(broom.mixed)
+
+FORMULA <- failed ~ event_new_disease + thi_class + lac_no + lac_stage +
+  milking_int_cat + milk_yield_cat + milk_speed_cat + correct_pen +
+  (1 | Animal.Number) + (1 | correct_pen / Device.Name)
+
+model_independent <- glmmTMB(
+  FORMULA,
+  data = data,
+  family = binomial(link = "logit")
+)
+data <- data %>%
+  arrange(Animal.Number, Date) %>%
+  group_by(Animal.Number) %>%
+  mutate(time_factor = as.factor(row_number())) %>%
+  ungroup() # convert to numeric for AR(1)
+
+
+model_ar1 <- glmmTMB(
+  failed ~ event_new_disease + thi_class + lac_no + lac_stage +
+    milking_int_cat + milk_yield_cat + milk_speed_cat + correct_pen + Device.Name+
+    ar1(time_factor + 0 | Animal.Number) ,
+  data = data,
+  family = binomial(link = "logit")
+)
+
+
+model_cs <- glmmTMB(
+  failed ~ event_new_disease + thi_class + lac_no + lac_stage +
+    milking_int_cat + milk_yield_cat + milk_speed_cat + correct_pen +
+    cs(0 + time_factor | Animal.Number),
+  data = data,
+  family = binomial(link = "logit")
+)
+
+model_list <- list(
+  independent = model_independent,
+  ar1 = model_ar1,
+  compound_symmetry = model_cs
+)
+
+compare_performance(model_list, metrics = c("AIC", "BIC"))
+
+
+simulateResiduals(model_ar1, plot = TRUE)
+simulateResiduals(model_cs, plot = TRUE)
+
+
+results <- tidy(model_failed_pen_robot, effects = "fixed", conf.int = TRUE)
+
+# Compute odds ratios and format results with rounding (no scientific notation)
+results <- tidy(model_failed_pen_robot, effects = "fixed", conf.int = TRUE)
+
+# Compute odds ratios and format results with rounding (no scientific notation)
+results <- results %>%
+  mutate(estimate = formatC(round(estimate, 3), format = "f", digits = 3),
+         std.error = formatC(round(std.error, 3), format = "f", digits = 3),
+         OR = formatC(round(exp(as.numeric(estimate)), 3), format = "f", digits = 3),
+         CI_lower = formatC(round(exp(as.numeric(conf.low)), 3), format = "f", digits = 3),
+         CI_upper = formatC(round(exp(as.numeric(conf.high)), 3), format = "f", digits = 3),
+         P_value = formatC(round(p.value, 3), format = "f", digits = 3)) %>%
+  select(term, estimate, std.error, OR, CI_lower, CI_upper, P_value)
+
+# Print results as a formatted tablefa
+print(results, row.names = FALSE, n= Inf)
+
+library(performance)
+model_performance(model_failed_pen_robot)
+
+#=============================================================================
