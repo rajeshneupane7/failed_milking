@@ -1,0 +1,3399 @@
+,Animal Number,gestation,weeks,visit_results_new,failed_count,parity
+8,3,2,9,Automatic robot stop,1.0,Multiparous
+53,534,7,7,Connection attempt,1.0,Multiparous
+72,534,7,25,Connection attempt,1.0,Multiparous
+85,1297,1,3,Automatic robot stop,1.0,Primiparous
+87,1297,1,4,Stopped by user,1.0,Primiparous
+90,1297,1,6,Connection attempt,2.0,Primiparous
+101,1297,1,19,Automatic robot stop,1.0,Primiparous
+119,1391,6,9,Connection attempt,2.0,Multiparous
+157,1940,2,20,Connection time,1.0,Multiparous
+167,1940,2,29,Stopped by user,2.0,Multiparous
+173,1940,2,34,Connection attempt,1.0,Multiparous
+206,1940,3,20,Dead milk time,1.0,Multiparous
+290,1940,5,8,Dead milk time,1.0,Multiparous
+310,1940,5,27,Dead milk time,1.0,Multiparous
+324,1940,5,40,Dead milk time,1.0,Multiparous
+341,1940,6,13,Dead milk time,1.0,Multiparous
+367,2930,6,8,Connection attempt,1.0,Multiparous
+386,14423,6,10,Dead milk time,1.0,Multiparous
+415,14577,2,2,Dead milk time,1.0,Multiparous
+416,14577,2,2,Stopped by user,1.0,Multiparous
+418,14577,2,3,Connection time,1.0,Multiparous
+424,14577,2,8,Dead milk time,1.0,Multiparous
+435,14577,2,18,Dead milk time,2.0,Multiparous
+440,14577,2,22,Dead milk time,1.0,Multiparous
+443,14577,2,24,Dead milk time,1.0,Multiparous
+519,14577,5,6,Connection attempt,1.0,Multiparous
+521,14577,5,7,Connection attempt,1.0,Multiparous
+533,14577,5,18,Dead milk time,1.0,Multiparous
+535,14577,5,19,Connection time,1.0,Multiparous
+539,14577,5,22,Automatic robot stop,1.0,Multiparous
+541,14577,5,23,Connection attempt,1.0,Multiparous
+544,14577,5,25,Automatic robot stop,1.0,Multiparous
+557,14577,5,37,Connection attempt,1.0,Multiparous
+572,14579,5,4,Dead milk time,1.0,Multiparous
+574,14579,5,5,Dead milk time,3.0,Multiparous
+577,14579,5,7,Dead milk time,1.0,Multiparous
+585,14579,5,14,Dead milk time,1.0,Multiparous
+597,14579,5,25,Dead milk time,1.0,Multiparous
+601,14579,5,28,Dead milk time,1.0,Multiparous
+603,14579,5,29,Dead milk time,1.0,Multiparous
+614,14579,5,39,Dead milk time,1.0,Multiparous
+622,14677,5,3,Automatic robot stop,1.0,Multiparous
+624,14677,5,4,Connection time,3.0,Multiparous
+628,14677,5,7,Connection time,1.0,Multiparous
+630,14677,5,8,Connection time,1.0,Multiparous
+632,14677,5,9,Connection time,1.0,Multiparous
+634,14677,5,10,Connection time,2.0,Multiparous
+637,14677,5,12,Connection time,1.0,Multiparous
+639,14677,5,13,Connection time,2.0,Multiparous
+642,14677,5,15,Connection time,1.0,Multiparous
+644,14677,5,16,Connection time,5.0,Multiparous
+645,14677,5,16,Dead milk time,3.0,Multiparous
+648,14677,5,18,Connection time,3.0,Multiparous
+649,14677,5,18,Dead milk time,1.0,Multiparous
+651,14677,5,19,Connection time,1.0,Multiparous
+653,14677,5,20,Connection time,3.0,Multiparous
+665,14939,5,12,Dead milk time,1.0,Multiparous
+668,14939,5,14,Connection attempt,1.0,Multiparous
+673,14939,5,18,Connection attempt,2.0,Multiparous
+676,14939,5,20,Connection attempt,1.0,Multiparous
+677,14939,5,20,Dead milk time,2.0,Multiparous
+679,14939,5,21,Connection attempt,1.0,Multiparous
+682,14939,5,23,Connection time,1.0,Multiparous
+683,14939,5,23,Dead milk time,1.0,Multiparous
+686,14939,5,25,Connection attempt,1.0,Multiparous
+695,14939,5,33,Dead milk time,1.0,Multiparous
+706,14950,4,32,Connection attempt,1.0,Multiparous
+727,14950,4,52,Connection time,1.0,Multiparous
+730,14950,4,54,Connection time,1.0,Multiparous
+735,14950,4,58,Connection time,1.0,Multiparous
+737,14950,4,59,Connection time,1.0,Multiparous
+750,14950,4,71,Dead milk time,1.0,Multiparous
+763,15087,4,9,Dead milk time,2.0,Multiparous
+769,15087,4,14,Connection attempt,1.0,Multiparous
+803,15114,3,17,Dead milk time,1.0,Multiparous
+829,15114,3,45,Dead milk time,1.0,Multiparous
+835,15114,4,5,Connection attempt,1.0,Multiparous
+854,15114,4,23,Dead milk time,2.0,Multiparous
+861,15114,4,29,Dead milk time,1.0,Multiparous
+867,15114,4,34,Dead milk time,1.0,Multiparous
+888,15114,5,3,Connection attempt,1.0,Multiparous
+898,15114,5,12,Connection attempt,1.0,Multiparous
+901,15114,5,14,Dead milk time,1.0,Multiparous
+913,15114,5,25,Dead milk time,1.0,Multiparous
+936,15189,1,8,Connection attempt,1.0,Primiparous
+948,15189,1,19,Dead milk time,1.0,Primiparous
+957,15189,1,27,Automatic robot stop,1.0,Primiparous
+964,15189,1,33,Automatic robot stop,1.0,Primiparous
+985,15189,2,8,Connection attempt,1.0,Multiparous
+995,15189,2,17,Connection time,1.0,Multiparous
+997,15189,2,18,Automatic robot stop,1.0,Multiparous
+1010,15189,2,30,Connection time,1.0,Multiparous
+1031,15189,3,4,Connection attempt,3.0,Multiparous
+1033,15189,3,5,Connection attempt,2.0,Multiparous
+1039,15189,3,14,Connection attempt,1.0,Multiparous
+1066,15189,3,40,Dead milk time,1.0,Multiparous
+1078,15189,4,10,Automatic robot stop,1.0,Multiparous
+1081,15189,4,12,Dead milk time,1.0,Multiparous
+1105,15189,4,35,Dead milk time,1.0,Multiparous
+1108,15189,4,37,Dead milk time,1.0,Multiparous
+1124,15189,5,10,Dead milk time,1.0,Multiparous
+1133,15189,5,18,Connection attempt,1.0,Multiparous
+1170,15195,1,23,Dead milk time,1.0,Primiparous
+1172,15195,1,24,Dead milk time,1.0,Primiparous
+1181,15195,1,32,Connection attempt,1.0,Primiparous
+1182,15195,1,32,Dead milk time,1.0,Primiparous
+1205,15195,4,17,Dead milk time,1.0,Multiparous
+1209,15195,4,20,Connection attempt,1.0,Multiparous
+1238,15195,4,48,Connection time,1.0,Multiparous
+1239,15195,4,48,Dead milk time,1.0,Multiparous
+1247,15195,5,4,Dead milk time,1.0,Multiparous
+1252,15195,5,8,Dead milk time,2.0,Multiparous
+1261,15195,5,16,Dead milk time,1.0,Multiparous
+1264,15195,5,18,Dead milk time,1.0,Multiparous
+1278,15195,5,31,Dead milk time,1.0,Multiparous
+1309,15291,4,13,Dead milk time,1.0,Multiparous
+1323,15291,4,26,Dead milk time,1.0,Multiparous
+1335,15291,4,37,Dead milk time,1.0,Multiparous
+1340,15291,4,41,Dead milk time,1.0,Multiparous
+1342,15291,4,42,Dead milk time,1.0,Multiparous
+1345,15291,4,44,Dead milk time,1.0,Multiparous
+1349,15291,4,47,Connection time,1.0,Multiparous
+1350,15291,4,47,Dead milk time,1.0,Multiparous
+1352,15291,4,48,Connection time,9.0,Multiparous
+1354,15291,4,49,Connection time,1.0,Multiparous
+1355,15291,4,49,Dead milk time,2.0,Multiparous
+1358,15291,5,4,Connection attempt,1.0,Multiparous
+1362,15291,5,7,Dead milk time,1.0,Multiparous
+1364,15291,5,8,Dead milk time,1.0,Multiparous
+1366,15291,5,9,Dead milk time,2.0,Multiparous
+1370,15291,5,12,Automatic robot stop,1.0,Multiparous
+1378,15291,5,19,Dead milk time,1.0,Multiparous
+1405,15355,1,30,Connection time,1.0,Primiparous
+1407,15355,1,31,Dead milk time,1.0,Primiparous
+1409,15355,1,32,Dead milk time,2.0,Primiparous
+1411,15355,1,33,Connection time,1.0,Primiparous
+1412,15355,1,33,Dead milk time,1.0,Primiparous
+1414,15355,1,34,Connection time,1.0,Primiparous
+1415,15355,1,34,Dead milk time,2.0,Primiparous
+1417,15355,1,35,Dead milk time,1.0,Primiparous
+1419,15355,1,36,Connection time,1.0,Primiparous
+1420,15355,1,36,Dead milk time,2.0,Primiparous
+1422,15355,1,37,Dead milk time,2.0,Primiparous
+1425,15355,1,39,Dead milk time,1.0,Primiparous
+1427,15355,1,40,Connection time,1.0,Primiparous
+1428,15355,1,40,Dead milk time,4.0,Primiparous
+1430,15355,1,41,Dead milk time,1.0,Primiparous
+1433,15355,1,43,Dead milk time,1.0,Primiparous
+1435,15355,1,44,Connection time,1.0,Primiparous
+1436,15355,1,44,Dead milk time,2.0,Primiparous
+1438,15355,1,45,Dead milk time,1.0,Primiparous
+1440,15355,1,46,Connection time,1.0,Primiparous
+1470,15355,2,26,Dead milk time,1.0,Multiparous
+1484,15355,2,39,Automatic robot stop,1.0,Multiparous
+1498,15355,2,52,Connection time,2.0,Multiparous
+1500,15355,2,53,Connection time,1.0,Multiparous
+1503,15355,2,55,Connection time,1.0,Multiparous
+1504,15355,2,55,Dead milk time,1.0,Multiparous
+1508,15355,3,3,Automatic robot stop,1.0,Multiparous
+1510,15355,3,4,Connection time,1.0,Multiparous
+1536,15355,3,32,Connection time,2.0,Multiparous
+1562,15355,4,8,Automatic robot stop,1.0,Multiparous
+1564,15355,4,9,Dead milk time,3.0,Multiparous
+1568,15355,4,12,Automatic robot stop,1.0,Multiparous
+1570,15355,4,13,Dead milk time,1.0,Multiparous
+1573,15355,4,15,Dead milk time,1.0,Multiparous
+1576,15355,4,17,Dead milk time,2.0,Multiparous
+1579,15355,4,19,Dead milk time,2.0,Multiparous
+1581,15355,4,20,Connection time,1.0,Multiparous
+1591,15355,4,29,Dead milk time,1.0,Multiparous
+1593,15355,4,30,Connection time,1.0,Multiparous
+1594,15355,4,30,Dead milk time,2.0,Multiparous
+1596,15355,4,31,Dead milk time,2.0,Multiparous
+1600,15355,4,34,Connection time,2.0,Multiparous
+1601,15355,4,34,Dead milk time,1.0,Multiparous
+1603,15355,4,35,Dead milk time,4.0,Multiparous
+1605,15355,4,36,Dead milk time,2.0,Multiparous
+1612,15355,4,42,Connection time,1.0,Multiparous
+1614,15355,4,43,Connection time,1.0,Multiparous
+1617,15355,4,45,Connection time,3.0,Multiparous
+1626,15355,5,9,Connection time,1.0,Multiparous
+1643,15355,5,25,Dead milk time,1.0,Multiparous
+1656,15439,1,30,Connection attempt,1.0,Primiparous
+1699,15439,2,29,Connection time,1.0,Multiparous
+1743,15439,3,29,Automatic robot stop,1.0,Multiparous
+1745,15439,3,30,Automatic robot stop,1.0,Multiparous
+1760,15439,3,44,Connection attempt,1.0,Multiparous
+1781,15439,4,19,Connection attempt,1.0,Multiparous
+1823,15439,5,12,Automatic robot stop,1.0,Multiparous
+1827,15439,5,15,Automatic robot stop,1.0,Multiparous
+1833,15439,5,20,Automatic robot stop,1.0,Multiparous
+1855,15447,1,22,Connection time,1.0,Primiparous
+1857,15447,1,23,Connection attempt,1.0,Primiparous
+1875,15447,1,40,Dead milk time,1.0,Primiparous
+1964,15447,3,44,Dead milk time,1.0,Multiparous
+1968,15447,4,2,Dead milk time,1.0,Multiparous
+2008,15447,4,41,Connection attempt,1.0,Multiparous
+2017,15447,5,7,Dead milk time,1.0,Multiparous
+2059,15518,4,19,Dead milk time,1.0,Multiparous
+2065,15518,4,24,Dead milk time,1.0,Multiparous
+2075,15518,4,33,Connection attempt,1.0,Multiparous
+2080,15518,4,37,Connection time,1.0,Multiparous
+2113,15524,4,5,Dead milk time,1.0,Multiparous
+2143,15524,4,34,Dead milk time,1.0,Multiparous
+2152,15524,5,2,Dead milk time,1.0,Multiparous
+2154,15524,5,3,Dead milk time,1.0,Multiparous
+2163,15866,2,7,Dead milk time,1.0,Multiparous
+2168,15866,2,11,Connection time,1.0,Multiparous
+2173,15866,2,15,Connection attempt,1.0,Multiparous
+2184,15866,2,25,Connection time,1.0,Multiparous
+2187,15866,2,27,Stopped by user,1.0,Multiparous
+2192,15866,2,31,Connection time,1.0,Multiparous
+2196,15866,2,34,Connection time,1.0,Multiparous
+2198,15866,2,35,Connection time,1.0,Multiparous
+2203,15866,2,39,Connection attempt,2.0,Multiparous
+2204,15866,2,39,Connection time,3.0,Multiparous
+2208,15866,2,42,Automatic robot stop,1.0,Multiparous
+2218,15866,3,3,Connection time,1.0,Multiparous
+2249,15866,3,36,Connection time,1.0,Multiparous
+2251,15866,3,37,Connection time,1.0,Multiparous
+2259,15866,4,2,Connection attempt,1.0,Multiparous
+2283,15866,4,25,Connection attempt,1.0,Multiparous
+2309,15866,5,8,Connection attempt,1.0,Multiparous
+2311,15866,5,9,Dead milk time,1.0,Multiparous
+2313,15866,5,10,Dead milk time,1.0,Multiparous
+2326,15866,5,22,Automatic robot stop,1.0,Multiparous
+2355,15945,1,27,Dead milk time,1.0,Primiparous
+2374,15945,2,5,Automatic robot stop,1.0,Multiparous
+2378,15945,2,8,Dead milk time,2.0,Multiparous
+2382,15945,2,11,Dead milk time,2.0,Multiparous
+2398,15945,2,26,Automatic robot stop,1.0,Multiparous
+2412,15945,2,39,Connection time,1.0,Multiparous
+2418,15945,3,4,Connection time,2.0,Multiparous
+2420,15945,3,5,Connection time,2.0,Multiparous
+2422,15945,3,6,Connection time,2.0,Multiparous
+2423,15945,3,6,Dead milk time,1.0,Multiparous
+2434,15945,3,16,Connection time,1.0,Multiparous
+2440,15945,3,24,Automatic robot stop,1.0,Multiparous
+2443,15945,3,26,Dead milk time,1.0,Multiparous
+2470,15945,3,52,Dead milk time,1.0,Multiparous
+2471,15945,3,52,Stopped by user,1.0,Multiparous
+2479,15945,4,4,Dead milk time,1.0,Multiparous
+2482,15945,4,6,Dead milk time,1.0,Multiparous
+2484,15945,4,7,Dead milk time,1.0,Multiparous
+2486,15945,4,8,Dead milk time,1.0,Multiparous
+2490,15945,4,11,Dead milk time,1.0,Multiparous
+2493,15945,4,13,Dead milk time,1.0,Multiparous
+2496,15945,4,15,Dead milk time,1.0,Multiparous
+2502,15945,4,20,Dead milk time,3.0,Multiparous
+2504,15945,4,21,Dead milk time,1.0,Multiparous
+2506,15945,4,22,Dead milk time,1.0,Multiparous
+2509,15945,4,24,Dead milk time,1.0,Multiparous
+2513,15945,4,27,Dead milk time,1.0,Multiparous
+2515,15945,4,28,Dead milk time,3.0,Multiparous
+2518,15945,4,30,Automatic robot stop,1.0,Multiparous
+2521,15945,4,32,Dead milk time,1.0,Multiparous
+2524,15945,4,34,Dead milk time,1.0,Multiparous
+2532,15945,4,41,Dead milk time,1.0,Multiparous
+2543,15945,4,51,Connection time,3.0,Multiparous
+2545,15945,4,52,Connection time,5.0,Multiparous
+2547,15945,4,53,Connection time,9.0,Multiparous
+2549,15945,4,54,Connection time,11.0,Multiparous
+2551,15945,4,55,Connection time,10.0,Multiparous
+2552,15945,4,55,Dead milk time,4.0,Multiparous
+2589,15949,4,27,Dead milk time,1.0,Multiparous
+2591,15949,4,28,Dead milk time,1.0,Multiparous
+2593,15949,4,29,Dead milk time,1.0,Multiparous
+2595,15949,4,30,Connection attempt,1.0,Multiparous
+2667,16015,5,4,Dead milk time,1.0,Multiparous
+2674,16057,2,2,Connection time,1.0,Multiparous
+2682,16057,2,9,Dead milk time,1.0,Multiparous
+2685,16057,2,11,Dead milk time,1.0,Multiparous
+2700,16057,2,25,Connection attempt,1.0,Multiparous
+2701,16057,2,25,Connection time,3.0,Multiparous
+2703,16057,2,26,Connection time,9.0,Multiparous
+2705,16057,2,27,Connection time,2.0,Multiparous
+2716,16057,2,37,Connection time,1.0,Multiparous
+2722,16057,2,42,Dead milk time,1.0,Multiparous
+2725,16057,3,2,Connection time,1.0,Multiparous
+2733,16057,3,9,Connection time,1.0,Multiparous
+2735,16057,3,10,Connection time,5.0,Multiparous
+2737,16057,3,11,Connection time,4.0,Multiparous
+2739,16057,3,12,Connection time,3.0,Multiparous
+2741,16057,3,13,Connection attempt,1.0,Multiparous
+2742,16057,3,13,Connection time,5.0,Multiparous
+2744,16057,3,14,Connection time,2.0,Multiparous
+2746,16057,3,19,Connection time,1.0,Multiparous
+2748,16057,3,20,Connection time,3.0,Multiparous
+2750,16057,3,21,Connection time,1.0,Multiparous
+2754,16057,3,24,Connection time,2.0,Multiparous
+2756,16057,3,25,Connection time,2.0,Multiparous
+2760,16057,3,28,Connection time,2.0,Multiparous
+2764,16057,3,31,Automatic robot stop,1.0,Multiparous
+2799,16057,4,19,Stopped by user,1.0,Multiparous
+2813,16057,4,32,Automatic robot stop,1.0,Multiparous
+2825,16057,4,43,Automatic robot stop,1.0,Multiparous
+2850,16057,5,19,Dead milk time,1.0,Multiparous
+2861,16057,5,29,Dead milk time,1.0,Multiparous
+2877,16119,4,13,Automatic robot stop,1.0,Multiparous
+2896,16133,1,7,Dead milk time,1.0,Primiparous
+2899,16133,1,9,Dead milk time,1.0,Primiparous
+2901,16133,1,10,Dead milk time,1.0,Primiparous
+2903,16133,1,11,Dead milk time,2.0,Primiparous
+2906,16133,1,13,Dead milk time,1.0,Primiparous
+2908,16133,1,14,Connection attempt,1.0,Primiparous
+2909,16133,1,14,Dead milk time,3.0,Primiparous
+2911,16133,1,15,Dead milk time,5.0,Primiparous
+2913,16133,1,16,Connection attempt,1.0,Primiparous
+2914,16133,1,16,Dead milk time,5.0,Primiparous
+2917,16133,5,3,Dead milk time,1.0,Multiparous
+2923,16133,5,8,Connection attempt,1.0,Multiparous
+2925,16137,5,3,Dead milk time,2.0,Multiparous
+2964,16141,2,17,Connection attempt,3.0,Multiparous
+2965,16141,2,17,Dead milk time,1.0,Multiparous
+2970,16141,2,21,Stopped by user,1.0,Multiparous
+2994,16141,4,26,Connection attempt,1.0,Multiparous
+2997,16141,4,28,Connection attempt,1.0,Multiparous
+2999,16141,4,29,Connection attempt,2.0,Multiparous
+3007,16177,4,4,Stopped by user,1.0,Multiparous
+3059,16220,1,23,Dead milk time,2.0,Primiparous
+3061,16220,1,24,Dead milk time,3.0,Primiparous
+3068,16220,1,30,Connection attempt,1.0,Primiparous
+3080,16220,1,41,Connection time,1.0,Primiparous
+3100,16220,2,6,Automatic robot stop,1.0,Multiparous
+3110,16220,2,15,Automatic robot stop,1.0,Multiparous
+3137,16220,2,45,Dead milk time,1.0,Multiparous
+3166,16220,3,21,Dead milk time,1.0,Multiparous
+3170,16220,3,24,Dead milk time,1.0,Multiparous
+3180,16220,3,33,Dead milk time,1.0,Multiparous
+3182,16220,3,34,Dead milk time,1.0,Multiparous
+3187,16220,3,38,Dead milk time,1.0,Multiparous
+3195,16220,3,45,Dead milk time,1.0,Multiparous
+3215,16220,4,19,Dead milk time,1.0,Multiparous
+3221,16220,4,24,Dead milk time,1.0,Multiparous
+3251,16222,5,4,Dead milk time,1.0,Multiparous
+3269,16309,1,22,Dead milk time,1.0,Primiparous
+3275,16309,1,27,Dead milk time,1.0,Primiparous
+3290,16309,1,41,Connection time,1.0,Primiparous
+3355,16309,3,17,Automatic robot stop,1.0,Multiparous
+3374,16309,3,35,Dead milk time,1.0,Multiparous
+3376,16309,3,36,Dead milk time,1.0,Multiparous
+3425,16309,4,32,Automatic robot stop,1.0,Multiparous
+3448,16373,1,2,Connection attempt,1.0,Primiparous
+3459,16373,1,12,Connection attempt,1.0,Primiparous
+3461,16373,1,13,Connection attempt,1.0,Primiparous
+3463,16373,1,14,Connection attempt,1.0,Primiparous
+3464,16373,1,14,Connection time,1.0,Primiparous
+3466,16373,1,15,Connection time,1.0,Primiparous
+3468,16373,1,16,Dead milk time,1.0,Primiparous
+3470,16373,1,17,Connection time,1.0,Primiparous
+3472,16373,1,18,Dead milk time,1.0,Primiparous
+3483,16373,1,28,Dead milk time,1.0,Primiparous
+3528,16373,3,7,Dead milk time,1.0,Multiparous
+3558,16373,3,36,Dead milk time,1.0,Multiparous
+3569,16373,4,4,Automatic robot stop,1.0,Multiparous
+3575,16373,4,9,Connection attempt,1.0,Multiparous
+3617,16382,4,25,Connection attempt,1.0,Multiparous
+3647,16423,4,9,Connection time,2.0,Multiparous
+3657,16423,4,18,Dead milk time,2.0,Multiparous
+3660,16423,4,20,Connection time,1.0,Multiparous
+3662,16423,4,21,Automatic robot stop,1.0,Multiparous
+3670,16423,4,28,Dead milk time,1.0,Multiparous
+3677,16423,4,34,Dead milk time,1.0,Multiparous
+3695,16426,1,6,Connection attempt,1.0,Primiparous
+3712,16426,1,22,Dead milk time,1.0,Primiparous
+3731,16426,1,40,Connection attempt,2.0,Primiparous
+3773,16426,2,23,Connection attempt,1.0,Multiparous
+3803,16426,3,7,Dead milk time,1.0,Multiparous
+3812,16426,3,15,Dead milk time,1.0,Multiparous
+3814,16426,3,16,Dead milk time,1.0,Multiparous
+3816,16426,3,17,Dead milk time,1.0,Multiparous
+3820,16426,3,20,Dead milk time,1.0,Multiparous
+3827,16426,3,26,Connection time,1.0,Multiparous
+3829,16426,3,27,Dead milk time,1.0,Multiparous
+3900,16435,4,10,Connection attempt,2.0,Multiparous
+3906,16435,4,15,Dead milk time,1.0,Multiparous
+3908,16435,4,16,Connection attempt,1.0,Multiparous
+3911,16435,4,18,Connection attempt,1.0,Multiparous
+3951,16595,4,4,Connection attempt,1.0,Multiparous
+3988,16616,4,2,Automatic robot stop,1.0,Multiparous
+3990,16616,4,3,Automatic robot stop,1.0,Multiparous
+4038,16636,4,8,Dead milk time,1.0,Multiparous
+4042,16636,4,11,Dead milk time,1.0,Multiparous
+4045,16636,4,13,Dead milk time,1.0,Multiparous
+4050,16636,4,17,Dead milk time,1.0,Multiparous
+4062,16636,4,28,Dead milk time,1.0,Multiparous
+4064,16636,4,29,Dead milk time,1.0,Multiparous
+4068,16636,4,32,Connection attempt,1.0,Multiparous
+4075,16636,4,38,Dead milk time,1.0,Multiparous
+4084,16636,4,46,Dead milk time,1.0,Multiparous
+4086,16636,4,47,Connection time,2.0,Multiparous
+4087,16636,4,47,Dead milk time,1.0,Multiparous
+4089,16636,4,48,Connection time,1.0,Multiparous
+4090,16636,4,48,Dead milk time,1.0,Multiparous
+4093,16636,4,50,Connection time,2.0,Multiparous
+4096,16636,4,52,Connection time,1.0,Multiparous
+4101,16663,4,8,Dead milk time,1.0,Multiparous
+4114,16663,4,20,Connection attempt,1.0,Multiparous
+4150,16731,1,27,Connection attempt,1.0,Primiparous
+4156,16731,1,32,Automatic robot stop,1.0,Primiparous
+4161,16731,1,36,Connection attempt,1.0,Primiparous
+4163,16731,1,37,Automatic robot stop,1.0,Primiparous
+4168,16731,1,41,Dead milk time,1.0,Primiparous
+4250,16731,3,41,Dead milk time,2.0,Multiparous
+4252,16731,3,42,Dead milk time,1.0,Multiparous
+4330,16785,4,21,Connection time,1.0,Multiparous
+4363,16795,1,7,Other,1.0,Primiparous
+4373,16795,1,16,Connection attempt,1.0,Primiparous
+4374,16795,1,16,Other,1.0,Primiparous
+4386,16795,1,27,Dead milk time,1.0,Primiparous
+4391,16795,1,31,Connection time,1.0,Primiparous
+4396,16795,1,35,Connection attempt,1.0,Primiparous
+4398,16795,1,36,Connection attempt,2.0,Primiparous
+4408,16795,1,45,Automatic robot stop,1.0,Primiparous
+4488,16795,3,40,Connection time,1.0,Multiparous
+4490,16795,3,41,Connection time,1.0,Multiparous
+4492,16795,3,42,Connection time,1.0,Multiparous
+4543,16813,2,3,Stopped by user,1.0,Multiparous
+4599,16813,3,17,Connection attempt,1.0,Multiparous
+4638,16813,4,13,Automatic robot stop,1.0,Multiparous
+4668,16813,4,42,Dead milk time,2.0,Multiparous
+4671,16850,4,8,Connection time,1.0,Multiparous
+4672,16850,4,8,Dead milk time,3.0,Multiparous
+4674,16850,4,9,Dead milk time,1.0,Multiparous
+4678,16850,4,12,Dead milk time,1.0,Multiparous
+4685,16850,4,18,Dead milk time,1.0,Multiparous
+4696,16850,4,28,Connection time,2.0,Multiparous
+4701,16850,4,32,Connection time,1.0,Multiparous
+4715,16850,5,5,Dead milk time,1.0,Multiparous
+4721,16961,1,5,Connection attempt,1.0,Primiparous
+4724,16961,1,7,Connection attempt,1.0,Primiparous
+4745,16961,1,27,Connection attempt,1.0,Primiparous
+4747,16961,1,28,Connection attempt,2.0,Primiparous
+4780,16961,2,4,Connection attempt,1.0,Multiparous
+4788,16961,2,11,Connection attempt,1.0,Multiparous
+4790,16961,2,12,Connection attempt,1.0,Multiparous
+4794,16961,2,18,Dead milk time,1.0,Multiparous
+4800,16961,2,23,Automatic robot stop,1.0,Multiparous
+4825,16961,3,3,Connection time,1.0,Multiparous
+4886,16991,4,14,Dead milk time,2.0,Multiparous
+4889,16991,4,16,Dead milk time,1.0,Multiparous
+4902,16995,1,6,Dead milk time,1.0,Primiparous
+4930,16995,1,36,Automatic robot stop,1.0,Primiparous
+4951,16995,3,16,Stopped by user,1.0,Multiparous
+4975,16995,3,39,Dead milk time,2.0,Multiparous
+4986,16995,4,7,Dead milk time,1.0,Multiparous
+5030,17019,3,18,Dead milk time,1.0,Multiparous
+5049,17019,3,36,Dead milk time,1.0,Multiparous
+5052,17019,3,38,Dead milk time,1.0,Multiparous
+5055,17019,3,40,Dead milk time,2.0,Multiparous
+5070,17019,3,54,Dead milk time,1.0,Multiparous
+5072,17019,3,55,Dead milk time,1.0,Multiparous
+5104,17046,1,27,Dead milk time,1.0,Primiparous
+5111,17046,1,33,Dead milk time,1.0,Primiparous
+5118,17046,1,39,Dead milk time,1.0,Primiparous
+5127,17046,2,2,Dead milk time,1.0,Multiparous
+5129,17046,2,3,Dead milk time,1.0,Multiparous
+5140,17046,2,13,Dead milk time,1.0,Multiparous
+5142,17046,2,14,Dead milk time,1.0,Multiparous
+5145,17046,2,16,Dead milk time,1.0,Multiparous
+5152,17046,2,22,Automatic robot stop,1.0,Multiparous
+5157,17046,2,26,Dead milk time,1.0,Multiparous
+5171,17046,2,42,Dead milk time,1.0,Multiparous
+5195,17046,3,16,Dead milk time,1.0,Multiparous
+5201,17046,3,21,Dead milk time,1.0,Multiparous
+5209,17046,3,28,Dead milk time,1.0,Multiparous
+5215,17046,3,33,Connection attempt,1.0,Multiparous
+5217,17046,3,34,Dead milk time,1.0,Multiparous
+5221,17046,3,37,Connection attempt,1.0,Multiparous
+5224,17046,3,39,Dead milk time,2.0,Multiparous
+5233,17046,4,3,Connection time,1.0,Multiparous
+5239,17046,4,8,Dead milk time,1.0,Multiparous
+5241,17046,4,9,Dead milk time,1.0,Multiparous
+5244,17046,4,11,Dead milk time,2.0,Multiparous
+5246,17046,4,12,Dead milk time,1.0,Multiparous
+5252,17046,4,17,Dead milk time,1.0,Multiparous
+5256,17046,4,20,Dead milk time,4.0,Multiparous
+5258,17046,4,21,Dead milk time,1.0,Multiparous
+5264,17046,4,26,Dead milk time,1.0,Multiparous
+5267,17046,4,28,Dead milk time,1.0,Multiparous
+5270,17046,4,30,Dead milk time,1.0,Multiparous
+5279,17046,4,38,Dead milk time,1.0,Multiparous
+5283,17046,4,41,Dead milk time,1.0,Multiparous
+5299,17048,1,13,Dead milk time,2.0,Primiparous
+5309,17048,1,22,Connection attempt,1.0,Primiparous
+5403,17048,3,32,Dead milk time,2.0,Multiparous
+5405,17048,3,33,Dead milk time,2.0,Multiparous
+5427,17048,4,5,Connection attempt,1.0,Multiparous
+5441,17048,4,18,Automatic robot stop,1.0,Multiparous
+5461,17048,4,37,Connection attempt,1.0,Multiparous
+5469,17079,1,5,Dead milk time,1.0,Primiparous
+5475,17079,1,10,Dead milk time,1.0,Primiparous
+5484,17079,4,11,Connection attempt,1.0,Multiparous
+5498,17079,4,24,Dead milk time,1.0,Multiparous
+5509,17079,4,34,Dead milk time,1.0,Multiparous
+5515,17079,4,39,Dead milk time,1.0,Multiparous
+5518,17079,4,41,Automatic robot stop,1.0,Multiparous
+5522,17079,4,44,Dead milk time,1.0,Multiparous
+5531,17085,4,4,Dead milk time,1.0,Multiparous
+5533,17085,4,5,Connection attempt,1.0,Multiparous
+5535,17085,4,6,Connection attempt,1.0,Multiparous
+5542,17085,4,12,Connection attempt,1.0,Multiparous
+5544,17085,4,13,Connection attempt,1.0,Multiparous
+5545,17085,4,13,Dead milk time,1.0,Multiparous
+5553,17103,1,7,Dead milk time,1.0,Primiparous
+5573,17103,1,26,Automatic robot stop,1.0,Primiparous
+5613,17103,2,19,Automatic robot stop,1.0,Multiparous
+5620,17103,2,25,Dead milk time,1.0,Multiparous
+5646,17103,3,5,Connection time,1.0,Multiparous
+5647,17103,3,5,Dead milk time,1.0,Multiparous
+5649,17103,3,6,Automatic robot stop,1.0,Multiparous
+5651,17103,3,7,Dead milk time,1.0,Multiparous
+5655,17103,3,10,Automatic robot stop,1.0,Multiparous
+5657,17103,3,11,Dead milk time,1.0,Multiparous
+5664,17103,3,17,Dead milk time,1.0,Multiparous
+5695,17103,3,47,Dead milk time,1.0,Multiparous
+5707,17103,4,10,Dead milk time,1.0,Multiparous
+5711,17103,4,13,Dead milk time,1.0,Multiparous
+5716,17103,4,17,Connection attempt,1.0,Multiparous
+5721,17103,4,21,Dead milk time,1.0,Multiparous
+5735,17145,4,3,Connection time,1.0,Multiparous
+5748,17145,4,15,Dead milk time,1.0,Multiparous
+5755,17145,4,21,Connection time,1.0,Multiparous
+5758,17145,4,23,Connection time,1.0,Multiparous
+5771,17148,1,2,Dead milk time,1.0,Primiparous
+5786,17148,1,16,Automatic robot stop,1.0,Primiparous
+5787,17148,1,16,Connection attempt,1.0,Primiparous
+5790,17148,1,18,Dead milk time,1.0,Primiparous
+5795,17148,1,22,Automatic robot stop,1.0,Primiparous
+5799,17148,1,25,Dead milk time,1.0,Primiparous
+5804,17148,1,29,Automatic robot stop,1.0,Primiparous
+5810,17148,1,34,Automatic robot stop,1.0,Primiparous
+5879,17148,3,14,Automatic robot stop,1.0,Multiparous
+5898,17148,3,32,Dead milk time,2.0,Multiparous
+5975,17151,3,36,Dead milk time,1.0,Multiparous
+6017,17151,4,40,Dead milk time,1.0,Multiparous
+6030,17216,1,14,Connection time,2.0,Primiparous
+6043,17216,1,26,Connection attempt,1.0,Primiparous
+6052,17216,1,34,Connection attempt,1.0,Primiparous
+6054,17216,1,35,Automatic robot stop,1.0,Primiparous
+6057,17216,1,37,Stopped by user,1.0,Primiparous
+6083,17216,2,20,Dead milk time,1.0,Multiparous
+6100,17216,2,36,Automatic robot stop,1.0,Multiparous
+6206,17271,1,15,Connection attempt,2.0,Primiparous
+6208,17271,1,16,Connection time,1.0,Primiparous
+6215,17271,2,6,Dead milk time,1.0,Multiparous
+6260,17271,3,2,Automatic robot stop,1.0,Multiparous
+6264,17271,3,5,Dead milk time,1.0,Multiparous
+6297,17271,3,37,Dead milk time,1.0,Multiparous
+6354,17306,4,5,Dead milk time,1.0,Multiparous
+6371,17306,4,21,Automatic robot stop,1.0,Multiparous
+6378,17306,4,27,Dead milk time,1.0,Multiparous
+6388,17306,4,36,Connection attempt,1.0,Multiparous
+6396,17320,1,3,Connection attempt,1.0,Primiparous
+6406,17320,2,6,Dead milk time,1.0,Multiparous
+6412,17320,2,11,Dead milk time,1.0,Multiparous
+6430,17320,2,31,Automatic robot stop,1.0,Multiparous
+6437,17320,2,37,Automatic robot stop,1.0,Multiparous
+6441,17320,2,40,Automatic robot stop,1.0,Multiparous
+6456,17320,3,14,Automatic robot stop,1.0,Multiparous
+6462,17320,3,19,Automatic robot stop,1.0,Multiparous
+6465,17320,3,21,Dead milk time,1.0,Multiparous
+6484,17320,4,18,Automatic robot stop,1.0,Multiparous
+6490,17320,4,23,Automatic robot stop,1.0,Multiparous
+6510,17320,4,42,Connection time,1.0,Multiparous
+6514,17335,4,2,Connection time,1.0,Multiparous
+6548,17369,1,8,Automatic robot stop,1.0,Primiparous
+6558,17369,1,17,Connection attempt,1.0,Primiparous
+6561,17369,1,19,Connection time,1.0,Primiparous
+6562,17369,1,19,Dead milk time,3.0,Primiparous
+6600,17369,2,16,Dead milk time,2.0,Multiparous
+6634,17369,3,6,Connection attempt,1.0,Multiparous
+6672,17369,4,2,Dead milk time,2.0,Multiparous
+6686,17369,4,15,Dead milk time,2.0,Multiparous
+6716,17380,4,2,Connection attempt,7.0,Multiparous
+6718,17380,4,3,Connection attempt,2.0,Multiparous
+6724,17380,4,8,Connection attempt,1.0,Multiparous
+6733,17380,4,16,Dead milk time,1.0,Multiparous
+6736,17380,4,18,Connection attempt,1.0,Multiparous
+6738,17380,4,19,Connection attempt,2.0,Multiparous
+6740,17380,4,20,Connection time,1.0,Multiparous
+6741,17380,4,20,Dead milk time,1.0,Multiparous
+6745,17380,4,23,Connection attempt,1.0,Multiparous
+6753,17380,4,30,Connection time,2.0,Multiparous
+6755,17380,4,31,Connection attempt,2.0,Multiparous
+6763,17380,4,38,Connection attempt,1.0,Multiparous
+6770,17381,1,2,Connection attempt,1.0,Primiparous
+6772,17381,1,3,Connection attempt,9.0,Primiparous
+6774,17381,1,4,Connection attempt,2.0,Primiparous
+6785,17381,2,12,Connection time,2.0,Multiparous
+6787,17381,2,13,Connection time,1.0,Multiparous
+6790,17381,2,15,Connection time,2.0,Multiparous
+6792,17381,2,16,Connection time,13.0,Multiparous
+6794,17381,2,17,Connection time,3.0,Multiparous
+6796,17381,2,18,Connection time,1.0,Multiparous
+6798,17381,2,19,Connection time,1.0,Multiparous
+6808,17381,2,31,Connection attempt,1.0,Multiparous
+6816,17381,2,38,Connection attempt,1.0,Multiparous
+6817,17381,2,38,Connection time,1.0,Multiparous
+6832,17381,3,2,Connection attempt,1.0,Multiparous
+6919,17439,4,4,Connection attempt,1.0,Multiparous
+6938,17439,4,22,Dead milk time,2.0,Multiparous
+6956,17440,2,9,Connection attempt,1.0,Multiparous
+6957,17440,2,9,Dead milk time,1.0,Multiparous
+6959,17440,2,10,Connection time,1.0,Multiparous
+6994,17440,3,4,Connection time,1.0,Multiparous
+7017,17440,3,26,Connection attempt,1.0,Multiparous
+7033,17440,3,41,Connection attempt,1.0,Multiparous
+7039,17440,4,4,Connection time,3.0,Multiparous
+7046,17440,4,10,Dead milk time,1.0,Multiparous
+7069,17440,4,32,Dead milk time,1.0,Multiparous
+7110,17478,4,8,Dead milk time,3.0,Multiparous
+7156,17487,4,21,Automatic robot stop,1.0,Multiparous
+7163,17487,4,27,Dead milk time,1.0,Multiparous
+7167,17487,4,30,Dead milk time,2.0,Multiparous
+7169,17525,1,4,Connection time,1.0,Primiparous
+7171,17525,1,5,Connection time,1.0,Primiparous
+7209,17525,1,42,Dead milk time,1.0,Primiparous
+7270,17525,3,9,Connection attempt,1.0,Multiparous
+7280,17525,3,18,Dead milk time,1.0,Multiparous
+7286,17525,3,23,Connection attempt,1.0,Multiparous
+7290,17525,3,26,Connection attempt,1.0,Multiparous
+7298,17525,3,33,Connection time,1.0,Multiparous
+7303,17525,3,37,Connection time,1.0,Multiparous
+7306,17525,3,39,Connection time,2.0,Multiparous
+7310,17525,3,42,Connection time,3.0,Multiparous
+7327,17532,3,15,Dead milk time,1.0,Multiparous
+7333,17532,3,21,Connection attempt,1.0,Multiparous
+7381,17538,4,21,Dead milk time,1.0,Multiparous
+7396,17560,1,5,Connection time,1.0,Primiparous
+7402,17560,1,10,Connection attempt,1.0,Primiparous
+7410,17560,1,17,Connection time,1.0,Primiparous
+7416,17560,1,22,Connection attempt,1.0,Primiparous
+7425,17560,1,30,Connection time,1.0,Primiparous
+7434,17560,1,38,Connection time,1.0,Primiparous
+7436,17560,1,39,Connection time,1.0,Primiparous
+7437,17560,1,39,Dead milk time,1.0,Primiparous
+7440,17560,1,41,Connection time,1.0,Primiparous
+7443,17560,2,3,Connection time,1.0,Multiparous
+7459,17560,2,21,Dead milk time,1.0,Multiparous
+7464,17560,2,25,Dead milk time,1.0,Multiparous
+7472,17560,2,32,Dead milk time,1.0,Multiparous
+7474,17560,2,33,Dead milk time,1.0,Multiparous
+7506,17560,3,24,Stopped by user,1.0,Multiparous
+7527,17560,4,2,Connection attempt,1.0,Multiparous
+7529,17560,4,3,Connection attempt,2.0,Multiparous
+7530,17560,4,3,Dead milk time,1.0,Multiparous
+7532,17560,4,4,Dead milk time,1.0,Multiparous
+7545,17560,4,16,Dead milk time,1.0,Multiparous
+7555,17560,4,25,Dead milk time,1.0,Multiparous
+7574,17560,4,43,Dead milk time,1.0,Multiparous
+7591,17583,4,19,Connection attempt,1.0,Multiparous
+7635,17634,2,44,Connection time,1.0,Multiparous
+7637,17634,2,45,Connection time,1.0,Multiparous
+7639,17634,2,46,Dead milk time,1.0,Multiparous
+7667,17634,3,25,Connection attempt,1.0,Multiparous
+7675,17634,3,32,Connection attempt,1.0,Multiparous
+7682,17634,3,38,Dead milk time,1.0,Multiparous
+7706,17634,4,16,Dead milk time,2.0,Multiparous
+7716,17649,4,4,Dead milk time,1.0,Multiparous
+7727,17649,4,14,Dead milk time,1.0,Multiparous
+7746,17680,1,2,Connection time,1.0,Primiparous
+7773,17680,1,28,Connection time,1.0,Primiparous
+7791,17680,1,45,Other,1.0,Primiparous
+7796,17680,2,2,Connection attempt,1.0,Multiparous
+7797,17680,2,2,Dead milk time,1.0,Multiparous
+7808,17680,2,15,Connection attempt,1.0,Multiparous
+7813,17680,2,19,Automatic robot stop,1.0,Multiparous
+7822,17680,2,27,Connection time,1.0,Multiparous
+7836,17680,2,40,Dead milk time,1.0,Multiparous
+7869,17680,3,30,Connection attempt,1.0,Multiparous
+7893,17680,3,53,Dead milk time,1.0,Multiparous
+7916,17680,3,75,Dead milk time,1.0,Multiparous
+7918,17680,3,76,Connection time,4.0,Multiparous
+7919,17680,3,76,Dead milk time,9.0,Multiparous
+7922,17683,1,4,Connection attempt,1.0,Primiparous
+7924,17683,1,5,Connection attempt,5.0,Primiparous
+7925,17683,1,5,Connection time,3.0,Primiparous
+7927,17683,1,6,Connection attempt,7.0,Primiparous
+7929,17683,1,7,Connection attempt,10.0,Primiparous
+7931,17683,1,8,Connection attempt,11.0,Primiparous
+7933,17683,1,9,Connection attempt,6.0,Primiparous
+7935,17683,1,10,Connection time,1.0,Primiparous
+7936,17683,1,10,Dead milk time,1.0,Primiparous
+7994,17683,3,20,Dead milk time,1.0,Multiparous
+8023,17683,4,8,Connection attempt,1.0,Multiparous
+8027,17683,4,11,Stopped by user,1.0,Multiparous
+8031,17683,4,14,Dead milk time,1.0,Multiparous
+8034,17683,4,16,Dead milk time,2.0,Multiparous
+8040,17683,4,21,Dead milk time,1.0,Multiparous
+8042,17683,4,22,Dead milk time,1.0,Multiparous
+8052,17683,4,31,Dead milk time,1.0,Multiparous
+8057,17705,4,2,Connection time,1.0,Multiparous
+8060,17705,4,4,Connection attempt,1.0,Multiparous
+8070,17705,4,13,Dead milk time,1.0,Multiparous
+8073,17705,4,15,Automatic robot stop,1.0,Multiparous
+8081,17705,4,22,Dead milk time,1.0,Multiparous
+8123,17724,4,6,Dead milk time,1.0,Multiparous
+8128,17724,4,10,Dead milk time,1.0,Multiparous
+8159,17735,4,13,Connection time,1.0,Multiparous
+8167,17735,4,20,Connection time,1.0,Multiparous
+8181,17772,4,3,Connection time,1.0,Multiparous
+8188,17772,4,9,Connection attempt,1.0,Multiparous
+8195,17772,4,15,Dead milk time,1.0,Multiparous
+8201,17772,4,20,Dead milk time,1.0,Multiparous
+8204,17772,4,22,Dead milk time,2.0,Multiparous
+8209,17772,4,26,Dead milk time,1.0,Multiparous
+8211,17772,4,27,Connection time,1.0,Multiparous
+8213,17772,4,28,Connection attempt,1.0,Multiparous
+8216,17772,4,30,Dead milk time,1.0,Multiparous
+8223,17796,4,4,Automatic robot stop,2.0,Multiparous
+8265,17810,4,17,Connection attempt,1.0,Multiparous
+8279,17814,1,2,Connection attempt,1.0,Primiparous
+8281,17814,1,3,Connection attempt,10.0,Primiparous
+8283,17814,1,4,Connection attempt,4.0,Primiparous
+8289,17814,1,9,Dead milk time,1.0,Primiparous
+8295,17814,1,14,Automatic robot stop,1.0,Primiparous
+8304,17814,1,22,Connection time,1.0,Primiparous
+8309,17814,1,26,Connection attempt,1.0,Primiparous
+8316,17814,1,32,Connection attempt,1.0,Primiparous
+8319,17814,1,34,Dead milk time,1.0,Primiparous
+8329,17814,1,43,Automatic robot stop,1.0,Primiparous
+8330,17814,1,43,Connection attempt,1.0,Primiparous
+8331,17814,1,43,Dead milk time,1.0,Primiparous
+8375,17814,2,35,Dead milk time,1.0,Multiparous
+8402,17814,3,17,Connection time,1.0,Multiparous
+8404,17814,3,18,Connection time,1.0,Multiparous
+8407,17814,3,20,Connection time,2.0,Multiparous
+8409,17814,3,21,Connection attempt,1.0,Multiparous
+8410,17814,3,21,Dead milk time,1.0,Multiparous
+8412,17814,3,22,Automatic robot stop,2.0,Multiparous
+8419,17814,3,28,Dead milk time,1.0,Multiparous
+8423,17814,3,31,Automatic robot stop,1.0,Multiparous
+8428,17814,3,35,Dead milk time,1.0,Multiparous
+8455,17817,4,5,Dead milk time,1.0,Multiparous
+8466,17817,4,15,Dead milk time,2.0,Multiparous
+8471,17817,4,19,Dead milk time,1.0,Multiparous
+8482,17821,2,4,Stopped by user,1.0,Multiparous
+8485,17821,2,6,Connection attempt,2.0,Multiparous
+8490,17821,2,13,Dead milk time,1.0,Multiparous
+8558,17821,3,39,Connection attempt,1.0,Multiparous
+8565,17821,4,4,Connection time,1.0,Multiparous
+8603,17824,1,9,Connection attempt,1.0,Primiparous
+8605,17824,1,10,Connection attempt,1.0,Primiparous
+8609,17824,1,13,Connection attempt,1.0,Primiparous
+8611,17824,1,14,Stopped by user,1.0,Primiparous
+8649,17824,2,3,Connection attempt,1.0,Multiparous
+8690,17824,3,29,Stopped by user,1.0,Multiparous
+8694,17824,3,32,Connection attempt,1.0,Multiparous
+8717,17824,4,3,Connection attempt,1.0,Multiparous
+8763,17875,4,6,Connection time,1.0,Multiparous
+8765,17875,4,7,Connection time,1.0,Multiparous
+8768,17875,4,9,Connection time,2.0,Multiparous
+8770,17875,4,10,Connection time,2.0,Multiparous
+8773,17875,4,12,Connection time,1.0,Multiparous
+8777,17875,4,15,Connection time,2.0,Multiparous
+8779,17875,4,16,Connection time,1.0,Multiparous
+8782,17875,4,18,Connection attempt,1.0,Multiparous
+8783,17875,4,18,Connection time,1.0,Multiparous
+8785,17875,4,19,Connection time,2.0,Multiparous
+8787,17875,4,20,Connection attempt,1.0,Multiparous
+8788,17875,4,20,Connection time,2.0,Multiparous
+8791,17875,4,22,Connection time,1.0,Multiparous
+8793,17875,4,23,Connection time,1.0,Multiparous
+8795,17875,4,24,Connection time,6.0,Multiparous
+8797,17875,4,25,Connection time,5.0,Multiparous
+8799,17875,4,26,Connection time,1.0,Multiparous
+8801,17875,4,27,Connection time,2.0,Multiparous
+8803,17875,4,28,Connection time,3.0,Multiparous
+8815,17905,4,10,Connection attempt,1.0,Multiparous
+8871,17927,1,5,Connection attempt,1.0,Primiparous
+8877,17927,1,10,Automatic robot stop,1.0,Primiparous
+8878,17927,1,10,Dead milk time,1.0,Primiparous
+8880,17927,1,11,Other,1.0,Primiparous
+8921,17927,2,9,Connection attempt,1.0,Multiparous
+8935,17927,2,22,Connection attempt,1.0,Multiparous
+8944,17927,2,30,Connection attempt,1.0,Multiparous
+8960,17927,2,45,Connection time,2.0,Multiparous
+8964,17927,2,48,Connection time,2.0,Multiparous
+8965,17927,2,48,Dead milk time,1.0,Multiparous
+8967,17927,2,49,Connection time,5.0,Multiparous
+8970,17927,3,3,Dead milk time,1.0,Multiparous
+9054,17933,3,26,Dead milk time,1.0,Multiparous
+9066,17933,3,37,Connection attempt,1.0,Multiparous
+9092,17978,3,36,Connection time,1.0,Multiparous
+9094,17978,3,37,Connection attempt,1.0,Multiparous
+9096,17978,3,38,Connection time,1.0,Multiparous
+9098,17978,3,39,Connection attempt,1.0,Multiparous
+9099,17978,3,39,Connection time,2.0,Multiparous
+9101,17978,3,40,Connection time,1.0,Multiparous
+9103,17978,3,41,Connection time,1.0,Multiparous
+9105,17978,3,42,Connection attempt,1.0,Multiparous
+9107,17978,3,43,Connection time,1.0,Multiparous
+9115,17990,1,13,Dead milk time,1.0,Primiparous
+9120,17990,1,17,Dead milk time,1.0,Primiparous
+9139,17990,1,35,Dead milk time,2.0,Primiparous
+9143,17990,1,38,Connection attempt,1.0,Primiparous
+9151,17993,4,2,Connection time,1.0,Multiparous
+9153,17993,4,3,Connection attempt,1.0,Multiparous
+9154,17993,4,3,Dead milk time,1.0,Multiparous
+9156,17993,4,4,Connection time,2.0,Multiparous
+9159,17993,4,6,Connection attempt,1.0,Multiparous
+9161,17993,4,7,Connection attempt,2.0,Multiparous
+9163,17993,4,8,Connection attempt,1.0,Multiparous
+9165,17993,4,9,Connection time,2.0,Multiparous
+9167,17993,4,10,Connection attempt,1.0,Multiparous
+9168,17993,4,10,Connection time,1.0,Multiparous
+9170,17993,4,11,Connection time,1.0,Multiparous
+9172,17993,4,12,Connection time,2.0,Multiparous
+9175,17993,4,14,Connection attempt,1.0,Multiparous
+9177,17993,4,15,Connection attempt,2.0,Multiparous
+9178,17993,4,15,Connection time,1.0,Multiparous
+9181,17993,4,17,Connection attempt,1.0,Multiparous
+9183,17993,4,18,Connection attempt,1.0,Multiparous
+9185,17993,4,19,Connection attempt,1.0,Multiparous
+9189,17993,4,22,Connection attempt,2.0,Multiparous
+9193,17993,4,25,Connection time,1.0,Multiparous
+9238,17995,3,43,Stopped by user,1.0,Multiparous
+9278,18020,3,24,Dead milk time,1.0,Multiparous
+9281,18020,3,26,Connection attempt,1.0,Multiparous
+9321,18022,1,26,Automatic robot stop,1.0,Primiparous
+9371,18022,2,37,Automatic robot stop,1.0,Multiparous
+9398,18022,3,21,Dead milk time,1.0,Multiparous
+9403,18022,3,25,Connection attempt,1.0,Multiparous
+9404,18022,3,25,Dead milk time,1.0,Multiparous
+9437,18022,4,16,Dead milk time,1.0,Multiparous
+9441,18026,4,3,Automatic robot stop,1.0,Multiparous
+9442,18026,4,3,Connection attempt,2.0,Multiparous
+9444,18026,4,4,Connection attempt,2.0,Multiparous
+9446,18026,4,5,Connection attempt,1.0,Multiparous
+9448,18026,4,6,Connection time,2.0,Multiparous
+9450,18026,4,7,Connection attempt,3.0,Multiparous
+9451,18026,4,7,Connection time,1.0,Multiparous
+9453,18026,4,8,Connection attempt,2.0,Multiparous
+9454,18026,4,8,Connection time,1.0,Multiparous
+9456,18026,4,9,Connection attempt,1.0,Multiparous
+9457,18026,4,9,Connection time,2.0,Multiparous
+9459,18026,4,10,Connection time,1.0,Multiparous
+9461,18026,4,11,Connection attempt,5.0,Multiparous
+9462,18026,4,11,Connection time,2.0,Multiparous
+9464,18026,4,12,Connection attempt,4.0,Multiparous
+9465,18026,4,12,Connection time,4.0,Multiparous
+9467,18026,4,13,Connection attempt,3.0,Multiparous
+9469,18026,4,14,Connection attempt,1.0,Multiparous
+9470,18026,4,14,Connection time,1.0,Multiparous
+9472,18026,4,15,Connection attempt,3.0,Multiparous
+9473,18026,4,15,Connection time,3.0,Multiparous
+9475,18026,4,16,Connection attempt,4.0,Multiparous
+9476,18026,4,16,Connection time,6.0,Multiparous
+9478,18026,4,17,Connection attempt,1.0,Multiparous
+9479,18026,4,17,Connection time,2.0,Multiparous
+9481,18026,4,18,Connection attempt,2.0,Multiparous
+9482,18026,4,18,Connection time,3.0,Multiparous
+9484,18026,4,19,Connection attempt,1.0,Multiparous
+9485,18026,4,19,Connection time,6.0,Multiparous
+9487,18026,4,20,Connection attempt,3.0,Multiparous
+9488,18026,4,20,Connection time,4.0,Multiparous
+9490,18026,4,21,Connection attempt,2.0,Multiparous
+9492,18026,4,22,Connection attempt,2.0,Multiparous
+9493,18026,4,22,Connection time,2.0,Multiparous
+9495,18026,4,23,Connection time,2.0,Multiparous
+9497,18026,4,24,Connection time,2.0,Multiparous
+9499,18026,4,25,Connection attempt,1.0,Multiparous
+9500,18026,4,25,Connection time,1.0,Multiparous
+9502,18026,4,26,Connection attempt,1.0,Multiparous
+9503,18026,4,26,Connection time,1.0,Multiparous
+9507,18026,4,29,Connection attempt,1.0,Multiparous
+9532,18033,1,41,Connection attempt,1.0,Primiparous
+9535,18033,1,43,Connection attempt,1.0,Primiparous
+9541,18033,4,2,Connection attempt,2.0,Multiparous
+9552,18033,4,12,Connection attempt,1.0,Multiparous
+9586,18038,3,30,Dead milk time,2.0,Multiparous
+9603,18043,3,15,Connection attempt,1.0,Multiparous
+9605,18043,3,16,Dead milk time,1.0,Multiparous
+9609,18043,3,19,Connection attempt,1.0,Multiparous
+9613,18043,3,22,Dead milk time,1.0,Multiparous
+9671,18051,3,7,Dead milk time,1.0,Multiparous
+9675,18051,3,10,Dead milk time,2.0,Multiparous
+9702,18051,3,36,Connection attempt,1.0,Multiparous
+9709,18051,3,42,Automatic robot stop,1.0,Multiparous
+9758,18084,3,11,Connection attempt,1.0,Multiparous
+9773,18084,3,25,Dead milk time,1.0,Multiparous
+9776,18084,3,27,Connection attempt,1.0,Multiparous
+9778,18084,3,28,Automatic robot stop,1.0,Multiparous
+9781,18084,3,30,Dead milk time,2.0,Multiparous
+9785,18084,3,33,Dead milk time,2.0,Multiparous
+9804,18084,4,3,Connection time,1.0,Multiparous
+9823,18085,3,15,Connection attempt,1.0,Multiparous
+9827,18085,3,18,Dead milk time,1.0,Multiparous
+9864,18088,1,13,Connection time,1.0,Primiparous
+9870,18088,1,18,Connection time,1.0,Primiparous
+9886,18088,1,33,Connection attempt,1.0,Primiparous
+9888,18088,1,34,Stopped by user,1.0,Primiparous
+9903,18088,1,51,Dead milk time,1.0,Primiparous
+9971,18088,3,16,Automatic robot stop,1.0,Multiparous
+9987,18088,3,31,Stopped by user,1.0,Multiparous
+10010,18166,3,8,Connection attempt,1.0,Multiparous
+10017,18166,3,14,Connection attempt,1.0,Multiparous
+10023,18166,3,19,Dead milk time,3.0,Multiparous
+10025,18166,3,20,Connection attempt,1.0,Multiparous
+10026,18166,3,20,Dead milk time,5.0,Multiparous
+10033,18166,3,26,Dead milk time,1.0,Multiparous
+10035,18166,3,27,Dead milk time,1.0,Multiparous
+10042,18166,3,33,Connection time,1.0,Multiparous
+10049,18166,3,39,Connection time,1.0,Multiparous
+10054,18166,4,3,Connection attempt,1.0,Multiparous
+10074,18168,3,7,Dead milk time,2.0,Multiparous
+10080,18168,3,12,Dead milk time,1.0,Multiparous
+10083,18168,3,14,Dead milk time,1.0,Multiparous
+10119,18208,3,2,Dead milk time,1.0,Multiparous
+10152,18208,3,34,Automatic robot stop,1.0,Multiparous
+10177,18225,1,21,Other,1.0,Primiparous
+10201,18225,2,24,Dead milk time,1.0,Multiparous
+10213,18225,2,35,Dead milk time,1.0,Multiparous
+10216,18225,2,37,Dead milk time,1.0,Multiparous
+10231,18225,3,10,Dead milk time,1.0,Multiparous
+10237,18225,3,15,Dead milk time,1.0,Multiparous
+10242,18225,3,19,Dead milk time,1.0,Multiparous
+10251,18225,3,27,Connection time,1.0,Multiparous
+10252,18225,3,27,Dead milk time,1.0,Multiparous
+10286,18246,3,26,Automatic robot stop,1.0,Multiparous
+10289,18246,3,28,Automatic robot stop,1.0,Multiparous
+10291,18246,3,29,Connection attempt,1.0,Multiparous
+10293,18246,3,30,Dead milk time,1.0,Multiparous
+10314,18246,3,50,Automatic robot stop,1.0,Multiparous
+10327,18259,1,7,Connection time,1.0,Primiparous
+10333,18259,1,12,Stopped by user,1.0,Primiparous
+10347,18259,1,25,Stopped by user,1.0,Primiparous
+10353,18259,1,30,Dead milk time,1.0,Primiparous
+10354,18259,1,30,Stopped by user,1.0,Primiparous
+10358,18259,1,33,Automatic robot stop,1.0,Primiparous
+10360,18259,1,34,Connection attempt,1.0,Primiparous
+10361,18259,1,34,Connection time,1.0,Primiparous
+10389,18259,2,16,Connection attempt,1.0,Multiparous
+10397,18259,2,23,Stopped by user,1.0,Multiparous
+10418,18259,2,43,Connection time,4.0,Multiparous
+10420,18259,2,44,Connection time,3.0,Multiparous
+10481,18263,3,9,Automatic robot stop,1.0,Multiparous
+10498,18263,3,25,Dead milk time,1.0,Multiparous
+10523,18284,3,4,Connection attempt,1.0,Multiparous
+10525,18284,3,5,Dead milk time,1.0,Multiparous
+10530,18284,3,11,Connection time,1.0,Multiparous
+10531,18284,3,11,Dead milk time,2.0,Multiparous
+10533,18284,3,12,Dead milk time,2.0,Multiparous
+10537,18284,3,15,Dead milk time,4.0,Multiparous
+10540,18295,3,3,Dead milk time,1.0,Multiparous
+10544,18295,3,6,Connection attempt,1.0,Multiparous
+10551,18295,3,13,Automatic robot stop,1.0,Multiparous
+10569,18295,3,30,Connection time,1.0,Multiparous
+10570,18295,3,30,Dead milk time,1.0,Multiparous
+10572,18295,3,31,Connection time,6.0,Multiparous
+10574,18295,3,32,Connection time,7.0,Multiparous
+10575,18295,3,32,Dead milk time,1.0,Multiparous
+10579,18307,1,4,Connection attempt,1.0,Primiparous
+10592,18307,1,16,Automatic robot stop,1.0,Primiparous
+10594,18307,1,17,Connection time,1.0,Primiparous
+10604,18307,1,26,Dead milk time,1.0,Primiparous
+10675,18307,3,12,Automatic robot stop,1.0,Multiparous
+10730,18318,3,2,Dead milk time,1.0,Multiparous
+10732,18318,3,3,Dead milk time,1.0,Multiparous
+10735,18318,3,5,Dead milk time,2.0,Multiparous
+10737,18318,3,6,Dead milk time,1.0,Multiparous
+10740,18318,3,8,Dead milk time,1.0,Multiparous
+10742,18318,3,9,Dead milk time,1.0,Multiparous
+10745,18318,3,11,Dead milk time,1.0,Multiparous
+10748,18318,3,13,Dead milk time,2.0,Multiparous
+10758,18318,3,22,Dead milk time,1.0,Multiparous
+10768,18318,3,31,Dead milk time,1.0,Multiparous
+10791,18321,1,11,Connection time,1.0,Primiparous
+10793,18321,1,12,Connection time,1.0,Primiparous
+10794,18321,1,12,Other,1.0,Primiparous
+10797,18321,1,14,Connection time,1.0,Primiparous
+10801,18321,1,17,Connection attempt,1.0,Primiparous
+10808,18321,2,6,Connection time,2.0,Multiparous
+10810,18321,2,7,Connection time,4.0,Multiparous
+10813,18321,2,9,Connection attempt,1.0,Multiparous
+10853,18321,3,2,Dead milk time,1.0,Multiparous
+10867,18321,3,15,Connection attempt,1.0,Multiparous
+10916,18324,1,5,Connection time,1.0,Primiparous
+10936,18324,1,24,Connection time,1.0,Primiparous
+10939,18324,1,26,Other,1.0,Primiparous
+10949,18324,1,35,Connection time,1.0,Primiparous
+10977,18324,2,15,Dead milk time,1.0,Multiparous
+10980,18324,2,17,Dead milk time,1.0,Multiparous
+11005,18324,2,41,Connection attempt,1.0,Multiparous
+11026,18324,3,10,Connection time,1.0,Multiparous
+11037,18324,3,20,Connection attempt,1.0,Multiparous
+11041,18324,3,23,Connection attempt,1.0,Multiparous
+11066,18324,3,47,Dead milk time,1.0,Multiparous
+11080,18348,1,7,Automatic robot stop,1.0,Primiparous
+11102,18348,1,28,Connection time,1.0,Primiparous
+11105,18348,1,30,Connection attempt,1.0,Primiparous
+11109,18348,1,33,Connection time,1.0,Primiparous
+11120,18348,1,46,Connection time,1.0,Primiparous
+11121,18348,1,46,Dead milk time,1.0,Primiparous
+11126,18348,1,50,Connection time,2.0,Primiparous
+11127,18348,1,50,Dead milk time,3.0,Primiparous
+11129,18348,1,51,Connection time,1.0,Primiparous
+11131,18348,1,52,Automatic robot stop,1.0,Primiparous
+11135,18348,1,55,Connection time,3.0,Primiparous
+11136,18348,1,55,Dead milk time,1.0,Primiparous
+11138,18348,1,56,Connection time,3.0,Primiparous
+11139,18348,1,56,Dead milk time,1.0,Primiparous
+11142,18348,1,58,Connection time,3.0,Primiparous
+11145,18348,1,60,Dead milk time,1.0,Primiparous
+11150,18348,2,4,Dead milk time,1.0,Multiparous
+11152,18348,2,5,Connection time,1.0,Multiparous
+11157,18348,2,9,Connection time,2.0,Multiparous
+11166,18348,2,17,Connection time,1.0,Multiparous
+11170,18348,2,20,Connection time,2.0,Multiparous
+11180,18348,2,29,Connection time,3.0,Multiparous
+11182,18348,2,30,Connection time,1.0,Multiparous
+11186,18348,2,33,Automatic robot stop,1.0,Multiparous
+11188,18348,2,34,Automatic robot stop,1.0,Multiparous
+11190,18348,2,35,Dead milk time,1.0,Multiparous
+11194,18348,2,38,Connection time,1.0,Multiparous
+11196,18348,2,39,Connection time,2.0,Multiparous
+11198,18348,2,40,Connection time,1.0,Multiparous
+11204,18348,2,45,Dead milk time,1.0,Multiparous
+11206,18348,2,46,Dead milk time,1.0,Multiparous
+11208,18348,2,47,Connection time,1.0,Multiparous
+11210,18348,2,48,Automatic robot stop,1.0,Multiparous
+11211,18348,2,48,Dead milk time,1.0,Multiparous
+11213,18348,2,49,Dead milk time,1.0,Multiparous
+11215,18348,2,50,Dead milk time,1.0,Multiparous
+11219,18348,3,2,Connection time,1.0,Multiparous
+11230,18348,3,12,Connection time,2.0,Multiparous
+11232,18348,3,13,Connection time,2.0,Multiparous
+11239,18348,3,19,Connection time,1.0,Multiparous
+11246,18348,3,25,Dead milk time,1.0,Multiparous
+11248,18348,3,26,Dead milk time,1.0,Multiparous
+11254,18348,3,31,Connection time,1.0,Multiparous
+11256,18348,3,32,Connection time,1.0,Multiparous
+11258,18348,3,33,Connection time,1.0,Multiparous
+11259,18348,3,33,Dead milk time,1.0,Multiparous
+11261,18348,3,34,Connection time,2.0,Multiparous
+11263,18348,3,35,Connection time,1.0,Multiparous
+11265,18348,3,36,Connection time,1.0,Multiparous
+11307,18351,2,20,Connection time,1.0,Multiparous
+11309,18351,2,21,Connection attempt,1.0,Multiparous
+11316,18351,2,27,Dead milk time,1.0,Multiparous
+11328,18351,2,38,Automatic robot stop,1.0,Multiparous
+11340,18351,2,49,Connection time,1.0,Multiparous
+11346,18351,3,5,Dead milk time,1.0,Multiparous
+11365,18351,3,23,Connection time,1.0,Multiparous
+11368,18351,3,25,Dead milk time,1.0,Multiparous
+11380,18351,3,36,Dead milk time,1.0,Multiparous
+11382,18351,3,37,Connection time,1.0,Multiparous
+11383,18351,3,37,Dead milk time,1.0,Multiparous
+11385,18351,3,38,Connection time,1.0,Multiparous
+11387,18351,3,39,Connection time,1.0,Multiparous
+11388,18351,3,39,Dead milk time,1.0,Multiparous
+11392,18351,3,42,Dead milk time,1.0,Multiparous
+11411,18361,2,11,Automatic robot stop,1.0,Multiparous
+11443,18361,2,42,Dead milk time,1.0,Multiparous
+11451,18361,3,2,Automatic robot stop,1.0,Multiparous
+11453,18361,3,3,Connection attempt,1.0,Multiparous
+11454,18361,3,3,Dead milk time,2.0,Multiparous
+11456,18361,3,4,Dead milk time,1.0,Multiparous
+11458,18361,3,5,Connection attempt,1.0,Multiparous
+11463,18361,3,9,Connection attempt,1.0,Multiparous
+11482,18361,3,27,Automatic robot stop,1.0,Multiparous
+11519,18367,3,15,Connection time,1.0,Multiparous
+11521,18367,3,16,Dead milk time,1.0,Multiparous
+11525,18367,3,19,Connection attempt,1.0,Multiparous
+11528,18367,3,21,Connection attempt,1.0,Multiparous
+11559,18374,1,5,Connection time,1.0,Primiparous
+11567,18374,1,12,Connection attempt,1.0,Primiparous
+11582,18374,1,26,Connection attempt,1.0,Primiparous
+11583,18374,1,26,Connection time,2.0,Primiparous
+11585,18374,1,27,Connection time,2.0,Primiparous
+11587,18374,1,28,Connection attempt,1.0,Primiparous
+11589,18374,1,29,Connection attempt,1.0,Primiparous
+11590,18374,1,29,Connection time,1.0,Primiparous
+11592,18374,1,30,Connection time,2.0,Primiparous
+11603,18387,3,11,Dead milk time,3.0,Multiparous
+11607,18387,3,14,Dead milk time,1.0,Multiparous
+11609,18387,3,15,Dead milk time,2.0,Multiparous
+11611,18387,3,16,Dead milk time,6.0,Multiparous
+11613,18387,3,17,Dead milk time,3.0,Multiparous
+11618,18387,3,21,Dead milk time,1.0,Multiparous
+11620,18387,3,22,Dead milk time,2.0,Multiparous
+11628,18387,3,29,Dead milk time,1.0,Multiparous
+11631,18387,3,31,Dead milk time,2.0,Multiparous
+11779,18401,3,14,Connection time,1.0,Multiparous
+11793,18401,3,27,Connection attempt,1.0,Multiparous
+11816,18414,1,15,Automatic robot stop,1.0,Primiparous
+11825,18414,1,23,Connection attempt,1.0,Primiparous
+11826,18414,1,23,Connection time,1.0,Primiparous
+11827,18414,1,23,Dead milk time,1.0,Primiparous
+11840,18414,1,38,Dead milk time,1.0,Primiparous
+11893,18414,2,48,Stopped by user,1.0,Multiparous
+11901,18458,1,3,Connection time,1.0,Primiparous
+11904,18458,1,5,Connection time,1.0,Primiparous
+11919,18458,1,19,Stopped by user,1.0,Primiparous
+11942,18458,1,44,Connection attempt,1.0,Primiparous
+11978,18458,2,33,Dead milk time,1.0,Multiparous
+12011,18458,3,28,Connection time,5.0,Multiparous
+12012,18458,3,28,Dead milk time,1.0,Multiparous
+12014,18458,3,29,Connection time,4.0,Multiparous
+12016,18458,3,30,Connection time,5.0,Multiparous
+12018,18458,3,31,Connection time,4.0,Multiparous
+12020,18458,3,32,Connection time,8.0,Multiparous
+12021,18458,3,32,Dead milk time,1.0,Multiparous
+12023,18458,3,33,Dead milk time,6.0,Multiparous
+12025,18458,3,34,Dead milk time,4.0,Multiparous
+12027,18458,3,35,Dead milk time,5.0,Multiparous
+12029,18458,3,36,Dead milk time,6.0,Multiparous
+12031,18458,3,37,Dead milk time,7.0,Multiparous
+12033,18458,3,38,Connection time,3.0,Multiparous
+12034,18458,3,38,Dead milk time,4.0,Multiparous
+12036,18458,3,39,Connection time,3.0,Multiparous
+12037,18458,3,39,Dead milk time,3.0,Multiparous
+12039,18458,3,40,Connection time,1.0,Multiparous
+12040,18458,3,40,Dead milk time,3.0,Multiparous
+12044,18458,3,43,Dead milk time,1.0,Multiparous
+12056,18463,2,9,Connection time,1.0,Multiparous
+12069,18463,2,21,Dead milk time,1.0,Multiparous
+12099,18463,2,50,Connection time,1.0,Multiparous
+12160,18474,2,7,Dead milk time,1.0,Multiparous
+12230,18474,3,29,Dead milk time,1.0,Multiparous
+12244,18474,3,42,Dead milk time,1.0,Multiparous
+12295,18479,3,12,Dead milk time,1.0,Multiparous
+12297,18479,3,13,Connection attempt,1.0,Multiparous
+12336,18484,3,3,Connection time,1.0,Multiparous
+12338,18484,3,4,Connection attempt,4.0,Multiparous
+12381,18489,1,3,Dead milk time,1.0,Primiparous
+12383,18489,1,4,Stopped by user,1.0,Primiparous
+12421,18489,1,44,Dead milk time,1.0,Primiparous
+12424,18489,1,46,Dead milk time,1.0,Primiparous
+12433,18489,1,54,Dead milk time,1.0,Primiparous
+12463,18489,3,2,Dead milk time,1.0,Multiparous
+12487,18489,3,25,Connection attempt,1.0,Multiparous
+12509,18519,1,5,Stopped by user,1.0,Primiparous
+12518,18519,1,13,Connection time,1.0,Primiparous
+12521,18519,1,15,Connection attempt,1.0,Primiparous
+12523,18519,1,16,Dead milk time,3.0,Primiparous
+12525,18519,1,17,Connection time,1.0,Primiparous
+12528,18519,1,19,Automatic robot stop,1.0,Primiparous
+12529,18519,1,19,Connection time,1.0,Primiparous
+12531,18519,1,20,Connection time,3.0,Primiparous
+12533,18519,1,21,Automatic robot stop,1.0,Primiparous
+12534,18519,1,21,Connection time,3.0,Primiparous
+12537,18519,1,23,Connection time,1.0,Primiparous
+12547,18519,1,35,Connection time,1.0,Primiparous
+12549,18519,1,36,Connection time,1.0,Primiparous
+12550,18519,1,36,Dead milk time,1.0,Primiparous
+12554,18519,1,39,Automatic robot stop,1.0,Primiparous
+12614,18519,3,16,Automatic robot stop,1.0,Multiparous
+12653,18523,1,4,Stopped by user,1.0,Primiparous
+12656,18523,1,6,Stopped by user,1.0,Primiparous
+12677,18523,2,23,Dead milk time,1.0,Multiparous
+12680,18523,2,25,Dead milk time,1.0,Multiparous
+12684,18523,2,28,Dead milk time,1.0,Multiparous
+12686,18523,2,29,Dead milk time,1.0,Multiparous
+12689,18523,2,31,Connection attempt,1.0,Multiparous
+12697,18523,2,38,Dead milk time,1.0,Multiparous
+12699,18523,2,39,Dead milk time,1.0,Multiparous
+12702,18523,2,41,Dead milk time,1.0,Multiparous
+12704,18523,2,42,Connection time,1.0,Multiparous
+12705,18523,2,42,Dead milk time,1.0,Multiparous
+12717,18523,3,10,Dead milk time,1.0,Multiparous
+12730,18523,3,22,Dead milk time,1.0,Multiparous
+12735,18523,3,26,Dead milk time,2.0,Multiparous
+12741,18523,3,31,Connection attempt,1.0,Multiparous
+12746,18523,3,35,Dead milk time,1.0,Multiparous
+12750,18526,3,2,Dead milk time,1.0,Multiparous
+12787,18530,1,38,Connection attempt,1.0,Primiparous
+12840,18530,3,5,Connection attempt,1.0,Multiparous
+12845,18530,3,9,Connection attempt,1.0,Multiparous
+12849,18530,3,12,Dead milk time,1.0,Multiparous
+12862,18536,1,13,Connection time,1.0,Primiparous
+12899,18536,1,52,Connection time,1.0,Primiparous
+12904,18536,2,3,Connection attempt,1.0,Multiparous
+12906,18536,2,4,Connection attempt,3.0,Multiparous
+12907,18536,2,4,Connection time,5.0,Multiparous
+12911,18536,2,7,Connection attempt,1.0,Multiparous
+12916,18536,2,11,Connection attempt,1.0,Multiparous
+12921,18536,2,15,Dead milk time,1.0,Multiparous
+12927,18536,2,20,Connection attempt,1.0,Multiparous
+12928,18536,2,20,Connection time,1.0,Multiparous
+12977,18547,1,7,Stopped by user,1.0,Primiparous
+12982,18547,1,11,Connection attempt,1.0,Primiparous
+13061,18547,2,44,Dead milk time,1.0,Multiparous
+13078,18547,3,12,Stopped by user,1.0,Multiparous
+13132,18554,1,37,Dead milk time,1.0,Primiparous
+13149,18554,2,9,Dead milk time,2.0,Multiparous
+13157,18554,2,16,Dead milk time,1.0,Multiparous
+13202,18554,3,17,Automatic robot stop,1.0,Multiparous
+13252,18562,1,13,Automatic robot stop,1.0,Primiparous
+13257,18562,1,17,Connection time,1.0,Primiparous
+13259,18562,1,18,Automatic robot stop,1.0,Primiparous
+13263,18562,1,21,Connection attempt,1.0,Primiparous
+13284,18562,2,4,Automatic robot stop,1.0,Multiparous
+13292,18562,2,11,Automatic robot stop,1.0,Multiparous
+13312,18562,2,30,Dead milk time,1.0,Multiparous
+13323,18562,2,40,Dead milk time,1.0,Multiparous
+13337,18562,3,9,Automatic robot stop,1.0,Multiparous
+13338,18562,3,9,Dead milk time,2.0,Multiparous
+13343,18562,3,13,Automatic robot stop,1.0,Multiparous
+13349,18562,3,18,Connection attempt,1.0,Multiparous
+13350,18562,3,18,Dead milk time,1.0,Multiparous
+13354,18562,3,21,Automatic robot stop,1.0,Multiparous
+13371,18562,3,37,Automatic robot stop,1.0,Multiparous
+13374,18562,3,39,Automatic robot stop,1.0,Multiparous
+13380,18562,3,44,Automatic robot stop,1.0,Multiparous
+13404,18566,3,4,Connection attempt,1.0,Multiparous
+13420,18570,3,4,Connection attempt,2.0,Multiparous
+13422,18570,3,5,Connection attempt,2.0,Multiparous
+13423,18570,3,5,Connection time,2.0,Multiparous
+13424,18570,3,5,Other,1.0,Multiparous
+13426,18570,3,6,Automatic robot stop,1.0,Multiparous
+13427,18570,3,6,Connection attempt,1.0,Multiparous
+13428,18570,3,6,Connection time,3.0,Multiparous
+13433,18570,3,10,Connection attempt,2.0,Multiparous
+13434,18570,3,10,Connection time,2.0,Multiparous
+13437,18570,3,12,Connection attempt,1.0,Multiparous
+13438,18570,3,12,Connection time,2.0,Multiparous
+13440,18570,3,13,Connection time,2.0,Multiparous
+13442,18570,3,14,Connection attempt,1.0,Multiparous
+13443,18570,3,14,Connection time,4.0,Multiparous
+13446,18570,3,16,Connection time,1.0,Multiparous
+13448,18570,3,17,Connection time,1.0,Multiparous
+13450,18570,3,18,Connection attempt,1.0,Multiparous
+13451,18570,3,18,Connection time,1.0,Multiparous
+13453,18570,3,19,Connection attempt,3.0,Multiparous
+13454,18570,3,19,Connection time,1.0,Multiparous
+13456,18570,3,20,Connection attempt,1.0,Multiparous
+13457,18570,3,20,Connection time,1.0,Multiparous
+13459,18570,3,21,Connection time,1.0,Multiparous
+13461,18570,3,22,Connection attempt,2.0,Multiparous
+13463,18570,3,23,Connection attempt,9.0,Multiparous
+13464,18570,3,23,Connection time,4.0,Multiparous
+13467,18570,3,25,Connection attempt,1.0,Multiparous
+13468,18570,3,25,Connection time,9.0,Multiparous
+13487,18578,1,21,Connection attempt,1.0,Primiparous
+13498,18578,1,31,Connection attempt,1.0,Primiparous
+13501,18578,1,33,Connection attempt,1.0,Primiparous
+13504,18578,1,35,Connection attempt,3.0,Primiparous
+13514,18578,3,2,Connection time,2.0,Multiparous
+13528,18578,3,15,Dead milk time,1.0,Multiparous
+13534,18578,3,20,Connection attempt,2.0,Multiparous
+13556,18578,3,41,Dead milk time,1.0,Multiparous
+13558,18578,3,42,Dead milk time,2.0,Multiparous
+13561,18578,3,44,Dead milk time,1.0,Multiparous
+13563,18578,3,45,Dead milk time,2.0,Multiparous
+13565,18578,3,46,Dead milk time,2.0,Multiparous
+13569,18584,1,4,Connection time,1.0,Primiparous
+13571,18584,1,5,Connection time,5.0,Primiparous
+13573,18584,1,6,Connection time,4.0,Primiparous
+13576,18584,1,8,Connection time,3.0,Primiparous
+13578,18584,1,9,Connection time,7.0,Primiparous
+13579,18584,1,9,Dead milk time,1.0,Primiparous
+13581,18584,1,10,Connection time,2.0,Primiparous
+13583,18584,1,11,Connection time,1.0,Primiparous
+13586,18584,1,13,Connection time,1.0,Primiparous
+13588,18584,1,14,Connection time,1.0,Primiparous
+13590,18584,1,15,Connection time,4.0,Primiparous
+13592,18584,1,16,Connection time,4.0,Primiparous
+13594,18584,1,17,Connection time,4.0,Primiparous
+13596,18584,1,18,Connection time,1.0,Primiparous
+13598,18584,1,19,Connection time,1.0,Primiparous
+13600,18584,1,20,Connection time,4.0,Primiparous
+13602,18584,1,21,Connection time,7.0,Primiparous
+13604,18584,1,22,Connection time,8.0,Primiparous
+13606,18584,1,23,Connection time,3.0,Primiparous
+13608,18584,1,24,Connection time,6.0,Primiparous
+13610,18584,1,25,Connection time,9.0,Primiparous
+13612,18584,1,26,Connection time,13.0,Primiparous
+13614,18584,1,27,Connection time,3.0,Primiparous
+13616,18584,1,31,Connection time,6.0,Primiparous
+13618,18584,1,32,Connection time,10.0,Primiparous
+13620,18584,1,33,Connection time,1.0,Primiparous
+13622,18584,1,34,Connection time,6.0,Primiparous
+13624,18584,1,35,Connection time,6.0,Primiparous
+13626,18584,1,36,Connection time,3.0,Primiparous
+13628,18584,1,37,Connection time,1.0,Primiparous
+13630,18584,1,38,Connection time,7.0,Primiparous
+13632,18584,1,39,Connection time,3.0,Primiparous
+13635,18584,1,41,Connection time,2.0,Primiparous
+13637,18584,1,42,Connection time,1.0,Primiparous
+13639,18584,1,43,Connection time,1.0,Primiparous
+13641,18584,1,44,Connection time,2.0,Primiparous
+13649,18584,2,2,Connection time,1.0,Multiparous
+13673,18584,2,25,Connection time,1.0,Multiparous
+13674,18584,2,25,Dead milk time,1.0,Multiparous
+13680,18584,2,30,Automatic robot stop,1.0,Multiparous
+13704,18584,3,3,Dead milk time,1.0,Multiparous
+13707,18584,3,5,Connection time,1.0,Multiparous
+13712,18584,3,9,Dead milk time,1.0,Multiparous
+13725,18584,3,21,Dead milk time,1.0,Multiparous
+13729,18584,3,24,Connection attempt,1.0,Multiparous
+13745,18586,1,6,Connection attempt,1.0,Primiparous
+13753,18586,1,13,Connection attempt,1.0,Primiparous
+13759,18586,2,3,Connection attempt,4.0,Multiparous
+13761,18586,2,4,Connection attempt,3.0,Multiparous
+13802,18586,2,44,Connection attempt,1.0,Multiparous
+13807,18586,3,2,Connection attempt,1.0,Multiparous
+13809,18586,3,3,Connection attempt,2.0,Multiparous
+13813,18586,3,6,Connection attempt,1.0,Multiparous
+13815,18586,3,7,Automatic robot stop,1.0,Multiparous
+13817,18586,3,8,Connection attempt,1.0,Multiparous
+13862,18616,1,14,Stopped by user,1.0,Primiparous
+13878,18616,1,32,Automatic robot stop,1.0,Primiparous
+13905,18616,2,10,Dead milk time,1.0,Multiparous
+13907,18616,2,11,Dead milk time,1.0,Multiparous
+13924,18616,2,27,Dead milk time,1.0,Multiparous
+13926,18616,2,28,Connection attempt,1.0,Multiparous
+13927,18616,2,28,Dead milk time,1.0,Multiparous
+13935,18616,2,35,Connection attempt,1.0,Multiparous
+13936,18616,2,35,Dead milk time,3.0,Multiparous
+13938,18616,2,36,Dead milk time,2.0,Multiparous
+13940,18616,2,37,Dead milk time,1.0,Multiparous
+13942,18616,2,38,Dead milk time,1.0,Multiparous
+13944,18616,2,39,Dead milk time,1.0,Multiparous
+13946,18616,2,40,Connection time,1.0,Multiparous
+13947,18616,2,40,Dead milk time,5.0,Multiparous
+13949,18616,2,41,Dead milk time,4.0,Multiparous
+13951,18616,2,42,Dead milk time,2.0,Multiparous
+13995,18619,1,6,Stopped by user,1.0,Primiparous
+13999,18619,1,9,Stopped by user,2.0,Primiparous
+14006,18619,1,15,Dead milk time,1.0,Primiparous
+14011,18619,1,19,Dead milk time,1.0,Primiparous
+14021,18619,1,28,Connection time,1.0,Primiparous
+14042,18619,3,20,Dead milk time,1.0,Multiparous
+14046,18619,3,23,Dead milk time,1.0,Multiparous
+14051,18619,3,27,Automatic robot stop,1.0,Multiparous
+14099,18633,1,12,Connection time,1.0,Primiparous
+14125,18633,1,40,Connection attempt,1.0,Primiparous
+14131,18633,1,45,Automatic robot stop,1.0,Primiparous
+14136,18633,2,2,Connection time,1.0,Multiparous
+14154,18633,2,19,Dead milk time,1.0,Multiparous
+14157,18633,2,21,Automatic robot stop,1.0,Multiparous
+14158,18633,2,21,Dead milk time,1.0,Multiparous
+14164,18633,2,26,Dead milk time,1.0,Multiparous
+14174,18633,2,35,Dead milk time,1.0,Multiparous
+14178,18633,2,38,Dead milk time,1.0,Multiparous
+14199,18633,3,17,Connection attempt,1.0,Multiparous
+14204,18633,3,21,Dead milk time,1.0,Multiparous
+14216,18633,3,32,Automatic robot stop,1.0,Multiparous
+14228,18633,3,43,Dead milk time,2.0,Multiparous
+14240,18636,3,10,Connection attempt,1.0,Multiparous
+14276,18636,3,45,Automatic robot stop,1.0,Multiparous
+14280,18645,1,3,Connection attempt,1.0,Primiparous
+14292,18645,1,14,Dead milk time,1.0,Primiparous
+14300,18645,1,21,Connection attempt,1.0,Primiparous
+14309,18645,1,32,Dead milk time,2.0,Primiparous
+14311,18645,1,33,Connection attempt,1.0,Primiparous
+14317,18645,1,38,Connection time,1.0,Primiparous
+14318,18645,1,38,Dead milk time,1.0,Primiparous
+14323,18645,1,42,Connection time,1.0,Primiparous
+14324,18645,1,42,Dead milk time,1.0,Primiparous
+14351,18645,2,22,Connection time,1.0,Multiparous
+14366,18645,2,36,Connection time,1.0,Multiparous
+14370,18645,2,39,Connection attempt,1.0,Multiparous
+14376,18645,3,3,Dead milk time,1.0,Multiparous
+14387,18645,3,13,Automatic robot stop,1.0,Multiparous
+14408,18645,3,33,Connection time,1.0,Multiparous
+14410,18645,3,34,Connection time,1.0,Multiparous
+14439,18678,1,18,Connection time,1.0,Primiparous
+14533,18679,1,10,Connection attempt,3.0,Primiparous
+14535,18679,1,11,Connection attempt,3.0,Primiparous
+14537,18679,1,12,Connection attempt,7.0,Primiparous
+14539,18679,1,13,Connection attempt,2.0,Primiparous
+14540,18679,1,13,Connection time,1.0,Primiparous
+14542,18679,1,14,Connection attempt,4.0,Primiparous
+14548,18679,1,22,Connection attempt,1.0,Primiparous
+14565,18679,1,38,Dead milk time,1.0,Primiparous
+14572,18679,1,44,Dead milk time,1.0,Primiparous
+14577,18679,1,48,Connection attempt,1.0,Primiparous
+14586,18679,2,4,Automatic robot stop,1.0,Multiparous
+14598,18679,2,15,Automatic robot stop,1.0,Multiparous
+14606,18679,2,22,Dead milk time,1.0,Multiparous
+14612,18679,2,27,Dead milk time,1.0,Multiparous
+14620,18679,2,34,Dead milk time,3.0,Multiparous
+14623,18679,2,36,Dead milk time,2.0,Multiparous
+14625,18679,2,37,Dead milk time,1.0,Multiparous
+14629,18679,2,40,Dead milk time,1.0,Multiparous
+14636,18679,3,3,Automatic robot stop,1.0,Multiparous
+14669,18682,2,4,Connection attempt,1.0,Multiparous
+14673,18682,2,7,Dead milk time,1.0,Multiparous
+14678,18682,2,11,Connection time,1.0,Multiparous
+14681,18682,2,13,Connection attempt,1.0,Multiparous
+14683,18682,2,14,Connection attempt,1.0,Multiparous
+14685,18682,2,15,Connection attempt,1.0,Multiparous
+14688,18682,2,17,Connection attempt,1.0,Multiparous
+14690,18682,2,18,Connection attempt,1.0,Multiparous
+14696,18682,2,23,Connection attempt,1.0,Multiparous
+14738,18682,3,22,Connection time,2.0,Multiparous
+14740,18682,3,23,Connection time,2.0,Multiparous
+14742,18682,3,24,Connection attempt,1.0,Multiparous
+14744,18682,3,25,Automatic robot stop,1.0,Multiparous
+14748,18682,3,28,Connection attempt,1.0,Multiparous
+14776,18704,3,14,Connection attempt,1.0,Multiparous
+14793,18704,3,30,Automatic robot stop,1.0,Multiparous
+14839,18706,1,34,Automatic robot stop,1.0,Primiparous
+14840,18706,1,34,Dead milk time,1.0,Primiparous
+14843,18706,1,36,Dead milk time,1.0,Primiparous
+14898,18706,2,48,Automatic robot stop,1.0,Multiparous
+14913,18706,3,6,Dead milk time,2.0,Multiparous
+14977,18717,2,10,Dead milk time,1.0,Multiparous
+15035,18717,3,15,Automatic robot stop,1.0,Multiparous
+15050,18717,3,29,Dead milk time,1.0,Multiparous
+15074,18747,3,6,Dead milk time,1.0,Multiparous
+15085,18747,3,16,Automatic robot stop,1.0,Multiparous
+15120,18749,1,8,Automatic robot stop,1.0,Primiparous
+15129,18749,1,16,Connection time,1.0,Primiparous
+15144,18749,1,33,Automatic robot stop,1.0,Primiparous
+15159,18749,1,47,Automatic robot stop,1.0,Primiparous
+15205,18749,2,41,Dead milk time,1.0,Multiparous
+15224,18749,3,14,Dead milk time,1.0,Multiparous
+15252,18762,2,30,Automatic robot stop,1.0,Multiparous
+15258,18762,2,35,Connection time,1.0,Multiparous
+15285,18762,2,61,Connection time,5.0,Multiparous
+15286,18762,2,61,Dead milk time,2.0,Multiparous
+15288,18762,2,62,Connection time,4.0,Multiparous
+15289,18762,2,62,Dead milk time,6.0,Multiparous
+15291,18762,2,63,Connection time,1.0,Multiparous
+15292,18762,2,63,Dead milk time,3.0,Multiparous
+15351,18785,3,9,Dead milk time,1.0,Multiparous
+15376,18785,3,33,Connection attempt,1.0,Multiparous
+15399,18790,2,11,Connection time,2.0,Multiparous
+15400,18790,2,11,Dead milk time,1.0,Multiparous
+15403,18790,2,13,Connection time,1.0,Multiparous
+15404,18790,2,13,Dead milk time,1.0,Multiparous
+15407,18790,2,15,Connection time,2.0,Multiparous
+15408,18790,2,15,Dead milk time,3.0,Multiparous
+15410,18790,2,16,Automatic robot stop,1.0,Multiparous
+15411,18790,2,16,Connection time,1.0,Multiparous
+15412,18790,2,16,Dead milk time,1.0,Multiparous
+15414,18790,2,17,Dead milk time,1.0,Multiparous
+15417,18790,2,19,Dead milk time,1.0,Multiparous
+15419,18790,2,20,Dead milk time,1.0,Multiparous
+15422,18790,2,22,Connection time,1.0,Multiparous
+15423,18790,2,22,Dead milk time,1.0,Multiparous
+15427,18790,2,25,Connection time,2.0,Multiparous
+15428,18790,2,25,Dead milk time,1.0,Multiparous
+15430,18790,2,26,Connection time,1.0,Multiparous
+15433,18790,2,28,Dead milk time,1.0,Multiparous
+15439,18790,2,33,Connection attempt,1.0,Multiparous
+15441,18790,2,34,Connection attempt,1.0,Multiparous
+15445,18790,2,37,Dead milk time,1.0,Multiparous
+15447,18790,2,38,Connection time,1.0,Multiparous
+15450,18790,2,40,Dead milk time,2.0,Multiparous
+15452,18790,2,41,Dead milk time,1.0,Multiparous
+15455,18790,2,43,Connection time,1.0,Multiparous
+15456,18790,2,43,Dead milk time,2.0,Multiparous
+15458,18790,2,44,Dead milk time,2.0,Multiparous
+15463,18790,3,5,Dead milk time,1.0,Multiparous
+15483,18790,3,24,Connection time,1.0,Multiparous
+15489,18790,3,29,Dead milk time,1.0,Multiparous
+15492,18790,3,31,Connection attempt,1.0,Multiparous
+15505,18790,3,43,Dead milk time,1.0,Multiparous
+15520,18798,1,11,Connection attempt,1.0,Primiparous
+15521,18798,1,11,Connection time,2.0,Primiparous
+15524,18798,3,3,Connection attempt,1.0,Multiparous
+15536,18819,3,10,Connection attempt,1.0,Multiparous
+15542,18819,3,15,Connection attempt,1.0,Multiparous
+15570,18819,3,42,Automatic robot stop,1.0,Multiparous
+15590,18820,3,17,Automatic robot stop,1.0,Multiparous
+15596,18820,3,22,Automatic robot stop,1.0,Multiparous
+15611,18834,1,12,Dead milk time,1.0,Primiparous
+15619,18834,1,19,Connection time,1.0,Primiparous
+15624,18834,1,23,Connection time,1.0,Primiparous
+15634,18834,1,35,Automatic robot stop,1.0,Primiparous
+15638,18834,1,38,Automatic robot stop,1.0,Primiparous
+15646,18834,2,1,Connection time,1.0,Multiparous
+15676,18834,2,30,Automatic robot stop,1.0,Multiparous
+15681,18834,2,34,Automatic robot stop,1.0,Multiparous
+15690,18834,3,2,Connection time,1.0,Multiparous
+15696,18834,3,7,Connection time,1.0,Multiparous
+15709,18834,3,19,Connection time,1.0,Multiparous
+15713,18834,3,22,Dead milk time,2.0,Multiparous
+15740,18845,3,3,Dead milk time,1.0,Multiparous
+15744,18845,3,6,Connection attempt,2.0,Multiparous
+15746,18845,3,7,Connection attempt,1.0,Multiparous
+15751,18845,3,11,Connection attempt,1.0,Multiparous
+15761,18845,3,20,Dead milk time,1.0,Multiparous
+15768,18845,3,26,Dead milk time,1.0,Multiparous
+15784,18849,3,12,Dead milk time,1.0,Multiparous
+15822,18864,1,2,Other,1.0,Primiparous
+15825,18864,1,4,Connection time,1.0,Primiparous
+15827,18864,1,5,Connection attempt,1.0,Primiparous
+15828,18864,1,5,Connection time,4.0,Primiparous
+15830,18864,1,6,Connection time,2.0,Primiparous
+15835,18864,2,2,Connection attempt,1.0,Multiparous
+15836,18864,2,2,Connection time,1.0,Multiparous
+15928,18875,3,4,Connection attempt,1.0,Multiparous
+15932,18875,3,7,Connection attempt,2.0,Multiparous
+15983,18932,2,2,Connection attempt,1.0,Multiparous
+16029,18932,3,4,Connection attempt,1.0,Multiparous
+16031,18932,3,5,Connection attempt,2.0,Multiparous
+16033,18932,3,6,Connection attempt,1.0,Multiparous
+16035,18932,3,7,Connection attempt,1.0,Multiparous
+16037,18932,3,8,Connection attempt,1.0,Multiparous
+16039,18932,3,9,Connection attempt,3.0,Multiparous
+16048,18932,3,17,Automatic robot stop,1.0,Multiparous
+16099,18948,2,23,Dead milk time,1.0,Multiparous
+16105,18948,2,28,Connection attempt,1.0,Multiparous
+16118,18948,2,40,Connection attempt,1.0,Multiparous
+16138,18948,3,8,Connection time,1.0,Multiparous
+16140,18948,3,9,Connection time,5.0,Multiparous
+16142,18948,3,10,Connection time,16.0,Multiparous
+16144,18948,3,11,Connection time,2.0,Multiparous
+16146,18948,3,12,Connection time,19.0,Multiparous
+16148,18948,3,13,Connection time,12.0,Multiparous
+16149,18948,3,13,Dead milk time,1.0,Multiparous
+16151,18948,3,14,Connection time,23.0,Multiparous
+16152,18948,3,14,Dead milk time,2.0,Multiparous
+16154,18948,3,15,Connection time,20.0,Multiparous
+16155,18948,3,15,Dead milk time,1.0,Multiparous
+16157,18948,3,16,Dead milk time,2.0,Multiparous
+16159,18948,3,17,Dead milk time,4.0,Multiparous
+16162,18948,3,19,Dead milk time,1.0,Multiparous
+16164,18948,3,20,Dead milk time,5.0,Multiparous
+16166,18948,3,21,Dead milk time,2.0,Multiparous
+16168,18948,3,22,Dead milk time,1.0,Multiparous
+16171,18948,3,24,Connection attempt,1.0,Multiparous
+16172,18948,3,24,Dead milk time,2.0,Multiparous
+16175,18948,3,26,Dead milk time,2.0,Multiparous
+16181,18948,3,31,Dead milk time,1.0,Multiparous
+16183,18948,3,32,Dead milk time,1.0,Multiparous
+16185,18948,3,33,Connection attempt,1.0,Multiparous
+16186,18948,3,33,Dead milk time,3.0,Multiparous
+16188,18948,3,34,Dead milk time,1.0,Multiparous
+16191,18948,3,36,Automatic robot stop,1.0,Multiparous
+16193,18948,3,37,Dead milk time,2.0,Multiparous
+16195,18948,3,38,Dead milk time,4.0,Multiparous
+16203,18951,1,8,Stopped by user,1.0,Primiparous
+16263,18951,2,30,Dead milk time,1.0,Multiparous
+16271,18951,2,37,Dead milk time,1.0,Multiparous
+16273,18951,2,38,Dead milk time,1.0,Multiparous
+16282,18951,3,5,Dead milk time,1.0,Multiparous
+16296,18951,3,18,Dead milk time,1.0,Multiparous
+16301,18951,3,22,Dead milk time,1.0,Multiparous
+16303,18951,3,23,Dead milk time,1.0,Multiparous
+16329,18986,3,4,Connection attempt,2.0,Multiparous
+16338,18986,3,12,Dead milk time,1.0,Multiparous
+16340,18986,3,13,Dead milk time,1.0,Multiparous
+16397,18994,3,2,Dead milk time,1.0,Multiparous
+16418,18994,3,22,Dead milk time,1.0,Multiparous
+16439,18994,3,42,Dead milk time,1.0,Multiparous
+16449,18997,3,9,Dead milk time,1.0,Multiparous
+16502,19002,2,43,Automatic robot stop,1.0,Multiparous
+16536,19012,1,12,Automatic robot stop,1.0,Primiparous
+16562,19012,1,40,Dead milk time,1.0,Primiparous
+16579,19012,2,13,Automatic robot stop,1.0,Multiparous
+16662,19018,1,13,Stopped by user,1.0,Primiparous
+16668,19018,1,18,Connection attempt,1.0,Primiparous
+16836,19023,2,20,Dead milk time,1.0,Multiparous
+16848,19023,2,31,Automatic robot stop,1.0,Multiparous
+16863,19023,3,3,Automatic robot stop,1.0,Multiparous
+16864,19023,3,3,Connection attempt,1.0,Multiparous
+16867,19023,3,5,Dead milk time,1.0,Multiparous
+16975,19052,1,3,Connection attempt,9.0,Primiparous
+16977,19052,1,4,Connection attempt,3.0,Primiparous
+16978,19052,1,4,Stopped by user,1.0,Primiparous
+16980,19052,1,5,Connection attempt,4.0,Primiparous
+16982,19052,1,6,Connection attempt,1.0,Primiparous
+16988,19052,3,5,Connection attempt,1.0,Multiparous
+16991,19052,3,7,Connection attempt,1.0,Multiparous
+16993,19052,3,8,Connection attempt,1.0,Multiparous
+17019,19072,3,3,Connection attempt,2.0,Multiparous
+17046,19072,3,29,Automatic robot stop,1.0,Multiparous
+17087,19078,1,43,Connection attempt,1.0,Primiparous
+17113,19078,2,17,Dead milk time,1.0,Multiparous
+17127,19078,2,30,Connection time,1.0,Multiparous
+17129,19078,2,31,Dead milk time,2.0,Multiparous
+17132,19078,2,33,Connection time,1.0,Multiparous
+17133,19078,2,33,Dead milk time,1.0,Multiparous
+17141,19078,2,40,Connection attempt,1.0,Multiparous
+17143,19078,2,41,Dead milk time,1.0,Multiparous
+17145,19078,2,42,Connection attempt,1.0,Multiparous
+17177,19079,1,7,Dead milk time,1.0,Primiparous
+17200,19079,1,32,Connection attempt,1.0,Primiparous
+17257,19079,3,3,Dead milk time,1.0,Multiparous
+17260,19079,3,5,Dead milk time,1.0,Multiparous
+17279,19079,3,23,Automatic robot stop,1.0,Multiparous
+17288,19079,3,31,Dead milk time,1.0,Multiparous
+17306,19085,1,2,Dead milk time,2.0,Primiparous
+17309,19085,1,4,Connection time,1.0,Primiparous
+17311,19085,1,5,Connection time,2.0,Primiparous
+17317,19085,2,6,Connection time,2.0,Multiparous
+17320,19085,2,8,Connection time,1.0,Multiparous
+17378,19085,3,19,Dead milk time,1.0,Multiparous
+17397,19094,1,4,Stopped by user,2.0,Primiparous
+17399,19094,1,5,Stopped by user,1.0,Primiparous
+17401,19094,1,6,Stopped by user,1.0,Primiparous
+17406,19094,1,10,Automatic robot stop,2.0,Primiparous
+17413,19094,1,19,Automatic robot stop,1.0,Primiparous
+17419,19094,1,24,Connection attempt,1.0,Primiparous
+17469,19094,2,29,Automatic robot stop,1.0,Multiparous
+17484,19094,2,43,Connection time,1.0,Multiparous
+17494,19094,3,13,Connection attempt,1.0,Multiparous
+17523,19105,1,8,Other,1.0,Primiparous
+17568,19105,3,2,Dead milk time,1.0,Multiparous
+17645,19146,3,6,Automatic robot stop,1.0,Multiparous
+17648,19146,3,8,Connection attempt,1.0,Multiparous
+17651,19146,3,10,Connection attempt,1.0,Multiparous
+17654,19146,3,12,Connection attempt,1.0,Multiparous
+17660,19146,3,17,Dead milk time,1.0,Multiparous
+17734,19156,3,8,Dead milk time,1.0,Multiparous
+17745,19156,3,18,Dead milk time,1.0,Multiparous
+17755,19156,3,27,Dead milk time,1.0,Multiparous
+17774,19172,1,13,Automatic robot stop,1.0,Primiparous
+17783,19172,1,24,Connection time,1.0,Primiparous
+17807,19172,2,2,Connection time,1.0,Multiparous
+17894,19173,1,7,Connection attempt,1.0,Primiparous
+17901,19173,1,17,Dead milk time,1.0,Primiparous
+17914,19173,1,29,Connection attempt,1.0,Primiparous
+17931,19173,2,3,Connection attempt,2.0,Multiparous
+17932,19173,2,3,Connection time,1.0,Multiparous
+17933,19173,2,3,Dead milk time,1.0,Multiparous
+17964,19173,2,33,Dead milk time,1.0,Multiparous
+17976,19173,3,1,Connection attempt,1.0,Multiparous
+17977,19173,3,1,Connection time,3.0,Multiparous
+17996,19173,3,19,Dead milk time,1.0,Multiparous
+18008,19173,3,30,Dead milk time,1.0,Multiparous
+18035,19178,1,22,Automatic robot stop,1.0,Primiparous
+18039,19178,1,25,Connection time,1.0,Primiparous
+18050,19178,1,35,Connection time,1.0,Primiparous
+18059,19178,1,43,Connection attempt,1.0,Primiparous
+18061,19178,1,44,Dead milk time,1.0,Primiparous
+18086,19178,2,23,Connection time,1.0,Multiparous
+18136,19178,3,25,Dead milk time,1.0,Multiparous
+18189,19184,2,11,Dead milk time,1.0,Multiparous
+18214,19184,2,35,Dead milk time,1.0,Multiparous
+18216,19184,2,36,Dead milk time,1.0,Multiparous
+18219,19184,2,38,Connection attempt,1.0,Multiparous
+18228,19184,3,4,Connection attempt,1.0,Multiparous
+18229,19184,3,4,Dead milk time,1.0,Multiparous
+18268,19216,2,4,Stopped by user,1.0,Multiparous
+18272,19216,2,7,Dead milk time,1.0,Multiparous
+18293,19216,2,27,Dead milk time,1.0,Multiparous
+18300,19216,2,33,Dead milk time,1.0,Multiparous
+18304,19216,2,36,Connection time,2.0,Multiparous
+18305,19216,2,36,Dead milk time,4.0,Multiparous
+18312,19216,2,42,Dead milk time,1.0,Multiparous
+18348,19216,3,27,Connection attempt,1.0,Multiparous
+18354,19223,2,4,Dead milk time,1.0,Multiparous
+18371,19223,2,20,Dead milk time,1.0,Multiparous
+18373,19223,2,21,Automatic robot stop,1.0,Multiparous
+18374,19223,2,21,Connection attempt,1.0,Multiparous
+18378,19223,2,24,Dead milk time,1.0,Multiparous
+18380,19223,2,25,Dead milk time,1.0,Multiparous
+18385,19223,2,29,Dead milk time,1.0,Multiparous
+18388,19223,2,31,Dead milk time,1.0,Multiparous
+18391,19223,2,33,Connection time,1.0,Multiparous
+18392,19223,2,33,Dead milk time,1.0,Multiparous
+18394,19223,2,34,Dead milk time,1.0,Multiparous
+18398,19223,2,37,Dead milk time,2.0,Multiparous
+18402,19223,3,3,Automatic robot stop,1.0,Multiparous
+18406,19223,3,6,Automatic robot stop,1.0,Multiparous
+18437,19224,1,8,Connection time,1.0,Primiparous
+18450,19224,1,20,Connection attempt,1.0,Primiparous
+18462,19224,1,31,Dead milk time,1.0,Primiparous
+18491,19224,2,13,Connection time,1.0,Multiparous
+18501,19224,2,22,Automatic robot stop,1.0,Multiparous
+18506,19224,2,26,Dead milk time,1.0,Multiparous
+18537,19227,1,3,Stopped by user,1.0,Primiparous
+18544,19227,1,9,Connection attempt,1.0,Primiparous
+18552,19227,1,19,Connection attempt,1.0,Primiparous
+18555,19227,1,21,Connection time,1.0,Primiparous
+18558,19227,1,23,Connection time,1.0,Primiparous
+18560,19227,1,24,Connection time,1.0,Primiparous
+18562,19227,1,25,Connection time,1.0,Primiparous
+18564,19227,1,26,Dead milk time,1.0,Primiparous
+18566,19227,1,27,Connection time,1.0,Primiparous
+18568,19227,1,28,Connection time,2.0,Primiparous
+18571,19227,1,30,Connection time,5.0,Primiparous
+18573,19227,1,31,Connection time,4.0,Primiparous
+18574,19227,1,31,Dead milk time,2.0,Primiparous
+18576,19227,1,32,Connection time,1.0,Primiparous
+18577,19227,1,32,Dead milk time,3.0,Primiparous
+18579,19227,1,33,Connection time,3.0,Primiparous
+18581,19227,1,34,Connection time,3.0,Primiparous
+18582,19227,1,34,Dead milk time,5.0,Primiparous
+18584,19227,1,35,Connection time,1.0,Primiparous
+18586,19227,1,36,Connection time,1.0,Primiparous
+18587,19227,1,36,Dead milk time,2.0,Primiparous
+18589,19227,1,37,Connection time,1.0,Primiparous
+18590,19227,1,37,Dead milk time,1.0,Primiparous
+18593,19227,1,39,Connection time,6.0,Primiparous
+18594,19227,1,39,Dead milk time,1.0,Primiparous
+18596,19227,1,40,Connection time,2.0,Primiparous
+18598,19227,1,41,Connection time,2.0,Primiparous
+18599,19227,1,41,Dead milk time,2.0,Primiparous
+18601,19227,1,42,Connection time,2.0,Primiparous
+18602,19227,1,42,Dead milk time,1.0,Primiparous
+18605,19227,1,44,Connection time,1.0,Primiparous
+18606,19227,1,44,Dead milk time,12.0,Primiparous
+18608,19227,1,45,Dead milk time,1.0,Primiparous
+18655,19227,3,4,Dead milk time,1.0,Multiparous
+18715,19231,3,3,Connection attempt,1.0,Multiparous
+18739,19231,3,26,Automatic robot stop,1.0,Multiparous
+18778,19276,1,10,Connection attempt,1.0,Primiparous
+18779,19276,1,10,Stopped by user,1.0,Primiparous
+18785,19276,1,18,Dead milk time,1.0,Primiparous
+18790,19276,1,22,Automatic robot stop,1.0,Primiparous
+18801,19276,1,32,Connection time,1.0,Primiparous
+18832,19276,2,13,Dead milk time,1.0,Multiparous
+18838,19276,2,18,Connection attempt,2.0,Multiparous
+18846,19276,2,25,Connection attempt,1.0,Multiparous
+18847,19276,2,25,Connection time,3.0,Multiparous
+18849,19276,2,26,Connection attempt,1.0,Multiparous
+18858,19276,2,34,Connection attempt,1.0,Multiparous
+18859,19276,2,34,Connection time,1.0,Multiparous
+18861,19276,2,35,Connection time,5.0,Multiparous
+18863,19276,2,36,Connection time,1.0,Multiparous
+18868,19276,2,40,Connection attempt,1.0,Multiparous
+18869,19276,2,40,Connection time,1.0,Multiparous
+18871,19276,2,41,Connection attempt,1.0,Multiparous
+18873,19276,2,42,Connection attempt,1.0,Multiparous
+18876,19276,2,44,Connection attempt,1.0,Multiparous
+18879,19276,3,5,Connection time,1.0,Multiparous
+18880,19276,3,5,Dead milk time,2.0,Multiparous
+18886,19276,3,10,Connection time,2.0,Multiparous
+18897,19276,3,20,Connection attempt,1.0,Multiparous
+18900,19276,3,22,Connection attempt,1.0,Multiparous
+18917,19286,1,9,Connection time,2.0,Primiparous
+18920,19286,1,11,Connection attempt,1.0,Primiparous
+18922,19286,1,12,Connection attempt,1.0,Primiparous
+18923,19286,1,12,Connection time,1.0,Primiparous
+18940,19286,3,17,Dead milk time,1.0,Multiparous
+18945,19301,1,1,Connection attempt,1.0,Primiparous
+19028,19334,1,14,Dead milk time,1.0,Primiparous
+19045,19334,1,30,Connection time,1.0,Primiparous
+19096,19358,3,10,Automatic robot stop,1.0,Multiparous
+19121,19361,1,5,Connection time,1.0,Primiparous
+19124,19361,1,7,Stopped by user,1.0,Primiparous
+19128,19361,1,13,Connection time,1.0,Primiparous
+19142,19361,1,26,Connection time,1.0,Primiparous
+19254,19375,1,3,Connection time,3.0,Primiparous
+19258,19375,1,6,Stopped by user,1.0,Primiparous
+19307,19378,1,6,Dead milk time,1.0,Primiparous
+19354,19378,2,12,Automatic robot stop,2.0,Multiparous
+19372,19378,2,29,Dead milk time,1.0,Multiparous
+19380,19378,3,3,Automatic robot stop,1.0,Multiparous
+19394,19378,3,16,Automatic robot stop,1.0,Multiparous
+19417,19379,2,4,Connection time,1.0,Multiparous
+19435,19379,2,21,Connection attempt,1.0,Multiparous
+19454,19379,2,39,Dead milk time,1.0,Multiparous
+19456,19379,2,40,Dead milk time,1.0,Multiparous
+19477,19379,3,15,Automatic robot stop,1.0,Multiparous
+19491,19379,3,28,Connection time,1.0,Multiparous
+19497,19384,1,3,Connection attempt,1.0,Primiparous
+19499,19384,1,4,Automatic robot stop,1.0,Primiparous
+19500,19384,1,4,Connection time,1.0,Primiparous
+19513,19384,1,19,Connection attempt,1.0,Primiparous
+19518,19384,1,23,Automatic robot stop,1.0,Primiparous
+19566,19427,2,23,Connection attempt,1.0,Multiparous
+19599,19427,3,10,Automatic robot stop,1.0,Multiparous
+19605,19441,1,2,Dead milk time,1.0,Primiparous
+19610,19441,1,6,Connection time,1.0,Primiparous
+19611,19441,1,6,Dead milk time,3.0,Primiparous
+19614,19441,3,4,Dead milk time,1.0,Multiparous
+19650,19443,1,23,Dead milk time,3.0,Primiparous
+19683,19449,2,31,Connection attempt,2.0,Multiparous
+19715,19449,3,13,Connection attempt,1.0,Multiparous
+19723,19480,1,7,Automatic robot stop,1.0,Primiparous
+19762,19480,1,45,Connection time,2.0,Primiparous
+19800,19480,2,36,Dead milk time,1.0,Multiparous
+19801,19480,2,36,Stopped by user,1.0,Multiparous
+19837,19491,1,3,Dead milk time,1.0,Primiparous
+19899,19491,2,9,Dead milk time,1.0,Multiparous
+19901,19491,2,10,Dead milk time,1.0,Multiparous
+19904,19491,2,12,Dead milk time,1.0,Multiparous
+19907,19491,2,14,Dead milk time,1.0,Multiparous
+19914,19491,2,20,Dead milk time,2.0,Multiparous
+19916,19491,2,21,Dead milk time,1.0,Multiparous
+19918,19491,2,22,Dead milk time,1.0,Multiparous
+19962,19507,1,23,Dead milk time,1.0,Primiparous
+19970,19507,1,30,Connection attempt,1.0,Primiparous
+19976,19507,1,35,Connection attempt,1.0,Primiparous
+19978,19507,1,36,Connection attempt,1.0,Primiparous
+19997,19507,2,9,Connection attempt,1.0,Multiparous
+20002,19507,2,13,Dead milk time,3.0,Multiparous
+20007,19507,2,17,Automatic robot stop,1.0,Multiparous
+20051,19507,3,16,Dead milk time,1.0,Multiparous
+20070,19508,2,27,Connection time,1.0,Multiparous
+20160,19544,1,21,Connection attempt,1.0,Primiparous
+20164,19544,1,24,Dead milk time,1.0,Primiparous
+20166,19544,1,25,Dead milk time,1.0,Primiparous
+20174,19544,1,32,Connection attempt,1.0,Primiparous
+20175,19544,1,32,Dead milk time,1.0,Primiparous
+20178,19544,1,34,Connection attempt,1.0,Primiparous
+20204,19544,2,13,Connection attempt,1.0,Multiparous
+20205,19544,2,13,Dead milk time,1.0,Multiparous
+20207,19544,2,14,Connection attempt,3.0,Multiparous
+20210,19544,2,16,Connection attempt,2.0,Multiparous
+20211,19544,2,16,Dead milk time,1.0,Multiparous
+20214,19544,2,18,Connection attempt,1.0,Multiparous
+20220,19544,2,23,Dead milk time,1.0,Multiparous
+20232,19544,2,34,Connection time,1.0,Multiparous
+20234,19544,2,35,Connection time,2.0,Multiparous
+20236,19544,2,36,Connection attempt,1.0,Multiparous
+20238,19544,2,37,Connection attempt,1.0,Multiparous
+20239,19544,2,37,Connection time,1.0,Multiparous
+20245,19544,2,42,Connection time,1.0,Multiparous
+20249,19544,2,45,Connection time,2.0,Multiparous
+20251,19544,2,46,Dead milk time,1.0,Multiparous
+20307,19552,2,8,Automatic robot stop,1.0,Multiparous
+20350,19552,3,8,Connection attempt,1.0,Multiparous
+20360,19552,3,17,Dead milk time,1.0,Multiparous
+20377,19558,1,3,Connection time,1.0,Primiparous
+20413,19558,1,41,Dead milk time,1.0,Primiparous
+20420,19558,2,4,Automatic robot stop,1.0,Multiparous
+20435,19558,2,18,Dead milk time,1.0,Multiparous
+20437,19558,2,19,Dead milk time,1.0,Multiparous
+20440,19558,2,21,Dead milk time,1.0,Multiparous
+20442,19558,2,22,Dead milk time,1.0,Multiparous
+20445,19558,2,24,Dead milk time,1.0,Multiparous
+20447,19558,2,25,Connection time,1.0,Multiparous
+20448,19558,2,25,Dead milk time,3.0,Multiparous
+20450,19558,2,26,Dead milk time,4.0,Multiparous
+20452,19558,2,27,Dead milk time,2.0,Multiparous
+20455,19558,2,29,Dead milk time,3.0,Multiparous
+20457,19558,2,30,Dead milk time,1.0,Multiparous
+20459,19558,2,31,Dead milk time,4.0,Multiparous
+20487,19564,3,13,Dead milk time,1.0,Multiparous
+20507,19564,3,32,Connection time,1.0,Multiparous
+20508,19564,3,32,Dead milk time,2.0,Multiparous
+20512,19567,3,4,Connection time,1.0,Multiparous
+20529,19574,2,4,Connection time,1.0,Multiparous
+20534,19574,2,8,Connection time,1.0,Multiparous
+20566,19574,2,39,Connection time,1.0,Multiparous
+20568,19574,2,40,Connection time,1.0,Multiparous
+20570,19574,2,41,Connection time,3.0,Multiparous
+20578,19574,3,4,Connection attempt,1.0,Multiparous
+20580,19574,3,5,Connection time,1.0,Multiparous
+20584,19574,3,8,Dead milk time,2.0,Multiparous
+20586,19574,3,9,Dead milk time,1.0,Multiparous
+20638,19575,1,38,Dead milk time,1.0,Primiparous
+20688,19575,3,16,Automatic robot stop,1.0,Multiparous
+20693,19575,3,20,Connection time,1.0,Multiparous
+20711,19576,2,30,Connection attempt,1.0,Multiparous
+20715,19576,2,33,Dead milk time,1.0,Multiparous
+20720,19576,2,37,Dead milk time,1.0,Multiparous
+20724,19576,2,40,Connection time,1.0,Multiparous
+20725,19576,2,40,Dead milk time,1.0,Multiparous
+20727,19576,2,41,Dead milk time,1.0,Multiparous
+20729,19576,2,42,Connection attempt,1.0,Multiparous
+20736,19581,3,5,Dead milk time,1.0,Multiparous
+20745,19581,3,13,Dead milk time,2.0,Multiparous
+20747,19581,3,14,Dead milk time,1.0,Multiparous
+20752,19581,3,18,Connection time,1.0,Multiparous
+20753,19581,3,18,Dead milk time,1.0,Multiparous
+20755,19581,3,19,Dead milk time,1.0,Multiparous
+20758,19581,3,22,Dead milk time,2.0,Multiparous
+20760,19581,3,23,Connection time,5.0,Multiparous
+20761,19581,3,23,Dead milk time,2.0,Multiparous
+20763,19581,3,24,Connection time,5.0,Multiparous
+20764,19581,3,24,Dead milk time,1.0,Multiparous
+20799,19632,2,31,Dead milk time,2.0,Multiparous
+20801,19632,2,32,Dead milk time,1.0,Multiparous
+20807,19632,2,37,Dead milk time,1.0,Multiparous
+20814,19632,2,43,Dead milk time,2.0,Multiparous
+20816,19632,2,44,Dead milk time,2.0,Multiparous
+20821,19632,3,4,Dead milk time,1.0,Multiparous
+20833,19632,3,15,Dead milk time,1.0,Multiparous
+20916,19650,1,13,Dead milk time,1.0,Primiparous
+20921,19650,1,17,Dead milk time,1.0,Primiparous
+21012,19655,2,9,Dead milk time,2.0,Multiparous
+21017,19655,2,13,Dead milk time,1.0,Multiparous
+21023,19655,2,18,Dead milk time,2.0,Multiparous
+21025,19655,2,19,Dead milk time,1.0,Multiparous
+21028,19655,2,21,Dead milk time,2.0,Multiparous
+21044,19655,2,36,Automatic robot stop,1.0,Multiparous
+21103,19681,1,35,Connection attempt,1.0,Primiparous
+21120,19681,2,6,Dead milk time,1.0,Multiparous
+21125,19681,2,10,Dead milk time,1.0,Multiparous
+21130,19681,2,14,Connection attempt,1.0,Multiparous
+21131,19681,2,14,Dead milk time,1.0,Multiparous
+21133,19681,2,15,Connection time,2.0,Multiparous
+21134,19681,2,15,Dead milk time,3.0,Multiparous
+21137,19681,2,17,Dead milk time,3.0,Multiparous
+21140,19681,2,19,Dead milk time,1.0,Multiparous
+21151,19681,2,29,Dead milk time,2.0,Multiparous
+21162,19691,1,7,Connection attempt,1.0,Primiparous
+21178,19691,1,22,Connection attempt,1.0,Primiparous
+21195,19691,1,38,Connection time,1.0,Primiparous
+21196,19691,1,38,Dead milk time,1.0,Primiparous
+21218,19694,3,5,Connection attempt,1.0,Multiparous
+21249,19696,3,7,Automatic robot stop,1.0,Multiparous
+21251,19696,3,8,Connection attempt,1.0,Multiparous
+21259,19706,1,3,Connection attempt,1.0,Primiparous
+21342,19706,3,5,Connection attempt,1.0,Multiparous
+21346,19706,3,8,Connection attempt,2.0,Multiparous
+21349,19706,3,10,Connection attempt,1.0,Multiparous
+21353,19706,3,13,Dead milk time,1.0,Multiparous
+21388,19710,1,17,Connection time,1.0,Primiparous
+21389,19710,1,17,Dead milk time,1.0,Primiparous
+21407,19710,1,34,Connection attempt,1.0,Primiparous
+21428,19710,2,7,Dead milk time,1.0,Multiparous
+21466,19717,1,28,Connection time,1.0,Primiparous
+21473,19717,1,34,Connection time,1.0,Primiparous
+21482,19717,1,42,Connection attempt,1.0,Primiparous
+21489,19717,1,48,Connection time,1.0,Primiparous
+21494,19755,1,3,Automatic robot stop,1.0,Primiparous
+21505,19755,1,13,Connection attempt,1.0,Primiparous
+21524,19755,1,31,Connection attempt,1.0,Primiparous
+21541,19755,1,47,Connection time,1.0,Primiparous
+21543,19755,1,48,Dead milk time,1.0,Primiparous
+21545,19755,1,49,Dead milk time,1.0,Primiparous
+21588,19755,2,35,Dead milk time,1.0,Multiparous
+21625,19765,2,23,Dead milk time,1.0,Multiparous
+21639,19765,2,36,Connection attempt,1.0,Multiparous
+21643,19765,2,39,Dead milk time,1.0,Multiparous
+21651,19765,3,2,Connection attempt,1.0,Multiparous
+21653,19765,3,3,Dead milk time,1.0,Multiparous
+21663,19766,1,10,Connection time,1.0,Primiparous
+21683,19766,1,29,Stopped by user,1.0,Primiparous
+21688,19766,1,33,Connection attempt,1.0,Primiparous
+21691,19766,1,35,Connection attempt,1.0,Primiparous
+21699,19766,1,42,Connection attempt,1.0,Primiparous
+21702,19766,1,44,Connection attempt,1.0,Primiparous
+21712,19766,2,4,Connection attempt,2.0,Multiparous
+21714,19766,2,5,Connection attempt,1.0,Multiparous
+21716,19766,2,6,Connection attempt,1.0,Multiparous
+21718,19766,2,7,Connection attempt,1.0,Multiparous
+21721,19766,2,9,Connection attempt,1.0,Multiparous
+21723,19766,2,10,Connection attempt,1.0,Multiparous
+21725,19766,2,11,Connection attempt,1.0,Multiparous
+21727,19766,2,12,Connection attempt,1.0,Multiparous
+21729,19766,2,13,Connection attempt,1.0,Multiparous
+21737,19766,2,20,Connection attempt,1.0,Multiparous
+21742,19766,2,24,Dead milk time,1.0,Multiparous
+21744,19766,2,25,Connection attempt,1.0,Multiparous
+21746,19766,2,26,Connection attempt,1.0,Multiparous
+21748,19766,2,27,Connection attempt,1.0,Multiparous
+21750,19766,2,28,Connection attempt,1.0,Multiparous
+21757,19766,2,34,Automatic robot stop,1.0,Multiparous
+21761,19766,2,37,Connection attempt,1.0,Multiparous
+21764,19766,2,39,Connection attempt,1.0,Multiparous
+21767,19766,2,41,Connection attempt,3.0,Multiparous
+21769,19766,2,42,Connection attempt,2.0,Multiparous
+21772,19766,2,44,Connection time,2.0,Multiparous
+21774,19766,2,45,Connection attempt,2.0,Multiparous
+21775,19766,2,45,Connection time,3.0,Multiparous
+21776,19766,2,45,Dead milk time,1.0,Multiparous
+21778,19766,2,46,Connection attempt,1.0,Multiparous
+21779,19766,2,46,Connection time,4.0,Multiparous
+21781,19766,2,47,Connection attempt,3.0,Multiparous
+21782,19766,2,47,Connection time,3.0,Multiparous
+21783,19766,2,47,Dead milk time,2.0,Multiparous
+21785,19766,2,48,Connection time,5.0,Multiparous
+21786,19766,2,48,Dead milk time,5.0,Multiparous
+21788,19766,2,49,Connection time,2.0,Multiparous
+21790,19766,3,2,Connection time,2.0,Multiparous
+21792,19766,3,3,Connection attempt,3.0,Multiparous
+21794,19766,3,4,Connection attempt,1.0,Multiparous
+21798,19766,3,7,Connection attempt,3.0,Multiparous
+21800,19766,3,8,Connection attempt,1.0,Multiparous
+21801,19766,3,8,Connection time,1.0,Multiparous
+21803,19766,3,9,Connection attempt,1.0,Multiparous
+21807,19766,3,12,Connection attempt,1.0,Multiparous
+21812,19781,1,2,Connection attempt,1.0,Primiparous
+21822,19781,1,11,Automatic robot stop,1.0,Primiparous
+21848,19781,2,13,Automatic robot stop,1.0,Multiparous
+21870,19781,2,34,Automatic robot stop,2.0,Multiparous
+21889,19793,2,13,Dead milk time,2.0,Multiparous
+21943,19794,2,2,Dead milk time,1.0,Multiparous
+21985,19794,2,43,Connection time,1.0,Multiparous
+21987,19794,2,44,Connection time,2.0,Multiparous
+22033,19808,2,9,Connection attempt,1.0,Multiparous
+22047,19808,2,22,Dead milk time,1.0,Multiparous
+22053,19808,2,27,Dead milk time,1.0,Multiparous
+22072,19808,3,5,Connection attempt,1.0,Multiparous
+22103,19816,2,33,Automatic robot stop,1.0,Multiparous
+22121,19816,3,7,Automatic robot stop,1.0,Multiparous
+22139,19826,1,7,Automatic robot stop,1.0,Primiparous
+22153,19826,1,20,Automatic robot stop,1.0,Primiparous
+22187,19826,2,5,Connection attempt,1.0,Multiparous
+22194,19826,2,11,Automatic robot stop,1.0,Multiparous
+22195,19826,2,11,Connection attempt,1.0,Multiparous
+22222,19826,2,37,Connection attempt,1.0,Multiparous
+22251,19835,1,3,Connection time,1.0,Primiparous
+22258,19835,1,9,Connection time,3.0,Primiparous
+22259,19835,1,9,Dead milk time,1.0,Primiparous
+22261,19835,1,10,Connection time,9.0,Primiparous
+22263,19835,1,11,Connection attempt,1.0,Primiparous
+22264,19835,1,11,Connection time,6.0,Primiparous
+22266,19835,1,12,Connection attempt,1.0,Primiparous
+22267,19835,1,12,Connection time,10.0,Primiparous
+22268,19835,1,12,Dead milk time,5.0,Primiparous
+22270,19835,1,13,Connection time,7.0,Primiparous
+22271,19835,1,13,Dead milk time,2.0,Primiparous
+22304,19835,2,32,Dead milk time,2.0,Multiparous
+22365,19847,2,11,Dead milk time,1.0,Multiparous
+22369,19847,2,14,Dead milk time,1.0,Multiparous
+22389,19847,2,33,Dead milk time,1.0,Multiparous
+22443,19848,2,24,Dead milk time,1.0,Multiparous
+22450,19848,2,30,Dead milk time,1.0,Multiparous
+22452,19848,2,31,Dead milk time,1.0,Multiparous
+22458,19848,2,36,Connection time,1.0,Multiparous
+22488,19852,1,9,Dead milk time,2.0,Primiparous
+22515,19852,1,35,Dead milk time,1.0,Primiparous
+22525,19852,1,44,Dead milk time,1.0,Primiparous
+22532,19852,1,50,Dead milk time,1.0,Primiparous
+22536,19852,1,53,Dead milk time,1.0,Primiparous
+22547,19852,2,8,Automatic robot stop,1.0,Multiparous
+22580,19852,2,40,Dead milk time,1.0,Multiparous
+22604,19860,1,20,Connection attempt,1.0,Primiparous
+22629,19860,1,44,Connection attempt,1.0,Primiparous
+22633,19860,1,47,Connection time,2.0,Primiparous
+22642,19860,2,8,Connection attempt,1.0,Multiparous
+22662,19899,2,3,Connection time,1.0,Multiparous
+22668,19899,2,8,Connection time,1.0,Multiparous
+22669,19899,2,8,Dead milk time,1.0,Multiparous
+22671,19899,2,9,Dead milk time,1.0,Multiparous
+22673,19899,2,10,Dead milk time,1.0,Multiparous
+22677,19899,2,13,Dead milk time,1.0,Multiparous
+22679,19899,2,14,Connection attempt,1.0,Multiparous
+22680,19899,2,14,Dead milk time,1.0,Multiparous
+22682,19899,2,15,Dead milk time,1.0,Multiparous
+22684,19899,2,16,Dead milk time,6.0,Multiparous
+22686,19899,2,17,Connection time,1.0,Multiparous
+22687,19899,2,17,Dead milk time,1.0,Multiparous
+22689,19899,2,18,Connection time,4.0,Multiparous
+22690,19899,2,18,Dead milk time,3.0,Multiparous
+22692,19899,2,19,Connection time,6.0,Multiparous
+22693,19899,2,19,Dead milk time,7.0,Multiparous
+22695,19899,2,20,Connection time,13.0,Multiparous
+22696,19899,2,20,Dead milk time,1.0,Multiparous
+22706,19899,2,29,Dead milk time,1.0,Multiparous
+22708,19899,2,30,Connection time,1.0,Multiparous
+22715,19899,2,36,Dead milk time,1.0,Multiparous
+22738,19907,1,21,Dead milk time,1.0,Primiparous
+22743,19907,1,25,Connection attempt,1.0,Primiparous
+22748,19907,1,29,Connection attempt,1.0,Primiparous
+22782,19907,2,21,Dead milk time,3.0,Multiparous
+22804,19914,2,18,Connection attempt,1.0,Multiparous
+22813,19914,2,26,Automatic robot stop,1.0,Multiparous
+22819,19914,2,31,Dead milk time,1.0,Multiparous
+22840,19914,2,51,Automatic robot stop,1.0,Multiparous
+22945,19929,1,2,Connection time,1.0,Primiparous
+22975,19930,2,14,Automatic robot stop,1.0,Multiparous
+22991,19930,2,29,Dead milk time,1.0,Multiparous
+22999,19930,2,36,Dead milk time,1.0,Multiparous
+23060,19937,2,51,Dead milk time,1.0,Multiparous
+23068,19945,1,6,Connection time,1.0,Primiparous
+23069,19945,1,6,Stopped by user,1.0,Primiparous
+23073,19945,1,9,Dead milk time,1.0,Primiparous
+23126,19945,2,16,Dead milk time,1.0,Multiparous
+23134,19945,2,23,Dead milk time,1.0,Multiparous
+23162,19945,2,50,Automatic robot stop,1.0,Multiparous
+23164,19945,2,51,Automatic robot stop,1.0,Multiparous
+23183,19954,1,19,Stopped by user,1.0,Primiparous
+23187,19954,1,22,Connection time,2.0,Primiparous
+23192,19961,1,2,Dead milk time,2.0,Primiparous
+23203,19961,1,12,Connection attempt,1.0,Primiparous
+23204,19961,1,12,Connection time,1.0,Primiparous
+23211,19961,1,18,Other,1.0,Primiparous
+23229,19961,1,35,Connection time,1.0,Primiparous
+23230,19961,1,35,Dead milk time,1.0,Primiparous
+23233,19961,1,37,Dead milk time,1.0,Primiparous
+23235,19961,1,38,Dead milk time,1.0,Primiparous
+23240,19961,1,42,Dead milk time,1.0,Primiparous
+23244,19964,1,2,Connection time,1.0,Primiparous
+23255,19964,1,12,Connection time,2.0,Primiparous
+23257,19964,1,13,Connection time,1.0,Primiparous
+23262,19964,2,4,Connection time,1.0,Multiparous
+23264,19964,2,5,Connection time,3.0,Multiparous
+23272,19964,2,12,Connection time,1.0,Multiparous
+23273,19964,2,12,Dead milk time,1.0,Multiparous
+23283,19964,2,21,Automatic robot stop,1.0,Multiparous
+23295,19964,2,32,Connection time,1.0,Multiparous
+23313,19966,2,4,Dead milk time,1.0,Multiparous
+23320,19966,2,11,Dead milk time,1.0,Multiparous
+23341,19970,2,11,Dead milk time,1.0,Multiparous
+23344,19970,2,13,Connection attempt,1.0,Multiparous
+23377,19975,2,3,Connection time,1.0,Multiparous
+23414,19975,2,39,Connection attempt,1.0,Multiparous
+23416,19977,1,2,Connection attempt,1.0,Primiparous
+23421,19977,1,6,Connection attempt,1.0,Primiparous
+23448,19977,1,32,Connection time,2.0,Primiparous
+23450,19977,1,33,Connection time,1.0,Primiparous
+23453,19977,1,35,Connection attempt,1.0,Primiparous
+23456,19977,1,37,Connection time,1.0,Primiparous
+23476,19977,2,9,Dead milk time,1.0,Multiparous
+23479,19977,2,11,Connection attempt,1.0,Multiparous
+23484,19977,2,15,Dead milk time,1.0,Multiparous
+23493,19977,2,23,Dead milk time,1.0,Multiparous
+23501,19977,2,30,Connection time,1.0,Multiparous
+23515,19977,2,43,Dead milk time,1.0,Multiparous
+23542,19981,2,15,Connection attempt,1.0,Multiparous
+23546,19981,2,18,Automatic robot stop,1.0,Multiparous
+23550,19981,2,21,Automatic robot stop,1.0,Multiparous
+23552,19981,2,22,Connection attempt,1.0,Multiparous
+23557,19981,2,26,Connection attempt,1.0,Multiparous
+23574,19988,2,13,Connection attempt,1.0,Multiparous
+23581,19988,2,19,Automatic robot stop,1.0,Multiparous
+23584,19988,2,21,Automatic robot stop,1.0,Multiparous
+23608,19988,2,44,Dead milk time,1.0,Multiparous
+23646,20006,2,36,Dead milk time,1.0,Multiparous
+23665,20013,1,5,Other,1.0,Primiparous
+23669,20013,1,8,Connection time,3.0,Primiparous
+23671,20013,1,9,Connection time,1.0,Primiparous
+23687,20013,1,24,Dead milk time,2.0,Primiparous
+23695,20013,1,31,Dead milk time,2.0,Primiparous
+23701,20013,1,36,Dead milk time,1.0,Primiparous
+23704,20013,1,38,Connection time,1.0,Primiparous
+23705,20013,1,38,Dead milk time,1.0,Primiparous
+23713,20013,1,45,Dead milk time,1.0,Primiparous
+23716,20013,1,47,Dead milk time,1.0,Primiparous
+23722,20013,1,52,Dead milk time,1.0,Primiparous
+23731,20013,2,6,Dead milk time,1.0,Multiparous
+23735,20013,2,9,Connection attempt,2.0,Multiparous
+23744,20013,2,17,Dead milk time,1.0,Multiparous
+23768,20013,2,40,Dead milk time,1.0,Multiparous
+23773,20013,2,44,Dead milk time,1.0,Multiparous
+23811,20027,2,19,Automatic robot stop,1.0,Multiparous
+23814,20027,2,21,Automatic robot stop,1.0,Multiparous
+23867,20044,2,25,Dead milk time,1.0,Multiparous
+23870,20044,2,27,Dead milk time,1.0,Multiparous
+23883,20044,2,39,Automatic robot stop,1.0,Multiparous
+23902,20051,2,8,Automatic robot stop,1.0,Multiparous
+23925,20051,2,30,Automatic robot stop,1.0,Multiparous
+23945,20056,2,2,Connection attempt,1.0,Multiparous
+23951,20056,2,7,Connection attempt,1.0,Multiparous
+23972,20056,2,27,Connection attempt,1.0,Multiparous
+23976,20056,2,30,Dead milk time,2.0,Multiparous
+23978,20056,2,31,Dead milk time,1.0,Multiparous
+23985,20056,2,38,Dead milk time,2.0,Multiparous
+23992,20056,2,44,Dead milk time,1.0,Multiparous
+23996,20064,1,4,Connection time,1.0,Primiparous
+24000,20064,1,7,Connection time,1.0,Primiparous
+24019,20064,1,25,Automatic robot stop,1.0,Primiparous
+24029,20064,1,34,Dead milk time,1.0,Primiparous
+24031,20064,1,35,Dead milk time,1.0,Primiparous
+24036,20064,1,39,Dead milk time,3.0,Primiparous
+24038,20064,1,40,Connection time,1.0,Primiparous
+24039,20064,1,40,Dead milk time,1.0,Primiparous
+24043,20064,1,43,Dead milk time,1.0,Primiparous
+24047,20064,1,46,Dead milk time,1.0,Primiparous
+24049,20064,1,47,Dead milk time,1.0,Primiparous
+24052,20064,1,53,Dead milk time,1.0,Primiparous
+24054,20064,2,2,Connection attempt,1.0,Multiparous
+24058,20064,2,5,Connection attempt,1.0,Multiparous
+24066,20064,2,12,Dead milk time,1.0,Multiparous
+24068,20064,2,13,Dead milk time,1.0,Multiparous
+24101,20083,2,14,Dead milk time,1.0,Multiparous
+24104,20083,2,16,Dead milk time,1.0,Multiparous
+24124,20083,2,35,Dead milk time,1.0,Multiparous
+24151,20088,2,16,Dead milk time,3.0,Multiparous
+24154,20088,2,18,Dead milk time,1.0,Multiparous
+24160,20088,2,23,Automatic robot stop,1.0,Multiparous
+24163,20100,1,3,Connection attempt,1.0,Primiparous
+24168,20100,1,7,Connection attempt,2.0,Primiparous
+24170,20100,1,8,Connection attempt,2.0,Primiparous
+24192,20100,1,29,Connection time,1.0,Primiparous
+24195,20100,1,31,Connection time,3.0,Primiparous
+24198,20100,1,33,Connection time,1.0,Primiparous
+24202,20100,1,36,Connection attempt,1.0,Primiparous
+24203,20100,1,36,Connection time,2.0,Primiparous
+24207,20100,1,39,Connection time,1.0,Primiparous
+24209,20100,1,40,Connection time,1.0,Primiparous
+24242,20100,2,29,Automatic robot stop,1.0,Multiparous
+24260,20100,3,3,Dead milk time,1.0,Multiparous
+24269,20117,2,2,Automatic robot stop,1.0,Multiparous
+24278,20117,2,10,Connection time,2.0,Multiparous
+24280,20117,2,11,Connection time,1.0,Multiparous
+24296,20117,2,26,Dead milk time,1.0,Multiparous
+24307,20120,1,5,Dead milk time,1.0,Primiparous
+24312,20120,1,9,Automatic robot stop,1.0,Primiparous
+24320,20120,1,16,Connection attempt,1.0,Primiparous
+24331,20120,1,26,Connection time,1.0,Primiparous
+24352,20120,2,3,Dead milk time,1.0,Multiparous
+24373,20120,2,23,Dead milk time,1.0,Multiparous
+24386,20120,2,35,Dead milk time,2.0,Multiparous
+24389,20120,2,37,Dead milk time,1.0,Multiparous
+24421,20128,2,3,Automatic robot stop,1.0,Multiparous
+24425,20128,2,6,Dead milk time,2.0,Multiparous
+24432,20128,2,12,Dead milk time,1.0,Multiparous
+24453,20128,2,32,Connection time,1.0,Multiparous
+24454,20128,2,32,Dead milk time,1.0,Multiparous
+24458,20128,2,35,Connection time,1.0,Multiparous
+24462,20128,2,38,Connection attempt,1.0,Multiparous
+24466,20128,2,41,Connection attempt,1.0,Multiparous
+24468,20128,2,42,Dead milk time,2.0,Multiparous
+24471,20128,2,44,Connection time,1.0,Multiparous
+24472,20128,2,44,Dead milk time,1.0,Multiparous
+24478,20146,2,4,Stopped by user,1.0,Multiparous
+24517,20146,2,42,Dead milk time,1.0,Multiparous
+24547,20165,1,28,Connection attempt,1.0,Primiparous
+24554,20165,1,34,Connection time,1.0,Primiparous
+24580,20165,2,15,Connection time,1.0,Multiparous
+24591,20165,2,25,Dead milk time,1.0,Multiparous
+24617,20165,2,50,Connection time,1.0,Multiparous
+24650,20166,1,29,Dead milk time,2.0,Primiparous
+24654,20166,1,32,Dead milk time,2.0,Primiparous
+24656,20166,1,33,Connection time,1.0,Primiparous
+24666,20166,1,42,Dead milk time,1.0,Primiparous
+24673,20166,2,4,Dead milk time,1.0,Multiparous
+24681,20166,2,11,Dead milk time,1.0,Multiparous
+24685,20166,2,14,Dead milk time,4.0,Multiparous
+24691,20166,2,19,Dead milk time,2.0,Multiparous
+24696,20166,2,23,Dead milk time,1.0,Multiparous
+24708,20166,2,34,Dead milk time,1.0,Multiparous
+24730,20172,1,6,Automatic robot stop,1.0,Primiparous
+24731,20172,1,6,Other,1.0,Primiparous
+24742,20172,1,16,Dead milk time,1.0,Primiparous
+24747,20172,1,20,Stopped by user,1.0,Primiparous
+24760,20172,1,32,Connection time,1.0,Primiparous
+24763,20172,1,34,Connection attempt,1.0,Primiparous
+24764,20172,1,34,Connection time,1.0,Primiparous
+24768,20172,1,37,Connection time,1.0,Primiparous
+24769,20172,1,37,Stopped by user,1.0,Primiparous
+24824,20172,2,46,Dead milk time,2.0,Multiparous
+24837,20178,2,5,Connection attempt,1.0,Multiparous
+24844,20178,2,11,Connection time,1.0,Multiparous
+24846,20178,2,12,Connection time,1.0,Multiparous
+24856,20182,2,10,Dead milk time,1.0,Multiparous
+24861,20182,2,14,Connection time,1.0,Multiparous
+24862,20182,2,14,Dead milk time,2.0,Multiparous
+24870,20182,2,21,Connection attempt,1.0,Multiparous
+24903,20222,2,3,Automatic robot stop,1.0,Multiparous
+24911,20222,2,10,Dead milk time,1.0,Multiparous
+24923,20222,2,21,Dead milk time,1.0,Multiparous
+24928,20222,2,25,Dead milk time,1.0,Multiparous
+24932,20222,2,28,Automatic robot stop,1.0,Multiparous
+24941,20222,2,36,Dead milk time,1.0,Multiparous
+24943,20222,2,37,Dead milk time,1.0,Multiparous
+24955,20224,1,9,Automatic robot stop,1.0,Primiparous
+24982,20224,1,35,Connection attempt,1.0,Primiparous
+24989,20224,1,41,Dead milk time,1.0,Primiparous
+24995,20224,2,2,Connection attempt,1.0,Multiparous
+25011,20224,2,17,Dead milk time,2.0,Multiparous
+25013,20224,2,18,Dead milk time,1.0,Multiparous
+25033,20224,2,37,Dead milk time,1.0,Multiparous
+25041,20224,2,44,Connection time,1.0,Multiparous
+25053,20227,1,5,Connection attempt,1.0,Primiparous
+25055,20227,1,6,Connection time,1.0,Primiparous
+25060,20227,1,10,Connection attempt,1.0,Primiparous
+25061,20227,1,10,Dead milk time,1.0,Primiparous
+25064,20227,1,12,Connection attempt,1.0,Primiparous
+25067,20227,1,14,Connection attempt,1.0,Primiparous
+25074,20227,1,20,Connection time,1.0,Primiparous
+25085,20227,1,30,Connection attempt,1.0,Primiparous
+25095,20227,1,39,Connection attempt,1.0,Primiparous
+25102,20227,1,45,Connection attempt,1.0,Primiparous
+25112,20227,1,54,Dead milk time,1.0,Primiparous
+25114,20227,1,55,Connection time,1.0,Primiparous
+25115,20227,1,55,Dead milk time,1.0,Primiparous
+25119,20227,1,58,Dead milk time,1.0,Primiparous
+25125,20227,2,5,Dead milk time,1.0,Multiparous
+25178,20230,2,3,Dead milk time,1.0,Multiparous
+25211,20230,2,35,Connection attempt,3.0,Multiparous
+25212,20230,2,35,Dead milk time,1.0,Multiparous
+25214,20230,2,36,Connection attempt,1.0,Multiparous
+25215,20230,2,36,Connection time,1.0,Multiparous
+25247,20257,1,30,Dead milk time,1.0,Primiparous
+25258,20257,1,40,Dead milk time,2.0,Primiparous
+25260,20257,1,41,Dead milk time,1.0,Primiparous
+25275,20257,2,11,Dead milk time,1.0,Multiparous
+25280,20257,2,15,Dead milk time,1.0,Multiparous
+25282,20257,2,16,Automatic robot stop,1.0,Multiparous
+25287,20257,2,20,Connection attempt,1.0,Multiparous
+25296,20257,2,28,Dead milk time,1.0,Multiparous
+25354,20273,1,12,Other,1.0,Primiparous
+25356,20273,1,13,Connection time,1.0,Primiparous
+25359,20273,1,15,Dead milk time,1.0,Primiparous
+25402,20273,2,2,Dead milk time,1.0,Multiparous
+25424,20273,2,23,Automatic robot stop,1.0,Multiparous
+25494,20295,2,47,Dead milk time,1.0,Multiparous
+25517,20311,3,18,Connection attempt,1.0,Multiparous
+25573,20380,1,29,Dead milk time,2.0,Primiparous
+25638,20387,1,22,Connection time,4.0,Primiparous
+25640,20387,1,23,Connection attempt,3.0,Primiparous
+25642,20387,1,24,Connection attempt,1.0,Primiparous
+25643,20387,1,24,Connection time,2.0,Primiparous
+25646,20387,1,26,Connection time,2.0,Primiparous
+25648,20387,1,27,Connection time,3.0,Primiparous
+25653,20387,1,31,Connection time,1.0,Primiparous
+25654,20387,1,31,Dead milk time,1.0,Primiparous
+25657,20387,1,33,Connection time,1.0,Primiparous
+25658,20387,1,33,Dead milk time,1.0,Primiparous
+25660,20387,1,34,Connection time,1.0,Primiparous
+25662,20387,1,35,Connection time,1.0,Primiparous
+25665,20387,1,37,Connection time,3.0,Primiparous
+25666,20387,1,37,Dead milk time,1.0,Primiparous
+25668,20387,1,38,Connection time,2.0,Primiparous
+25670,20387,1,39,Connection time,2.0,Primiparous
+25671,20387,1,39,Dead milk time,1.0,Primiparous
+25673,20387,1,40,Dead milk time,1.0,Primiparous
+25675,20387,1,41,Connection attempt,1.0,Primiparous
+25676,20387,1,41,Connection time,1.0,Primiparous
+25678,20387,1,42,Connection time,6.0,Primiparous
+25679,20387,1,42,Dead milk time,1.0,Primiparous
+25681,20387,1,43,Connection time,7.0,Primiparous
+25683,20387,1,44,Connection time,1.0,Primiparous
+25689,20387,2,6,Dead milk time,1.0,Multiparous
+25696,20387,2,12,Dead milk time,1.0,Multiparous
+25699,20387,2,14,Connection time,1.0,Multiparous
+25711,20387,2,25,Connection time,3.0,Multiparous
+25715,20387,2,28,Connection time,6.0,Multiparous
+25720,20387,2,32,Connection time,2.0,Multiparous
+25722,20387,2,33,Connection time,1.0,Multiparous
+25726,20387,2,36,Dead milk time,1.0,Multiparous
+25728,20387,2,37,Connection attempt,2.0,Multiparous
+25729,20387,2,37,Connection time,1.0,Multiparous
+25731,20387,2,38,Connection time,2.0,Multiparous
+25733,20387,2,39,Connection time,3.0,Multiparous
+25736,20387,2,41,Connection time,3.0,Multiparous
+25738,20387,2,42,Connection attempt,1.0,Multiparous
+25739,20387,2,42,Connection time,12.0,Multiparous
+25745,20397,2,5,Dead milk time,1.0,Multiparous
+25762,20397,2,21,Dead milk time,2.0,Multiparous
+25764,20397,2,22,Dead milk time,1.0,Multiparous
+25767,20397,2,24,Dead milk time,1.0,Multiparous
+25769,20397,2,25,Dead milk time,1.0,Multiparous
+25780,20397,2,35,Dead milk time,2.0,Multiparous
+25782,20397,2,36,Connection time,1.0,Multiparous
+25790,20397,2,43,Dead milk time,1.0,Multiparous
+25794,20397,2,46,Connection attempt,1.0,Multiparous
+25795,20397,2,46,Dead milk time,1.0,Multiparous
+25822,20438,2,5,Dead milk time,1.0,Multiparous
+25824,20438,2,6,Dead milk time,1.0,Multiparous
+25829,20438,2,10,Dead milk time,1.0,Multiparous
+25831,20438,2,11,Dead milk time,1.0,Multiparous
+25838,20438,2,17,Connection attempt,1.0,Multiparous
+25842,20438,2,20,Connection time,1.0,Multiparous
+25843,20438,2,20,Dead milk time,2.0,Multiparous
+25845,20438,2,21,Dead milk time,1.0,Multiparous
+25847,20438,2,22,Dead milk time,2.0,Multiparous
+25850,20438,2,24,Dead milk time,1.0,Multiparous
+25852,20438,2,25,Dead milk time,1.0,Multiparous
+25854,20438,2,26,Dead milk time,2.0,Multiparous
+25857,20438,2,28,Dead milk time,1.0,Multiparous
+25859,20438,2,29,Dead milk time,1.0,Multiparous
+25861,20438,2,30,Dead milk time,2.0,Multiparous
+25866,20453,1,6,Automatic robot stop,1.0,Primiparous
+25867,20453,1,6,Connection attempt,1.0,Primiparous
+25874,20453,1,12,Connection attempt,2.0,Primiparous
+25875,20453,1,12,Connection time,5.0,Primiparous
+25877,20453,1,13,Connection attempt,1.0,Primiparous
+25878,20453,1,13,Connection time,1.0,Primiparous
+25880,20453,1,14,Connection attempt,1.0,Primiparous
+25881,20453,1,14,Connection time,1.0,Primiparous
+25883,20453,1,15,Connection time,3.0,Primiparous
+25885,20453,1,16,Connection attempt,1.0,Primiparous
+25886,20453,1,16,Connection time,4.0,Primiparous
+25904,20453,2,18,Connection time,1.0,Multiparous
+25909,20453,2,22,Connection time,1.0,Multiparous
+25919,20453,2,31,Dead milk time,1.0,Multiparous
+25924,20453,2,35,Dead milk time,1.0,Multiparous
+25927,20453,2,37,Dead milk time,1.0,Multiparous
+25968,20461,2,32,Dead milk time,1.0,Multiparous
+25973,20473,2,4,Dead milk time,1.0,Multiparous
+25992,20473,2,22,Dead milk time,2.0,Multiparous
+25995,20473,2,24,Dead milk time,1.0,Multiparous
+25997,20473,2,25,Dead milk time,1.0,Multiparous
+26002,20473,2,29,Dead milk time,1.0,Multiparous
+26009,20473,2,35,Connection time,1.0,Multiparous
+26010,20473,2,35,Dead milk time,1.0,Multiparous
+26020,20473,2,44,Dead milk time,1.0,Multiparous
+26038,20474,2,17,Connection time,1.0,Multiparous
+26045,20474,2,23,Dead milk time,1.0,Multiparous
+26049,20474,2,26,Connection attempt,1.0,Multiparous
+26052,20474,2,28,Automatic robot stop,1.0,Multiparous
+26088,20474,3,16,Dead milk time,1.0,Multiparous
+26128,20479,2,13,Connection time,1.0,Multiparous
+26130,20479,2,14,Automatic robot stop,1.0,Multiparous
+26138,20479,2,21,Connection time,3.0,Multiparous
+26140,20479,2,22,Connection time,1.0,Multiparous
+26143,20479,2,24,Connection time,2.0,Multiparous
+26154,20488,1,4,Dead milk time,1.0,Primiparous
+26191,20488,1,40,Dead milk time,1.0,Primiparous
+26207,20499,2,4,Dead milk time,7.0,Multiparous
+26213,20501,2,6,Connection time,1.0,Multiparous
+26247,20503,2,9,Automatic robot stop,1.0,Multiparous
+26264,20503,2,25,Automatic robot stop,1.0,Multiparous
+26270,20503,2,30,Connection time,1.0,Multiparous
+26275,20505,1,4,Connection time,1.0,Primiparous
+26280,20505,1,8,Connection attempt,1.0,Primiparous
+26282,20505,1,9,Connection attempt,1.0,Primiparous
+26339,20518,2,2,Dead milk time,2.0,Multiparous
+26359,20518,2,21,Connection attempt,1.0,Multiparous
+26361,20518,2,22,Connection attempt,1.0,Multiparous
+26363,20518,2,23,Dead milk time,1.0,Multiparous
+26365,20518,2,24,Connection attempt,1.0,Multiparous
+26367,20518,2,25,Connection attempt,2.0,Multiparous
+26370,20518,2,27,Connection time,2.0,Multiparous
+26371,20518,2,27,Dead milk time,2.0,Multiparous
+26373,20518,2,28,Connection attempt,2.0,Multiparous
+26375,20518,2,29,Connection attempt,2.0,Multiparous
+26376,20518,2,29,Connection time,2.0,Multiparous
+26378,20518,2,30,Connection attempt,2.0,Multiparous
+26379,20518,2,30,Dead milk time,2.0,Multiparous
+26381,20518,2,31,Connection time,2.0,Multiparous
+26383,20518,2,32,Connection attempt,3.0,Multiparous
+26384,20518,2,32,Connection time,1.0,Multiparous
+26386,20518,2,33,Connection attempt,3.0,Multiparous
+26387,20518,2,33,Connection time,1.0,Multiparous
+26389,20518,2,34,Connection attempt,2.0,Multiparous
+26391,20518,2,35,Connection attempt,2.0,Multiparous
+26392,20518,2,35,Connection time,1.0,Multiparous
+26394,20518,2,36,Connection attempt,1.0,Multiparous
+26395,20518,2,36,Connection time,1.0,Multiparous
+26397,20518,2,37,Connection time,2.0,Multiparous
+26399,20518,2,38,Connection attempt,1.0,Multiparous
+26400,20518,2,38,Connection time,2.0,Multiparous
+26404,20518,2,41,Connection attempt,3.0,Multiparous
+26411,20524,2,3,Connection attempt,1.0,Multiparous
+26421,20524,2,12,Connection time,1.0,Multiparous
+26424,20524,2,14,Dead milk time,1.0,Multiparous
+26429,20524,2,18,Connection time,1.0,Multiparous
+26461,20526,2,23,Connection time,1.0,Multiparous
+26474,20526,2,35,Dead milk time,1.0,Multiparous
+26498,20531,1,14,Connection attempt,1.0,Primiparous
+26501,20531,1,16,Automatic robot stop,1.0,Primiparous
+26504,20531,1,18,Connection attempt,1.0,Primiparous
+26512,20531,1,25,Connection time,1.0,Primiparous
+26516,20531,1,28,Connection time,2.0,Primiparous
+26534,20537,2,8,Connection time,1.0,Multiparous
+26559,20552,1,46,Dead milk time,2.0,Primiparous
+26568,20552,2,9,Dead milk time,1.0,Multiparous
+26575,20552,2,15,Connection time,1.0,Multiparous
+26577,20552,2,16,Dead milk time,2.0,Multiparous
+26579,20552,2,17,Connection time,3.0,Multiparous
+26581,20552,2,18,Connection attempt,1.0,Multiparous
+26582,20552,2,18,Connection time,3.0,Multiparous
+26584,20552,2,19,Connection time,2.0,Multiparous
+26586,20552,2,20,Connection attempt,1.0,Multiparous
+26587,20552,2,20,Connection time,9.0,Multiparous
+26588,20552,2,20,Dead milk time,1.0,Multiparous
+26591,20552,2,22,Dead milk time,1.0,Multiparous
+26593,20552,2,23,Connection time,2.0,Multiparous
+26597,20552,2,26,Connection time,1.0,Multiparous
+26602,20552,2,30,Dead milk time,1.0,Multiparous
+26610,20557,1,5,Stopped by user,1.0,Primiparous
+26638,20557,1,32,Automatic robot stop,1.0,Primiparous
+26639,20557,1,32,Dead milk time,1.0,Primiparous
+26653,20557,2,4,Dead milk time,1.0,Multiparous
+26676,20557,2,26,Connection attempt,2.0,Multiparous
+26679,20557,2,28,Connection attempt,1.0,Multiparous
+26690,20557,2,38,Dead milk time,1.0,Multiparous
+26711,20558,1,10,Connection attempt,1.0,Primiparous
+26713,20558,1,11,Connection attempt,5.0,Primiparous
+26726,20558,1,23,Dead milk time,1.0,Primiparous
+26730,20558,1,26,Dead milk time,1.0,Primiparous
+26733,20558,1,28,Automatic robot stop,1.0,Primiparous
+26735,20558,1,29,Dead milk time,1.0,Primiparous
+26742,20558,1,35,Dead milk time,1.0,Primiparous
+26744,20558,1,36,Dead milk time,1.0,Primiparous
+26747,20558,1,38,Connection attempt,1.0,Primiparous
+26748,20558,1,38,Dead milk time,1.0,Primiparous
+26753,20558,2,5,Automatic robot stop,1.0,Multiparous
+26758,20558,2,9,Dead milk time,2.0,Multiparous
+26761,20558,2,11,Dead milk time,1.0,Multiparous
+26767,20558,2,16,Dead milk time,1.0,Multiparous
+26775,20558,2,23,Dead milk time,1.0,Multiparous
+26804,20562,1,19,Dead milk time,1.0,Primiparous
+26810,20562,1,24,Automatic robot stop,1.0,Primiparous
+26822,20562,1,35,Dead milk time,2.0,Primiparous
+26825,20562,1,37,Connection time,1.0,Primiparous
+26829,20562,1,40,Automatic robot stop,1.0,Primiparous
+26831,20562,1,41,Dead milk time,1.0,Primiparous
+26842,20562,2,10,Dead milk time,1.0,Multiparous
+26846,20562,2,13,Dead milk time,1.0,Multiparous
+26848,20562,2,14,Dead milk time,2.0,Multiparous
+26853,20562,2,18,Connection time,1.0,Multiparous
+26855,20562,2,19,Dead milk time,1.0,Multiparous
+26860,20562,2,23,Dead milk time,1.0,Multiparous
+26865,20562,2,27,Dead milk time,2.0,Multiparous
+26872,20562,2,33,Dead milk time,2.0,Multiparous
+26876,20562,2,36,Dead milk time,1.0,Multiparous
+26878,20562,2,37,Dead milk time,1.0,Multiparous
+26880,20562,2,38,Dead milk time,2.0,Multiparous
+26883,20562,2,40,Dead milk time,1.0,Multiparous
+26886,20562,2,42,Dead milk time,1.0,Multiparous
+26892,20562,2,47,Dead milk time,1.0,Multiparous
+26894,20562,2,48,Dead milk time,2.0,Multiparous
+26915,20564,2,18,Connection attempt,1.0,Multiparous
+26922,20564,2,24,Connection time,1.0,Multiparous
+26937,20570,2,2,Connection time,1.0,Multiparous
+26957,20570,2,21,Connection time,1.0,Multiparous
+26959,20570,2,22,Connection time,2.0,Multiparous
+26962,20570,2,24,Connection time,2.0,Multiparous
+26975,20574,2,13,Dead milk time,1.0,Multiparous
+26982,20574,2,19,Dead milk time,1.0,Multiparous
+27048,20575,2,4,Automatic robot stop,1.0,Multiparous
+27069,20575,2,24,Dead milk time,1.0,Multiparous
+27076,20580,1,7,Automatic robot stop,1.0,Primiparous
+27079,20580,1,9,Connection time,1.0,Primiparous
+27081,20580,1,10,Automatic robot stop,1.0,Primiparous
+27087,20580,1,15,Connection time,1.0,Primiparous
+27097,20580,2,9,Dead milk time,2.0,Multiparous
+27105,20580,2,16,Dead milk time,1.0,Multiparous
+27147,20587,1,25,Dead milk time,1.0,Primiparous
+27178,20589,1,4,Automatic robot stop,1.0,Primiparous
+27179,20589,1,4,Dead milk time,1.0,Primiparous
+27191,20589,1,15,Connection time,1.0,Primiparous
+27200,20589,1,23,Connection time,2.0,Primiparous
+27204,20589,1,26,Connection attempt,1.0,Primiparous
+27206,20589,1,27,Connection attempt,1.0,Primiparous
+27208,20589,1,28,Connection attempt,1.0,Primiparous
+27211,20589,1,30,Connection attempt,2.0,Primiparous
+27214,20589,1,32,Connection attempt,1.0,Primiparous
+27221,20589,1,38,Connection time,1.0,Primiparous
+27251,20589,2,28,Connection time,1.0,Multiparous
+27261,20589,2,37,Connection time,1.0,Multiparous
+27265,20589,2,40,Connection time,1.0,Multiparous
+27267,20589,2,41,Connection time,1.0,Multiparous
+27269,20589,2,42,Connection time,1.0,Multiparous
+27286,20595,1,12,Connection time,1.0,Primiparous
+27290,20595,1,15,Connection attempt,1.0,Primiparous
+27295,20595,1,19,Dead milk time,1.0,Primiparous
+27314,20595,1,37,Connection time,1.0,Primiparous
+27320,20595,1,42,Connection time,1.0,Primiparous
+27336,20601,1,4,Connection attempt,1.0,Primiparous
+27340,20601,1,7,Connection attempt,1.0,Primiparous
+27342,20601,1,8,Connection time,1.0,Primiparous
+27343,20601,1,8,Other,1.0,Primiparous
+27359,20601,2,13,Dead milk time,1.0,Multiparous
+27369,20601,2,22,Connection time,1.0,Multiparous
+27373,20601,2,25,Dead milk time,1.0,Multiparous
+27378,20601,2,29,Dead milk time,1.0,Multiparous
+27382,20601,2,32,Dead milk time,2.0,Multiparous
+27434,20628,1,24,Dead milk time,1.0,Primiparous
+27449,20628,1,38,Dead milk time,1.0,Primiparous
+27453,20628,1,41,Connection time,1.0,Primiparous
+27454,20628,1,41,Dead milk time,1.0,Primiparous
+27461,20628,2,3,Dead milk time,1.0,Multiparous
+27465,20628,2,6,Dead milk time,1.0,Multiparous
+27470,20628,2,10,Dead milk time,2.0,Multiparous
+27479,20628,2,18,Dead milk time,1.0,Multiparous
+27487,20628,2,25,Dead milk time,1.0,Multiparous
+27500,20628,2,37,Dead milk time,1.0,Multiparous
+27507,20628,2,43,Dead milk time,2.0,Multiparous
+27558,20632,1,7,Connection time,1.0,Primiparous
+27559,20632,1,7,Other,1.0,Primiparous
+27560,20632,1,7,Stopped by user,1.0,Primiparous
+27569,20632,1,15,Connection attempt,1.0,Primiparous
+27611,20632,2,15,Dead milk time,1.0,Multiparous
+27620,20632,2,23,Dead milk time,1.0,Multiparous
+27624,20632,2,26,Connection time,1.0,Multiparous
+27625,20632,2,26,Dead milk time,1.0,Multiparous
+27627,20632,2,27,Connection time,1.0,Multiparous
+27628,20632,2,27,Dead milk time,1.0,Multiparous
+27631,20632,2,29,Connection time,2.0,Multiparous
+27639,20632,2,36,Connection time,2.0,Multiparous
+27646,20632,2,42,Dead milk time,1.0,Multiparous
+27649,20635,2,1,Dead milk time,3.0,Multiparous
+27673,20641,2,20,Automatic robot stop,1.0,Multiparous
+27682,20641,2,28,Connection time,1.0,Multiparous
+27687,20641,2,32,Connection time,1.0,Multiparous
+27692,20641,2,36,Connection time,1.0,Multiparous
+27712,20646,2,8,Dead milk time,1.0,Multiparous
+27730,20648,2,5,Dead milk time,1.0,Multiparous
+27734,20648,2,8,Dead milk time,1.0,Multiparous
+27736,20648,2,9,Dead milk time,1.0,Multiparous
+27753,20651,1,15,Connection time,1.0,Primiparous
+27768,20651,1,29,Connection attempt,1.0,Primiparous
+27769,20651,1,29,Connection time,1.0,Primiparous
+27771,20651,1,30,Dead milk time,1.0,Primiparous
+27773,20651,1,31,Dead milk time,1.0,Primiparous
+27777,20651,1,34,Dead milk time,1.0,Primiparous
+27782,20651,1,38,Dead milk time,1.0,Primiparous
+27787,20651,1,42,Dead milk time,1.0,Primiparous
+27789,20651,1,43,Dead milk time,3.0,Primiparous
+27802,20651,2,12,Dead milk time,1.0,Multiparous
+27839,20664,2,5,Automatic robot stop,1.0,Multiparous
+27852,20664,2,17,Dead milk time,1.0,Multiparous
+27888,20678,1,22,Connection time,1.0,Primiparous
+27916,20678,2,4,Connection time,1.0,Multiparous
+27920,20678,2,7,Automatic robot stop,1.0,Multiparous
+27921,20678,2,7,Connection attempt,1.0,Multiparous
+27937,20678,2,22,Automatic robot stop,2.0,Multiparous
+27954,20678,2,38,Automatic robot stop,1.0,Multiparous
+27983,20684,1,20,Connection attempt,1.0,Primiparous
+27985,20684,1,21,Connection attempt,1.0,Primiparous
+27987,20684,1,22,Connection attempt,1.0,Primiparous
+27989,20684,1,23,Connection attempt,1.0,Primiparous
+27997,20684,1,30,Connection attempt,1.0,Primiparous
+28003,20684,1,35,Dead milk time,1.0,Primiparous
+28005,20684,1,36,Connection attempt,1.0,Primiparous
+28015,20684,2,3,Connection attempt,5.0,Multiparous
+28018,20684,2,5,Dead milk time,1.0,Multiparous
+28029,20684,2,15,Connection attempt,3.0,Multiparous
+28030,20684,2,15,Dead milk time,1.0,Multiparous
+28032,20684,2,16,Connection attempt,2.0,Multiparous
+28033,20684,2,16,Dead milk time,2.0,Multiparous
+28035,20684,2,17,Dead milk time,1.0,Multiparous
+28037,20684,2,18,Connection attempt,1.0,Multiparous
+28039,20684,2,19,Connection attempt,1.0,Multiparous
+28040,20684,2,19,Dead milk time,1.0,Multiparous
+28042,20684,2,20,Automatic robot stop,1.0,Multiparous
+28043,20684,2,20,Connection attempt,2.0,Multiparous
+28045,20684,2,21,Dead milk time,1.0,Multiparous
+28048,20684,2,23,Connection attempt,1.0,Multiparous
+28053,20684,2,27,Connection attempt,3.0,Multiparous
+28055,20684,2,28,Connection attempt,3.0,Multiparous
+28058,20684,2,30,Connection attempt,1.0,Multiparous
+28059,20684,2,30,Dead milk time,1.0,Multiparous
+28065,20684,2,35,Connection attempt,1.0,Multiparous
+28067,20684,2,36,Connection attempt,1.0,Multiparous
+28069,20684,2,37,Connection attempt,2.0,Multiparous
+28080,20690,2,5,Dead milk time,1.0,Multiparous
+28090,20690,2,14,Connection attempt,1.0,Multiparous
+28134,20693,1,8,Connection time,1.0,Primiparous
+28154,20693,1,27,Dead milk time,1.0,Primiparous
+28156,20693,1,28,Dead milk time,1.0,Primiparous
+28158,20693,1,29,Dead milk time,1.0,Primiparous
+28160,20693,1,30,Dead milk time,1.0,Primiparous
+28165,20693,1,34,Dead milk time,1.0,Primiparous
+28168,20693,1,36,Dead milk time,1.0,Primiparous
+28170,20693,1,37,Dead milk time,2.0,Primiparous
+28173,20693,1,39,Connection attempt,1.0,Primiparous
+28174,20693,1,39,Dead milk time,1.0,Primiparous
+28203,20693,2,27,Connection time,1.0,Multiparous
+28213,20693,2,36,Connection attempt,1.0,Multiparous
+28255,20702,1,4,Connection attempt,1.0,Primiparous
+28289,20702,2,19,Automatic robot stop,1.0,Multiparous
+28293,20702,2,22,Connection attempt,1.0,Multiparous
+28299,20702,2,27,Dead milk time,1.0,Multiparous
+28301,20702,2,28,Automatic robot stop,1.0,Multiparous
+28303,20702,2,29,Automatic robot stop,1.0,Multiparous
+28306,20702,2,31,Dead milk time,1.0,Multiparous
+28313,20702,2,37,Automatic robot stop,1.0,Multiparous
+28353,20705,1,33,Dead milk time,1.0,Primiparous
+28356,20705,1,35,Dead milk time,1.0,Primiparous
+28373,20705,2,12,Connection time,1.0,Multiparous
+28385,20705,2,23,Automatic robot stop,2.0,Multiparous
+28403,20709,2,11,Dead milk time,1.0,Multiparous
+28411,20709,2,18,Dead milk time,1.0,Multiparous
+28430,20712,1,5,Dead milk time,2.0,Primiparous
+28432,20712,1,6,Dead milk time,1.0,Primiparous
+28441,20712,1,14,Connection attempt,1.0,Primiparous
+28443,20712,1,15,Connection attempt,2.0,Primiparous
+28461,20715,2,9,Dead milk time,1.0,Multiparous
+28467,20715,2,14,Connection time,1.0,Multiparous
+28469,20715,2,15,Connection time,2.0,Multiparous
+28471,20715,2,16,Connection time,1.0,Multiparous
+28473,20715,2,17,Connection time,3.0,Multiparous
+28475,20715,2,18,Connection time,3.0,Multiparous
+28476,20715,2,18,Dead milk time,1.0,Multiparous
+28478,20715,2,19,Connection time,5.0,Multiparous
+28480,20715,2,20,Connection time,4.0,Multiparous
+28482,20715,2,21,Connection time,5.0,Multiparous
+28484,20715,2,22,Connection time,10.0,Multiparous
+28486,20715,2,23,Connection time,4.0,Multiparous
+28487,20715,2,23,Dead milk time,3.0,Multiparous
+28497,20723,2,6,Automatic robot stop,1.0,Multiparous
+28521,20723,2,29,Automatic robot stop,1.0,Multiparous
+28559,20730,1,26,Connection attempt,1.0,Primiparous
+28565,20730,1,31,Automatic robot stop,1.0,Primiparous
+28571,20730,1,36,Dead milk time,1.0,Primiparous
+28575,20730,1,39,Dead milk time,1.0,Primiparous
+28601,20730,2,22,Dead milk time,2.0,Multiparous
+28603,20730,2,23,Dead milk time,1.0,Multiparous
+28605,20730,2,24,Dead milk time,1.0,Multiparous
+28635,20736,1,11,Connection time,1.0,Primiparous
+28639,20736,1,14,Connection time,1.0,Primiparous
+28644,20736,2,5,Dead milk time,1.0,Multiparous
+28663,20736,2,23,Dead milk time,3.0,Multiparous
+28665,20736,2,24,Dead milk time,1.0,Multiparous
+28667,20736,2,25,Dead milk time,1.0,Multiparous
+28672,20736,2,29,Dead milk time,1.0,Multiparous
+28680,20740,1,4,Connection attempt,1.0,Primiparous
+28686,20740,1,9,Automatic robot stop,1.0,Primiparous
+28694,20740,1,16,Automatic robot stop,1.0,Primiparous
+28697,20740,1,18,Automatic robot stop,1.0,Primiparous
+28698,20740,1,18,Connection attempt,2.0,Primiparous
+28720,20740,1,39,Dead milk time,1.0,Primiparous
+28722,20740,1,40,Dead milk time,1.0,Primiparous
+28726,20740,1,43,Dead milk time,1.0,Primiparous
+28744,20742,1,16,Connection time,1.0,Primiparous
+28751,20742,1,22,Connection time,1.0,Primiparous
+28757,20742,1,27,Connection attempt,2.0,Primiparous
+28768,20742,1,37,Dead milk time,1.0,Primiparous
+28777,20742,2,5,Dead milk time,1.0,Multiparous
+28799,20742,2,26,Dead milk time,1.0,Multiparous
+28856,20746,1,13,Other,1.0,Primiparous
+28888,20746,2,4,Dead milk time,1.0,Multiparous
+28890,20746,2,5,Dead milk time,2.0,Multiparous
+28892,20746,2,6,Connection attempt,1.0,Multiparous
+28895,20746,2,8,Automatic robot stop,1.0,Multiparous
+28898,20746,2,10,Dead milk time,1.0,Multiparous
+28921,20746,2,32,Dead milk time,1.0,Multiparous
+28926,20746,2,36,Automatic robot stop,1.0,Multiparous
+28938,20753,1,4,Dead milk time,1.0,Primiparous
+28943,20753,1,8,Connection attempt,1.0,Primiparous
+28944,20753,1,8,Connection time,1.0,Primiparous
+28947,20753,1,10,Connection time,1.0,Primiparous
+28949,20753,1,11,Connection attempt,1.0,Primiparous
+28951,20753,1,12,Connection attempt,1.0,Primiparous
+28966,20753,1,26,Connection attempt,2.0,Primiparous
+28974,20753,1,33,Automatic robot stop,1.0,Primiparous
+29016,20753,4,36,Connection time,1.0,Multiparous
+29017,20753,4,36,Dead milk time,2.0,Multiparous
+29021,20753,4,39,Connection time,1.0,Multiparous
+29026,20757,2,4,Connection attempt,1.0,Multiparous
+29047,20757,2,24,Dead milk time,1.0,Multiparous
+29085,20765,1,19,Dead milk time,1.0,Primiparous
+29106,20765,1,39,Dead milk time,1.0,Primiparous
+29118,20765,2,8,Connection attempt,1.0,Multiparous
+29147,20765,2,36,Connection time,1.0,Multiparous
+29149,20765,2,37,Connection time,1.0,Multiparous
+29151,20765,2,38,Connection time,1.0,Multiparous
+29154,20765,2,40,Connection time,4.0,Multiparous
+29156,20765,2,41,Connection time,1.0,Multiparous
+29158,20765,2,42,Connection time,1.0,Multiparous
+29228,20788,2,25,Dead milk time,1.0,Multiparous
+29230,20788,2,26,Connection time,1.0,Multiparous
+29241,20799,2,8,Dead milk time,1.0,Multiparous
+29243,20799,2,9,Automatic robot stop,1.0,Multiparous
+29252,20799,2,17,Dead milk time,1.0,Multiparous
+29255,20799,2,19,Dead milk time,1.0,Multiparous
+29259,20799,2,22,Connection time,1.0,Multiparous
+29264,20799,2,26,Dead milk time,1.0,Multiparous
+29266,20799,2,27,Dead milk time,1.0,Multiparous
+29276,20809,1,8,Connection time,1.0,Primiparous
+29278,20809,1,9,Dead milk time,1.0,Primiparous
+29290,20809,1,20,Dead milk time,1.0,Primiparous
+29297,20809,1,26,Dead milk time,2.0,Primiparous
+29301,20809,1,29,Dead milk time,1.0,Primiparous
+29304,20809,1,31,Dead milk time,1.0,Primiparous
+29310,20809,1,36,Dead milk time,1.0,Primiparous
+29316,20809,2,7,Dead milk time,1.0,Multiparous
+29330,20809,2,20,Dead milk time,1.0,Multiparous
+29332,20809,2,21,Dead milk time,1.0,Multiparous
+29334,20809,2,22,Dead milk time,1.0,Multiparous
+29338,20809,2,25,Dead milk time,1.0,Multiparous
+29355,20831,2,9,Connection time,3.0,Multiparous
+29366,20831,2,19,Connection attempt,1.0,Multiparous
+29392,20836,2,2,Dead milk time,2.0,Multiparous
+29397,20836,2,6,Automatic robot stop,1.0,Multiparous
+29419,20836,2,27,Dead milk time,1.0,Multiparous
+29421,20836,2,28,Dead milk time,1.0,Multiparous
+29428,20836,2,34,Connection time,1.0,Multiparous
+29430,20836,2,35,Connection time,1.0,Multiparous
+29462,20838,2,6,Connection attempt,2.0,Multiparous
+29469,20838,2,12,Dead milk time,1.0,Multiparous
+29498,20839,2,14,Connection attempt,1.0,Multiparous
+29516,20839,2,31,Connection time,1.0,Multiparous
+29554,20840,2,23,Connection time,1.0,Multiparous
+29556,20840,2,24,Connection time,2.0,Multiparous
+29558,20840,2,25,Connection time,1.0,Multiparous
+29564,20840,2,30,Connection time,1.0,Multiparous
+29568,20840,2,33,Connection time,1.0,Multiparous
+29571,20840,2,35,Dead milk time,1.0,Multiparous
+29573,20840,2,36,Connection time,1.0,Multiparous
+29596,20845,1,23,Automatic robot stop,1.0,Primiparous
+29597,20845,1,23,Dead milk time,1.0,Primiparous
+29599,20845,1,24,Dead milk time,2.0,Primiparous
+29601,20845,1,25,Dead milk time,1.0,Primiparous
+29603,20845,1,26,Dead milk time,1.0,Primiparous
+29606,20845,1,28,Dead milk time,1.0,Primiparous
+29609,20845,1,30,Dead milk time,2.0,Primiparous
+29611,20845,1,31,Connection time,1.0,Primiparous
+29613,20845,1,32,Dead milk time,4.0,Primiparous
+29615,20845,1,33,Connection time,4.0,Primiparous
+29616,20845,1,33,Dead milk time,4.0,Primiparous
+29618,20845,1,34,Dead milk time,6.0,Primiparous
+29620,20845,1,35,Dead milk time,3.0,Primiparous
+29622,20845,1,36,Connection time,1.0,Primiparous
+29623,20845,1,36,Dead milk time,4.0,Primiparous
+29625,20845,1,37,Dead milk time,4.0,Primiparous
+29627,20845,1,38,Connection time,1.0,Primiparous
+29628,20845,1,38,Dead milk time,4.0,Primiparous
+29630,20845,1,39,Dead milk time,3.0,Primiparous
+29632,20845,1,40,Connection time,1.0,Primiparous
+29633,20845,1,40,Dead milk time,2.0,Primiparous
+29635,20845,1,41,Connection attempt,1.0,Primiparous
+29636,20845,1,41,Connection time,3.0,Primiparous
+29637,20845,1,41,Dead milk time,6.0,Primiparous
+29639,20845,1,42,Dead milk time,1.0,Primiparous
+29641,20845,1,43,Connection time,2.0,Primiparous
+29642,20845,1,43,Dead milk time,4.0,Primiparous
+29644,20845,1,44,Dead milk time,2.0,Primiparous
+29646,20845,1,45,Dead milk time,3.0,Primiparous
+29648,20845,1,46,Dead milk time,2.0,Primiparous
+29652,20845,2,6,Dead milk time,1.0,Multiparous
+29655,20845,2,8,Dead milk time,1.0,Multiparous
+29678,20854,1,4,Connection attempt,1.0,Primiparous
+29680,20854,1,5,Automatic robot stop,1.0,Primiparous
+29681,20854,1,5,Other,1.0,Primiparous
+29715,20862,2,8,Connection attempt,2.0,Multiparous
+29717,20862,2,9,Connection attempt,2.0,Multiparous
+29719,20862,2,10,Connection attempt,1.0,Multiparous
+29721,20862,2,11,Connection attempt,1.0,Multiparous
+29730,20862,2,19,Connection attempt,5.0,Multiparous
+29735,20862,2,23,Connection attempt,1.0,Multiparous
+29756,20871,2,13,Connection attempt,1.0,Multiparous
+29763,20879,1,3,Connection time,1.0,Primiparous
+29765,20879,1,4,Connection time,2.0,Primiparous
+29789,20879,1,27,Dead milk time,1.0,Primiparous
+29799,20879,1,36,Dead milk time,1.0,Primiparous
+29813,20879,2,2,Connection time,1.0,Multiparous
+29814,20879,2,2,Dead milk time,2.0,Multiparous
+29816,20879,2,3,Connection time,6.0,Multiparous
+29817,20879,2,3,Dead milk time,1.0,Multiparous
+29819,20879,2,4,Connection attempt,1.0,Multiparous
+29820,20879,2,4,Connection time,1.0,Multiparous
+29823,20879,2,6,Connection attempt,1.0,Multiparous
+29824,20879,2,6,Connection time,1.0,Multiparous
+29825,20879,2,6,Dead milk time,1.0,Multiparous
+29828,20879,2,8,Connection time,1.0,Multiparous
+29830,20879,2,9,Connection time,1.0,Multiparous
+29832,20879,2,10,Connection time,2.0,Multiparous
+29834,20879,2,11,Connection time,5.0,Multiparous
+29836,20879,2,12,Connection time,3.0,Multiparous
+29839,20879,2,14,Connection time,2.0,Multiparous
+29841,20879,2,15,Connection time,3.0,Multiparous
+29843,20879,2,16,Connection time,4.0,Multiparous
+29844,20879,2,16,Dead milk time,2.0,Multiparous
+29846,20879,2,17,Connection time,2.0,Multiparous
+29848,20879,2,18,Dead milk time,1.0,Multiparous
+29861,20887,1,7,Dead milk time,1.0,Primiparous
+29865,20887,1,10,Dead milk time,1.0,Primiparous
+29876,20887,1,20,Automatic robot stop,1.0,Primiparous
+29878,20887,1,21,Dead milk time,1.0,Primiparous
+29887,20887,1,29,Dead milk time,1.0,Primiparous
+29889,20887,1,30,Dead milk time,1.0,Primiparous
+29891,20887,1,31,Dead milk time,2.0,Primiparous
+29893,20887,1,32,Dead milk time,2.0,Primiparous
+29895,20887,1,33,Dead milk time,1.0,Primiparous
+29899,20887,1,36,Dead milk time,1.0,Primiparous
+29903,20887,1,39,Dead milk time,2.0,Primiparous
+29905,20887,1,40,Dead milk time,1.0,Primiparous
+29907,20887,1,41,Dead milk time,1.0,Primiparous
+29917,20887,2,9,Dead milk time,1.0,Multiparous
+29926,20887,2,17,Automatic robot stop,1.0,Multiparous
+29942,20887,2,32,Connection time,1.0,Multiparous
+29956,20888,1,3,Stopped by user,1.0,Primiparous
+29975,20888,2,8,Connection attempt,1.0,Multiparous
+29976,20888,2,8,Dead milk time,1.0,Multiparous
+29987,20888,2,18,Connection attempt,1.0,Multiparous
+29988,20888,2,18,Dead milk time,1.0,Multiparous
+29991,20888,2,20,Dead milk time,1.0,Multiparous
+30004,20889,3,2,Connection time,1.0,Multiparous
+30007,20889,3,4,Connection attempt,1.0,Multiparous
+30011,20889,3,7,Connection attempt,1.0,Multiparous
+30060,20899,2,11,Dead milk time,1.0,Multiparous
+30088,20899,2,38,Dead milk time,1.0,Multiparous
+30091,20915,2,2,Stopped by user,1.0,Multiparous
+30100,20927,2,4,Connection attempt,1.0,Multiparous
+30115,20927,2,18,Connection time,1.0,Multiparous
+30147,20930,1,13,Dead milk time,1.0,Primiparous
+30173,20930,1,38,Connection time,1.0,Primiparous
+30175,20930,1,39,Connection attempt,1.0,Primiparous
+30180,20930,1,43,Dead milk time,1.0,Primiparous
+30183,20931,2,5,Dead milk time,2.0,Multiparous
+30215,20935,1,13,Automatic robot stop,1.0,Primiparous
+30232,20935,1,29,Connection time,2.0,Primiparous
+30240,20935,1,36,Connection time,1.0,Primiparous
+30243,20935,1,38,Connection time,1.0,Primiparous
+30251,20935,2,3,Connection time,1.0,Multiparous
+30268,20935,2,19,Connection time,1.0,Multiparous
+30276,20935,2,26,Connection time,1.0,Multiparous
+30279,20935,2,28,Connection time,1.0,Multiparous
+30286,20935,2,34,Connection time,1.0,Multiparous
+30288,20935,2,35,Connection time,1.0,Multiparous
+30291,20935,2,37,Connection time,1.0,Multiparous
+30293,20935,2,38,Connection time,1.0,Multiparous
+30297,20935,2,41,Connection time,1.0,Multiparous
+30333,20937,1,35,Connection attempt,1.0,Primiparous
+30337,20937,1,38,Dead milk time,1.0,Primiparous
+30339,20937,1,39,Dead milk time,2.0,Primiparous
+30345,20937,2,4,Dead milk time,1.0,Multiparous
+30348,20937,2,6,Dead milk time,1.0,Multiparous
+30352,20937,2,9,Dead milk time,1.0,Multiparous
+30364,20937,2,20,Dead milk time,1.0,Multiparous
+30393,20947,1,6,Automatic robot stop,1.0,Primiparous
+30411,20947,1,23,Dead milk time,1.0,Primiparous
+30421,20947,1,32,Dead milk time,1.0,Primiparous
+30433,20947,2,10,Automatic robot stop,1.0,Multiparous
+30440,20947,2,16,Dead milk time,1.0,Multiparous
+30442,20947,2,17,Connection attempt,1.0,Multiparous
+30458,20957,1,7,Connection time,1.0,Primiparous
+30467,20965,1,8,Connection attempt,1.0,Primiparous
+30469,20965,1,9,Connection attempt,1.0,Primiparous
+30490,20965,1,29,Connection time,1.0,Primiparous
+30494,20965,1,32,Automatic robot stop,1.0,Primiparous
+30500,20965,1,37,Automatic robot stop,1.0,Primiparous
+30503,20966,2,2,Connection time,5.0,Multiparous
+30504,20966,2,2,Stopped by user,1.0,Multiparous
+30506,20966,2,3,Connection attempt,2.0,Multiparous
+30512,20966,2,8,Connection attempt,2.0,Multiparous
+30546,20966,2,41,Connection attempt,1.0,Multiparous
+30564,20972,2,15,Dead milk time,1.0,Multiparous
+30569,20972,2,19,Dead milk time,1.0,Multiparous
+30574,20972,2,23,Dead milk time,1.0,Multiparous
+30577,20972,2,25,Connection time,2.0,Multiparous
+30579,20972,2,26,Dead milk time,2.0,Multiparous
+30583,20972,2,29,Connection time,1.0,Multiparous
+30591,20972,2,36,Connection time,1.0,Multiparous
+30594,20972,2,38,Dead milk time,1.0,Multiparous
+30596,20972,2,39,Dead milk time,1.0,Multiparous
+30604,20976,1,9,Connection attempt,2.0,Primiparous
+30606,20976,1,10,Connection attempt,1.0,Primiparous
+30625,20976,1,28,Dead milk time,4.0,Primiparous
+30627,20976,1,29,Dead milk time,2.0,Primiparous
+30633,20976,2,6,Dead milk time,1.0,Multiparous
+30636,20976,2,8,Dead milk time,1.0,Multiparous
+30639,20976,2,10,Dead milk time,1.0,Multiparous
+30645,20976,2,15,Dead milk time,1.0,Multiparous
+30650,20976,2,19,Dead milk time,1.0,Multiparous
+30666,20978,2,9,Connection time,1.0,Multiparous
+30669,20978,2,11,Connection time,1.0,Multiparous
+30671,20978,2,12,Connection time,5.0,Multiparous
+30675,20978,2,15,Connection time,5.0,Multiparous
+30677,20978,2,16,Connection time,5.0,Multiparous
+30680,20978,2,18,Connection attempt,1.0,Multiparous
+30682,20978,2,19,Connection time,1.0,Multiparous
+30684,20978,2,20,Connection time,1.0,Multiparous
+30686,20978,2,21,Connection time,3.0,Multiparous
+30687,20978,2,21,Dead milk time,2.0,Multiparous
+30689,20978,2,22,Connection time,1.0,Multiparous
+30691,20978,2,23,Connection time,2.0,Multiparous
+30693,20978,2,24,Connection time,1.0,Multiparous
+30695,20978,2,25,Connection time,2.0,Multiparous
+30705,20978,2,34,Connection time,2.0,Multiparous
+30707,20978,2,35,Connection time,1.0,Multiparous
+30709,20978,2,36,Connection time,1.0,Multiparous
+30711,20978,2,37,Connection time,1.0,Multiparous
+30713,20978,2,38,Connection time,1.0,Multiparous
+30716,20978,2,40,Connection time,2.0,Multiparous
+30717,20978,2,40,Dead milk time,2.0,Multiparous
+30719,20978,2,41,Dead milk time,3.0,Multiparous
+30735,20984,2,15,Connection time,1.0,Multiparous
+30740,20984,2,19,Connection time,1.0,Multiparous
+30775,21009,2,12,Connection time,2.0,Multiparous
+30781,21009,2,17,Connection time,1.0,Multiparous
+30785,21009,2,20,Connection time,1.0,Multiparous
+30787,21009,2,21,Connection time,4.0,Multiparous
+30788,21009,2,21,Dead milk time,1.0,Multiparous
+30796,21009,2,28,Connection time,1.0,Multiparous
+30805,21010,1,8,Dead milk time,1.0,Primiparous
+30816,21010,1,18,Connection attempt,1.0,Primiparous
+30880,21012,2,3,Connection time,1.0,Multiparous
+30881,21012,2,4,Dead milk time,1.0,Multiparous
+30923,21016,2,7,Dead milk time,1.0,Multiparous
+30933,21016,2,16,Dead milk time,1.0,Multiparous
+30938,21016,2,20,Dead milk time,2.0,Multiparous
+30940,21016,2,21,Dead milk time,2.0,Multiparous
+30957,21025,1,3,Stopped by user,1.0,Primiparous
+30959,21025,1,4,Stopped by user,1.0,Primiparous
+30965,21025,1,9,Connection attempt,1.0,Primiparous
+30968,21025,1,11,Connection attempt,1.0,Primiparous
+30970,21025,1,12,Connection attempt,1.0,Primiparous
+30972,21025,1,13,Connection attempt,1.0,Primiparous
+30974,21025,1,14,Connection attempt,2.0,Primiparous
+30977,21025,1,16,Connection attempt,1.0,Primiparous
+30986,21025,1,24,Connection attempt,1.0,Primiparous
+30988,21025,1,25,Connection attempt,1.0,Primiparous
+30991,21025,1,27,Connection attempt,1.0,Primiparous
+31012,21025,2,12,Dead milk time,1.0,Multiparous
+31024,21025,2,23,Dead milk time,2.0,Multiparous
+31026,21025,2,24,Dead milk time,1.0,Multiparous
+31059,21026,1,21,Automatic robot stop,1.0,Primiparous
+31110,21030,2,29,Dead milk time,1.0,Multiparous
+31133,21041,2,15,Connection time,1.0,Multiparous
+31139,21041,2,20,Connection time,1.0,Multiparous
+31142,21041,2,22,Connection time,1.0,Multiparous
+31164,21050,2,2,Connection time,1.0,Multiparous
+31174,21050,2,11,Connection time,1.0,Multiparous
+31175,21050,2,11,Dead milk time,2.0,Multiparous
+31195,21050,2,30,Dead milk time,1.0,Multiparous
+31197,21050,2,31,Connection time,1.0,Multiparous
+31201,21050,2,34,Dead milk time,1.0,Multiparous
+31213,21077,2,11,Automatic robot stop,1.0,Multiparous
+31240,21089,1,5,Connection time,1.0,Primiparous
+31246,21089,1,10,Other,1.0,Primiparous
+31248,21089,1,11,Connection time,1.0,Primiparous
+31251,21089,1,13,Connection attempt,1.0,Primiparous
+31253,21089,1,14,Connection attempt,1.0,Primiparous
+31279,21089,2,16,Dead milk time,1.0,Multiparous
+31294,21094,1,8,Other,1.0,Primiparous
+31298,21094,1,11,Stopped by user,1.0,Primiparous
+31301,21094,1,13,Connection attempt,1.0,Primiparous
+31302,21094,1,13,Connection time,1.0,Primiparous
+31304,21094,1,14,Connection attempt,1.0,Primiparous
+31312,21094,1,21,Dead milk time,1.0,Primiparous
+31315,21094,1,23,Dead milk time,2.0,Primiparous
+31322,21112,2,7,Dead milk time,1.0,Multiparous
+31327,21112,2,11,Connection attempt,1.0,Multiparous
+31332,21112,2,15,Dead milk time,1.0,Multiparous
+31338,21112,2,20,Dead milk time,1.0,Multiparous
+31340,21112,2,21,Dead milk time,3.0,Multiparous
+31342,21112,2,22,Dead milk time,1.0,Multiparous
+31344,21112,2,23,Dead milk time,1.0,Multiparous
+31347,21112,2,25,Dead milk time,2.0,Multiparous
+31349,21112,2,26,Dead milk time,2.0,Multiparous
+31355,21112,2,31,Dead milk time,1.0,Multiparous
+31403,21127,1,9,Connection time,1.0,Primiparous
+31409,21127,1,14,Connection time,4.0,Primiparous
+31411,21127,1,15,Connection time,4.0,Primiparous
+31413,21127,1,16,Connection attempt,1.0,Primiparous
+31414,21127,1,16,Connection time,7.0,Primiparous
+31416,21127,1,17,Connection time,4.0,Primiparous
+31418,21127,1,18,Connection attempt,4.0,Primiparous
+31419,21127,1,18,Connection time,1.0,Primiparous
+31421,21127,1,19,Connection time,1.0,Primiparous
+31423,21127,1,20,Connection attempt,1.0,Primiparous
+31424,21127,1,20,Connection time,1.0,Primiparous
+31427,21127,1,22,Connection attempt,1.0,Primiparous
+31458,21144,1,31,Dead milk time,2.0,Primiparous
+31479,21144,2,11,Connection attempt,1.0,Multiparous
+31501,21144,2,32,Dead milk time,1.0,Multiparous
+31525,21152,2,14,Automatic robot stop,1.0,Multiparous
+31528,21152,2,16,Dead milk time,1.0,Multiparous
+31555,21153,2,13,Dead milk time,1.0,Multiparous
+31582,21155,1,9,Connection attempt,1.0,Primiparous
+31584,21155,1,10,Connection attempt,1.0,Primiparous
+31587,21155,1,12,Connection attempt,1.0,Primiparous
+31624,21155,2,17,Dead milk time,1.0,Multiparous
+31638,21160,1,30,Dead milk time,1.0,Primiparous
+31641,21160,1,32,Automatic robot stop,1.0,Primiparous
+31650,21160,2,5,Connection attempt,1.0,Multiparous
+31685,21163,2,23,Connection time,1.0,Multiparous
+31686,21163,2,23,Dead milk time,2.0,Multiparous
+31705,21174,2,11,Automatic robot stop,1.0,Multiparous
+31709,21174,2,14,Connection attempt,1.0,Multiparous
+31730,21174,2,34,Connection attempt,1.0,Multiparous
+31738,21181,1,6,Connection attempt,1.0,Primiparous
+31741,21181,1,8,Dead milk time,1.0,Primiparous
+31743,21181,1,9,Connection attempt,1.0,Primiparous
+31762,21181,1,27,Dead milk time,2.0,Primiparous
+31773,21183,1,12,Connection attempt,1.0,Primiparous
+31787,21183,1,25,Connection time,1.0,Primiparous
+31790,21183,1,27,Connection time,1.0,Primiparous
+31792,21183,1,28,Connection time,1.0,Primiparous
+31793,21183,1,28,Dead milk time,1.0,Primiparous
+31796,21183,1,30,Connection time,6.0,Primiparous
+31798,21183,1,31,Connection time,1.0,Primiparous
+31799,21183,1,31,Dead milk time,1.0,Primiparous
+31801,21183,1,32,Connection time,3.0,Primiparous
+31803,21183,1,33,Dead milk time,1.0,Primiparous
+31804,21183,1,33,Other,1.0,Primiparous
+31806,21183,1,34,Connection attempt,1.0,Primiparous
+31807,21183,1,34,Connection time,1.0,Primiparous
+31811,21183,1,37,Dead milk time,1.0,Primiparous
+31819,21183,2,5,Connection time,1.0,Multiparous
+31823,21183,2,8,Dead milk time,1.0,Multiparous
+31828,21183,2,12,Dead milk time,1.0,Multiparous
+31830,21183,2,13,Dead milk time,2.0,Multiparous
+31832,21183,2,14,Dead milk time,1.0,Multiparous
+31841,21183,2,22,Dead milk time,1.0,Multiparous
+31846,21183,2,26,Dead milk time,1.0,Multiparous
+31903,21202,1,14,Connection attempt,1.0,Primiparous
+31926,21202,2,18,Dead milk time,1.0,Multiparous
+31929,21202,2,20,Connection attempt,1.0,Multiparous
+31931,21202,2,21,Dead milk time,1.0,Multiparous
+31973,21217,1,14,Connection attempt,2.0,Primiparous
+31975,21217,1,15,Connection attempt,2.0,Primiparous
+31978,21217,1,17,Connection attempt,4.0,Primiparous
+31987,21218,1,8,Dead milk time,1.0,Primiparous
+31990,21218,1,10,Dead milk time,1.0,Primiparous
+31996,21218,1,15,Dead milk time,1.0,Primiparous
+31998,21218,1,16,Dead milk time,1.0,Primiparous
+32003,21218,1,20,Dead milk time,1.0,Primiparous
+32010,21218,1,26,Dead milk time,1.0,Primiparous
+32012,21218,1,27,Dead milk time,1.0,Primiparous
+32015,21218,1,29,Dead milk time,1.0,Primiparous
+32017,21218,1,30,Dead milk time,1.0,Primiparous
+32019,21218,1,31,Dead milk time,2.0,Primiparous
+32021,21218,1,32,Dead milk time,3.0,Primiparous
+32027,21218,1,37,Dead milk time,1.0,Primiparous
+32029,21218,1,38,Connection time,1.0,Primiparous
+32030,21218,1,38,Dead milk time,1.0,Primiparous
+32033,21218,1,40,Dead milk time,1.0,Primiparous
+32072,21219,2,9,Stopped by user,1.0,Multiparous
+32114,21220,2,22,Connection time,1.0,Multiparous
+32117,21220,2,24,Dead milk time,2.0,Multiparous
+32120,21220,2,26,Connection time,1.0,Multiparous
+32121,21220,2,26,Dead milk time,1.0,Multiparous
+32144,21220,3,12,Connection attempt,1.0,Multiparous
+32147,21220,3,14,Stopped by user,1.0,Multiparous
+32171,21223,2,4,Connection time,1.0,Multiparous
+32172,21223,2,4,Dead milk time,1.0,Multiparous
+32180,21223,2,11,Dead milk time,1.0,Multiparous
+32191,21223,2,21,Dead milk time,1.0,Multiparous
+32193,21223,2,22,Connection time,1.0,Multiparous
+32194,21223,2,22,Dead milk time,1.0,Multiparous
+32211,21228,2,6,Dead milk time,1.0,Multiparous
+32214,21228,2,8,Connection attempt,1.0,Multiparous
+32232,21228,2,25,Connection time,1.0,Multiparous
+32239,21228,2,31,Connection attempt,1.0,Multiparous
+32240,21228,2,31,Connection time,1.0,Multiparous
+32288,21232,1,20,Connection attempt,1.0,Primiparous
+32290,21232,1,21,Connection attempt,2.0,Primiparous
+32320,21233,2,5,Connection time,1.0,Multiparous
+32336,21235,1,11,Dead milk time,1.0,Primiparous
+32341,21235,1,15,Connection attempt,1.0,Primiparous
+32343,21235,1,16,Dead milk time,1.0,Primiparous
+32345,21235,1,17,Dead milk time,1.0,Primiparous
+32387,21238,1,9,Connection attempt,1.0,Primiparous
+32426,21250,2,17,Dead milk time,1.0,Multiparous
+32430,21250,2,20,Dead milk time,1.0,Multiparous
+32443,21250,2,32,Dead milk time,1.0,Multiparous
+32445,21250,2,33,Dead milk time,1.0,Multiparous
+32453,21251,2,3,Connection attempt,1.0,Multiparous
+32456,21251,2,5,Connection attempt,1.0,Multiparous
+32472,21251,2,20,Dead milk time,7.0,Multiparous
+32533,21260,2,5,Automatic robot stop,1.0,Multiparous
+32561,21287,2,7,Connection attempt,1.0,Multiparous
+32562,21287,2,7,Connection time,1.0,Multiparous
+32597,21288,2,9,Connection attempt,1.0,Multiparous
+32598,21288,2,9,Connection time,1.0,Multiparous
+32600,21288,2,10,Connection time,2.0,Multiparous
+32602,21288,2,11,Connection time,1.0,Multiparous
+32604,21288,2,12,Connection attempt,2.0,Multiparous
+32605,21288,2,12,Connection time,5.0,Multiparous
+32607,21288,2,13,Connection time,2.0,Multiparous
+32610,21288,2,15,Connection attempt,1.0,Multiparous
+32611,21288,2,15,Connection time,3.0,Multiparous
+32613,21288,2,16,Connection time,5.0,Multiparous
+32615,21288,2,17,Connection time,3.0,Multiparous
+32617,21288,2,18,Connection time,4.0,Multiparous
+32619,21288,2,19,Connection time,1.0,Multiparous
+32632,21288,3,13,Connection time,1.0,Multiparous
+32635,21288,3,15,Connection time,1.0,Multiparous
+32642,21288,3,21,Automatic robot stop,1.0,Multiparous
+32660,21301,2,9,Automatic robot stop,1.0,Multiparous
+32672,21301,2,20,Connection attempt,1.0,Multiparous
+32692,21314,2,2,Connection attempt,1.0,Multiparous
+32698,21314,2,7,Dead milk time,3.0,Multiparous
+32703,21314,2,11,Dead milk time,2.0,Multiparous
+32713,21314,2,20,Dead milk time,1.0,Multiparous
+32727,21314,2,33,Dead milk time,1.0,Multiparous
+32747,21321,2,19,Connection attempt,1.0,Multiparous
+32765,21325,1,7,Connection attempt,1.0,Primiparous
+32767,21325,1,8,Connection attempt,1.0,Primiparous
+32785,21325,1,25,Connection time,1.0,Primiparous
+32791,21325,1,30,Dead milk time,1.0,Primiparous
+32794,21325,1,32,Dead milk time,5.0,Primiparous
+32796,21325,1,33,Dead milk time,5.0,Primiparous
+32798,21325,1,34,Dead milk time,1.0,Primiparous
+32800,21325,1,35,Dead milk time,2.0,Primiparous
+32802,21325,1,36,Dead milk time,1.0,Primiparous
+32825,21325,2,22,Connection attempt,1.0,Multiparous
+32831,21325,2,27,Dead milk time,1.0,Multiparous
+32838,21329,2,5,Connection attempt,2.0,Multiparous
+32845,21329,2,11,Dead milk time,1.0,Multiparous
+32847,21329,2,12,Dead milk time,1.0,Multiparous
+32869,21330,1,3,Connection time,2.0,Primiparous
+32873,21330,1,6,Connection attempt,1.0,Primiparous
+32876,21330,1,8,Connection attempt,3.0,Primiparous
+32878,21330,1,9,Connection attempt,1.0,Primiparous
+32885,21330,1,15,Connection attempt,2.0,Primiparous
+32887,21330,1,16,Connection attempt,1.0,Primiparous
+32888,21330,1,16,Connection time,1.0,Primiparous
+32890,21330,1,17,Connection attempt,1.0,Primiparous
+32891,21330,1,17,Connection time,2.0,Primiparous
+32893,21330,1,18,Connection attempt,1.0,Primiparous
+32895,21330,1,19,Connection time,1.0,Primiparous
+32897,21330,1,20,Connection attempt,1.0,Primiparous
+32900,21330,1,22,Connection time,1.0,Primiparous
+32902,21330,1,23,Connection attempt,1.0,Primiparous
+32905,21330,1,25,Connection attempt,1.0,Primiparous
+32909,21330,1,28,Connection attempt,3.0,Primiparous
+32913,21330,1,31,Connection attempt,1.0,Primiparous
+32924,21330,2,9,Connection attempt,1.0,Multiparous
+32930,21330,2,14,Connection time,1.0,Multiparous
+32932,21330,2,15,Connection attempt,1.0,Multiparous
+32933,21330,2,15,Dead milk time,1.0,Multiparous
+32937,21330,2,18,Connection attempt,1.0,Multiparous
+32939,21330,2,19,Connection attempt,1.0,Multiparous
+32979,21337,2,5,Connection attempt,1.0,Multiparous
+32986,21337,2,11,Dead milk time,1.0,Multiparous
+32990,21337,2,14,Dead milk time,1.0,Multiparous
+33000,21337,2,23,Connection attempt,1.0,Multiparous
+33005,21337,2,27,Dead milk time,1.0,Multiparous
+33038,21341,1,28,Connection attempt,1.0,Primiparous
+33077,21345,1,4,Connection time,1.0,Primiparous
+33080,21345,1,6,Connection attempt,1.0,Primiparous
+33085,21345,1,10,Dead milk time,1.0,Primiparous
+33090,21345,1,14,Connection time,1.0,Primiparous
+33092,21345,1,15,Connection attempt,1.0,Primiparous
+33131,21363,2,9,Automatic robot stop,1.0,Multiparous
+33157,21364,2,6,Dead milk time,1.0,Multiparous
+33171,21364,2,19,Dead milk time,2.0,Multiparous
+33181,21364,2,28,Dead milk time,1.0,Multiparous
+33209,21367,2,23,Connection attempt,1.0,Multiparous
+33221,21370,2,5,Connection time,1.0,Multiparous
+33230,21370,2,13,Connection attempt,2.0,Multiparous
+33238,21370,2,20,Connection time,1.0,Multiparous
+33275,21374,2,7,Connection attempt,1.0,Multiparous
+33279,21374,2,10,Connection attempt,1.0,Multiparous
+33312,21376,1,9,Dead milk time,1.0,Primiparous
+33357,21394,2,3,Automatic robot stop,1.0,Multiparous
+33362,21394,2,7,Dead milk time,1.0,Multiparous
+33390,21394,2,34,Dead milk time,1.0,Multiparous
+33404,21409,2,14,Dead milk time,1.0,Multiparous
+33406,21409,2,15,Connection time,2.0,Multiparous
+33408,21409,2,16,Dead milk time,1.0,Multiparous
+33412,21409,2,19,Connection time,1.0,Multiparous
+33415,21409,2,21,Connection attempt,1.0,Multiparous
+33421,21409,2,26,Connection time,1.0,Multiparous
+33423,21409,2,27,Connection time,1.0,Multiparous
+33425,21409,2,28,Dead milk time,1.0,Multiparous
+33427,21409,2,29,Dead milk time,1.0,Multiparous
+33429,21409,2,30,Dead milk time,1.0,Multiparous
+33431,21409,2,31,Dead milk time,1.0,Multiparous
+33433,21409,2,32,Dead milk time,1.0,Multiparous
+33468,21424,1,6,Connection attempt,1.0,Primiparous
+33469,21424,1,6,Connection time,3.0,Primiparous
+33471,21424,1,7,Connection time,9.0,Primiparous
+33499,21426,2,3,Dead milk time,1.0,Multiparous
+33517,21426,2,20,Dead milk time,1.0,Multiparous
+33530,21444,1,3,Connection attempt,2.0,Primiparous
+33532,21444,1,4,Connection time,1.0,Primiparous
+33536,21444,1,7,Connection attempt,1.0,Primiparous
+33542,21444,1,12,Dead milk time,2.0,Primiparous
+33550,21444,1,19,Connection attempt,1.0,Primiparous
+33565,21444,2,8,Connection attempt,1.0,Multiparous
+33597,21461,2,15,Connection attempt,1.0,Multiparous
+33613,21490,1,3,Automatic robot stop,1.0,Primiparous
+33631,21490,1,20,Dead milk time,1.0,Primiparous
+33633,21490,1,21,Dead milk time,1.0,Primiparous
+33637,21490,1,25,Dead milk time,2.0,Primiparous
+33653,21496,2,6,Connection attempt,1.0,Multiparous
+33655,21496,2,7,Connection attempt,1.0,Multiparous
+33686,21498,2,9,Connection attempt,1.0,Multiparous
+33712,21504,2,3,Connection time,1.0,Multiparous
+33762,21552,1,9,Stopped by user,1.0,Primiparous
+33768,21552,1,14,Dead milk time,1.0,Primiparous
+33832,21581,2,23,Automatic robot stop,1.0,Multiparous
+33852,21593,1,2,Connection attempt,1.0,Primiparous
+33883,21593,2,8,Dead milk time,1.0,Multiparous
+33919,21613,1,4,Connection attempt,1.0,Primiparous
+33925,21613,1,9,Connection attempt,3.0,Primiparous
+33926,21613,1,9,Connection time,2.0,Primiparous
+33928,21613,1,10,Connection attempt,1.0,Primiparous
+33929,21613,1,10,Connection time,1.0,Primiparous
+33931,21613,1,11,Connection attempt,1.0,Primiparous
+33932,21613,1,11,Connection time,1.0,Primiparous
+33934,21613,1,12,Connection attempt,1.0,Primiparous
+33935,21613,1,12,Connection time,1.0,Primiparous
+33937,21613,1,13,Connection time,1.0,Primiparous
+33942,21613,1,17,Dead milk time,2.0,Primiparous
+33984,21638,1,4,Dead milk time,1.0,Primiparous
+34044,21646,1,7,Connection time,1.0,Primiparous
+34046,21646,1,8,Connection time,1.0,Primiparous
+34049,21646,1,10,Connection time,2.0,Primiparous
+34051,21646,1,11,Connection time,2.0,Primiparous
+34054,21646,1,13,Dead milk time,1.0,Primiparous
+34089,21666,2,9,Automatic robot stop,1.0,Multiparous
+34117,21677,1,15,Connection time,1.0,Primiparous
+34123,21677,1,20,Connection time,1.0,Primiparous
+34169,21680,1,21,Connection attempt,1.0,Primiparous
+34184,21684,1,5,Connection attempt,1.0,Primiparous
+34196,21684,1,16,Dead milk time,1.0,Primiparous
+34199,21684,1,18,Dead milk time,1.0,Primiparous
+34204,21694,2,3,Connection time,1.0,Multiparous
+34209,21694,2,7,Connection attempt,1.0,Multiparous
+34229,21700,1,15,Dead milk time,1.0,Primiparous
+34262,21700,1,47,Connection time,1.0,Primiparous
+34265,21700,1,49,Dead milk time,1.0,Primiparous
+34286,21701,2,5,Dead milk time,1.0,Multiparous
+34288,21703,1,2,Stopped by user,1.0,Primiparous
+34294,21703,1,7,Connection attempt,1.0,Primiparous
+34296,21703,1,8,Connection attempt,1.0,Primiparous
+34297,21703,1,8,Dead milk time,2.0,Primiparous
+34301,21703,1,11,Connection attempt,1.0,Primiparous
+34303,21703,1,12,Connection attempt,1.0,Primiparous
+34309,21703,1,17,Connection attempt,1.0,Primiparous
+34314,21703,2,2,Connection attempt,1.0,Multiparous
+34316,21703,2,3,Connection attempt,1.0,Multiparous
+34318,21703,2,4,Connection attempt,1.0,Multiparous
+34320,21703,2,5,Connection attempt,1.0,Multiparous
+34336,21716,1,10,Dead milk time,1.0,Primiparous
+34354,21718,1,8,Stopped by user,1.0,Primiparous
+34372,21721,1,9,Dead milk time,1.0,Primiparous
+34389,21726,1,4,Connection time,1.0,Primiparous
+34395,21726,1,9,Connection time,1.0,Primiparous
+34398,21726,1,11,Connection attempt,1.0,Primiparous
+34403,21726,1,15,Connection attempt,1.0,Primiparous
+34409,21726,2,3,Connection attempt,1.0,Multiparous
+34412,21726,2,5,Connection attempt,1.0,Multiparous
+34413,21726,2,5,Connection time,7.0,Multiparous
+34415,21726,2,6,Connection attempt,3.0,Multiparous
+34416,21726,2,6,Connection time,5.0,Multiparous
+34418,21726,2,7,Connection attempt,3.0,Multiparous
+34419,21726,2,7,Connection time,3.0,Multiparous
+34421,21726,2,8,Connection time,4.0,Multiparous
+34423,21726,2,9,Connection attempt,1.0,Multiparous
+34424,21726,2,9,Connection time,6.0,Multiparous
+34426,21726,2,10,Connection attempt,1.0,Multiparous
+34427,21726,2,10,Connection time,1.0,Multiparous
+34429,21726,2,11,Connection attempt,2.0,Multiparous
+34431,21726,2,12,Connection attempt,3.0,Multiparous
+34432,21726,2,12,Connection time,1.0,Multiparous
+34434,21726,2,13,Connection attempt,2.0,Multiparous
+34447,21738,1,4,Connection attempt,6.0,Primiparous
+34449,21738,1,5,Connection attempt,2.0,Primiparous
+34451,21738,1,6,Connection attempt,1.0,Primiparous
+34455,21738,1,9,Connection attempt,2.0,Primiparous
+34457,21738,1,10,Connection attempt,1.0,Primiparous
+34459,21738,1,11,Connection attempt,2.0,Primiparous
+34462,21738,2,3,Connection attempt,1.0,Multiparous
+34475,21739,1,14,Dead milk time,1.0,Primiparous
+34483,21741,1,3,Connection attempt,1.0,Primiparous
+34523,21754,1,4,Connection time,1.0,Primiparous
+34537,21754,1,17,Connection attempt,1.0,Primiparous
+34539,21754,1,18,Connection attempt,2.0,Primiparous
+34542,21754,2,3,Dead milk time,1.0,Multiparous
+34549,21754,2,9,Connection attempt,1.0,Multiparous
+34550,21754,2,9,Dead milk time,1.0,Multiparous
+34566,21755,2,5,Connection attempt,1.0,Multiparous
+34603,21765,1,15,Automatic robot stop,1.0,Primiparous
+34608,21765,1,19,Connection attempt,1.0,Primiparous
+34614,21768,1,7,Connection attempt,1.0,Primiparous
+34615,21768,1,7,Connection time,1.0,Primiparous
+34618,21768,1,9,Connection attempt,1.0,Primiparous
+34621,21768,1,11,Connection attempt,1.0,Primiparous
+34623,21768,1,12,Connection time,1.0,Primiparous
+34629,21768,1,17,Connection time,1.0,Primiparous
+34632,21768,1,19,Connection attempt,1.0,Primiparous
+34646,21768,2,13,Connection attempt,1.0,Multiparous
+34655,21788,1,5,Connection time,1.0,Primiparous
+34656,21788,1,5,Dead milk time,1.0,Primiparous
+34657,21788,1,5,Stopped by user,1.0,Primiparous
+34688,21797,1,8,Connection attempt,1.0,Primiparous
+34703,21812,1,12,Automatic robot stop,1.0,Primiparous
+34705,21812,1,13,Dead milk time,1.0,Primiparous
+34713,21812,2,3,Automatic robot stop,1.0,Multiparous
+34723,21829,1,9,Connection attempt,1.0,Primiparous
+34736,21877,1,7,Connection time,3.0,Primiparous
+34738,21877,1,8,Connection time,1.0,Primiparous
+34741,21877,1,10,Connection time,3.0,Primiparous
+34743,21877,1,11,Connection attempt,1.0,Primiparous
+34745,21877,1,12,Connection time,1.0,Primiparous
+34755,21886,1,9,Connection attempt,1.0,Primiparous
+34759,21886,1,12,Connection attempt,1.0,Primiparous
+34760,21886,1,12,Connection time,1.0,Primiparous
+34761,21886,1,12,Dead milk time,1.0,Primiparous
+34782,21891,1,2,Connection time,3.0,Primiparous
+34784,21891,1,3,Connection time,2.0,Primiparous
+34786,21891,1,4,Connection time,1.0,Primiparous
+34815,21907,1,5,Connection attempt,1.0,Primiparous
+34817,21907,1,6,Connection attempt,3.0,Primiparous
+34819,21907,1,7,Connection attempt,2.0,Primiparous
+34821,21907,1,8,Connection attempt,2.0,Primiparous
+34827,21907,1,13,Connection attempt,2.0,Primiparous
+34828,21907,1,13,Connection time,1.0,Primiparous
+34899,21950,1,9,Connection time,1.0,Primiparous
+34928,21956,2,9,Dead milk time,1.0,Multiparous
+34948,21981,1,5,Connection attempt,1.0,Primiparous
+34949,21981,1,5,Connection time,1.0,Primiparous
+34951,21981,1,6,Other,1.0,Primiparous
+34986,22023,2,3,Connection time,1.0,Multiparous
+35002,22031,1,2,Connection attempt,1.0,Primiparous
+35005,22031,1,4,Stopped by user,1.0,Primiparous
+35007,22031,1,5,Connection attempt,1.0,Primiparous
+35009,22031,1,6,Connection attempt,4.0,Primiparous
+35011,22031,1,7,Connection attempt,1.0,Primiparous
+35017,22036,1,4,Connection attempt,1.0,Primiparous
+35038,22048,1,2,Connection attempt,1.0,Primiparous
+35057,22048,1,20,Connection attempt,1.0,Primiparous
+35092,22053,1,5,Connection attempt,1.0,Primiparous
+35094,22053,1,6,Connection time,2.0,Primiparous
+35096,22053,1,7,Connection time,5.0,Primiparous
+35098,22053,1,8,Connection attempt,2.0,Primiparous
+35099,22053,1,8,Connection time,6.0,Primiparous
+35101,22053,1,9,Connection attempt,1.0,Primiparous
+35121,22053,1,28,Dead milk time,1.0,Primiparous
+35139,22053,2,2,Connection time,1.0,Multiparous
+35140,22053,2,2,Dead milk time,1.0,Multiparous
+35142,22053,2,3,Dead milk time,3.0,Multiparous
+35144,22053,2,4,Dead milk time,1.0,Multiparous
+35169,22071,1,3,Connection attempt,1.0,Primiparous
+35183,22101,1,8,Connection attempt,2.0,Primiparous
+35220,22105,1,34,Connection time,1.0,Primiparous
+35234,22105,2,2,Connection time,3.0,Multiparous
+35251,22118,2,7,Connection attempt,1.0,Multiparous
+35286,22157,1,7,Automatic robot stop,1.0,Primiparous
+35298,22187,1,2,Connection attempt,1.0,Primiparous
+35333,22198,1,17,Dead milk time,1.0,Primiparous
+35335,22198,1,18,Dead milk time,2.0,Primiparous
+35348,22230,2,3,Connection attempt,1.0,Multiparous
+35365,22311,1,2,Connection time,2.0,Primiparous
+35367,22311,1,3,Connection time,2.0,Primiparous
+35393,22378,1,1,Connection time,1.0,Primiparous
+35397,22378,2,3,Dead milk time,1.0,Multiparous
+35401,22389,1,2,Connection attempt,1.0,Primiparous
+35406,22406,2,2,Connection time,1.0,Multiparous
+35410,22471,1,3,Connection attempt,2.0,Primiparous
+35412,22487,2,2,Connection attempt,2.0,Multiparous
+35413,22487,2,2,Dead milk time,1.0,Multiparous
+35417,22555,1,2,Connection attempt,2.0,Primiparous
+35421,22555,1,5,Connection attempt,5.0,Primiparous
+35422,22555,1,5,Dead milk time,1.0,Primiparous
+35424,22555,1,6,Connection attempt,2.0,Primiparous
+35426,22555,1,7,Connection attempt,1.0,Primiparous
+35428,22555,1,8,Connection attempt,1.0,Primiparous
+35431,22555,1,10,Connection attempt,2.0,Primiparous
+35432,22555,1,10,Dead milk time,1.0,Primiparous
+35453,22555,1,30,Connection attempt,1.0,Primiparous
+35454,22555,1,30,Dead milk time,1.0,Primiparous
+35464,22618,1,2,Dead milk time,1.0,Primiparous
+35472,22618,1,9,Connection attempt,1.0,Primiparous
+35476,22618,1,12,Connection attempt,1.0,Primiparous
+35488,22917,1,21,Connection time,1.0,Primiparous
+35492,22917,1,24,Connection time,1.0,Primiparous
+35497,22917,1,28,Dead milk time,1.0,Primiparous
