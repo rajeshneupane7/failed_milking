@@ -41,10 +41,11 @@ data$milking_int_cat <- relevel(data$milking_int_cat, ref = "normal")
 data$milk_speed_cat <- relevel(data$milk_speed_cat, ref = "Mid")
 data$milk_yield_cat <- relevel(data$milk_yield_cat, ref = "Mid")
 data$thi_class<- relevel(data$thi_class, ref = "no_heat_stress")
+data$Device.Name <-as.factor(data$Device.Name)
 
 # Drop NAs for model variables
 model_vars <- c('event_new_disease', 'lac_no', 'lac_stage', 'milking_int_cat',
-                'thi_class', 'milk_speed_cat', 'milk_yield_cat')
+                'thi_class', 'milk_speed_cat', 'milk_yield_cat', 'Device.Name', 'Animal.Number')
 data <- data %>% drop_na(all_of(model_vars))
 
 # Control object with better optimizer and more iterations
@@ -61,7 +62,7 @@ ctrl <- glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 100000), calc
 #)
 
 #===========================================================================================================================
-# Install if not already installed
+
 
 
 # Load libraries
@@ -69,15 +70,29 @@ library(glmmTMB)
 library(performance)
 library(broom.mixed)
 
-FORMULA <- failed ~ event_new_disease + thi_class + lac_no + lac_stage +
-  milking_int_cat + milk_yield_cat + milk_speed_cat + correct_pen +
-  (1 | Animal.Number) + (1 | correct_pen / Device.Name)
+formula_pen_robot <- failed ~ event_new_disease + thi_class + lac_no * lac_stage +
+  milking_int_cat + milk_yield_cat + milk_speed_cat + correct_pen+
+  (1 | Animal.Number) + (1|correct_pen/Device.Name)
 
-model_independent <- glmmTMB(
-  FORMULA,
+
+formula_reduced<-failed ~ event_new_disease + thi_class + lac_no*lac_stage +
+  milking_int_cat + milk_yield_cat + milk_speed_cat + correct_pen +
+  (1 | Animal.Number)
+
+model_pen_robot <- glmmTMB(
+  formula_pen_robot,
   data = data,
   family = binomial(link = "logit")
 )
+
+model_pen_reduced <- glmmTMB(
+  formula_reduced,
+  data = data,
+  family = binomial(link = "logit")
+)
+
+anova(model_independent, model_pen_reduced, test = "Chisq")
+
 data <- data %>%
   arrange(Animal.Number, Date) %>%
   group_by(Animal.Number) %>%
@@ -111,14 +126,14 @@ model_list <- list(
 compare_performance(model_list, metrics = c("AIC", "BIC"))
 
 
-simulateResiduals(model_ar1, plot = TRUE)
+simulateResiduals(model_independent, plot = TRUE)
 simulateResiduals(model_cs, plot = TRUE)
 
 
-results <- tidy(model_failed_pen_robot, effects = "fixed", conf.int = TRUE)
+results <- tidy(model_pen_robot, effects = "fixed", conf.int = TRUE)
 
 # Compute odds ratios and format results with rounding (no scientific notation)
-results <- tidy(model_failed_pen_robot, effects = "fixed", conf.int = TRUE)
+results <- tidy(model_pen_robot, effects = "fixed", conf.int = TRUE)
 
 # Compute odds ratios and format results with rounding (no scientific notation)
 results <- results %>%
@@ -137,3 +152,9 @@ library(performance)
 model_performance(model_failed_pen_robot)
 
 #=============================================================================
+
+res <- simulateResiduals(fittedModel = model_pen_robot, plot = TRUE)
+testOutliers(res, type = "bootstrap")
+testUniformity(res)
+testDispersion(res)
+testZeroInflation(res)
