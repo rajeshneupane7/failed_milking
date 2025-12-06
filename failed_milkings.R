@@ -38,8 +38,8 @@ data$event_new_disease <- relevel(data$event_new_disease, ref = "Healthy")
 
 data$lac_stage <- relevel(data$lac_stage, ref = "Early")
 data$milking_int_cat <- relevel(data$milking_int_cat, ref = "normal")
-data$milk_speed_cat <- relevel(data$milk_speed_cat, ref = "Mid")
-data$milk_yield_cat <- relevel(data$milk_yield_cat, ref = "Mid")
+data$milk_speed_cat <- relevel(data$milk_speed_cat, ref = "High")
+data$milk_yield_cat <- relevel(data$milk_yield_cat, ref = "High")
 data$thi_class<- relevel(data$thi_class, ref = "no_heat_stress")
 data$Device.Name <-as.factor(data$Device.Name)
 
@@ -71,8 +71,8 @@ library(performance)
 library(broom.mixed)
 
 formula_pen_robot <- failed ~ event_new_disease + thi_class + lac_no * lac_stage +
-  milking_int_cat + milk_yield_cat + milk_speed_cat + correct_pen+
-  (1 | Animal.Number) + (1|correct_pen/Device.Name)
+  milking_int_cat + milk_yield_cat  + milk_speed_cat+
+  (1 | Animal.Number) + (1|Device.Name)+ (1|correct_pen)
 
 
 formula_reduced<-failed ~ event_new_disease + thi_class + lac_no*lac_stage +
@@ -148,8 +148,6 @@ results <- results %>%
 # Print results as a formatted tablefa
 print(results, row.names = FALSE, n= Inf)
 
-library(performance)
-model_performance(model_failed_pen_robot)
 
 #=============================================================================
 
@@ -158,3 +156,24 @@ testOutliers(res, type = "bootstrap")
 testUniformity(res)
 testDispersion(res)
 testZeroInflation(res)
+
+#=========================================================================================================================
+# Ploting random effects 
+#=======================================================================================================================
+library(sjPlot)
+p <- sjPlot::plot_model(
+  model_pen_robot,
+  type = "re",
+  transform = NULL,     # ensures raw log-scale effects
+  show.values = FALSE,
+  show.p = FALSE,
+  sort.est = TRUE
+) +
+  theme_minimal(base_size = 12) +
+  theme(
+    axis.text.y = element_blank(),
+    axis.ticks.y = element_blank(),
+    panel.grid.minor = element_blank(),
+    panel.grid.major.y = element_blank()
+  ) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "red")

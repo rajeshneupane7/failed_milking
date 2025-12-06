@@ -6,9 +6,31 @@ library(emmeans)
 library(stringr)
 library(glmmTMB)
 # Read the data
-df <- read.csv("/home/rajesh/work/failed_milkings/codes/df_rate_ratios.csv")
-#df <- read.csv("/home/rajesh/work/failed_milkings/codes/df_rate_ratios_without_device.csv")
+#df <- read.csv("/home/rajesh/work/failed_milkings/codes/df_rate_ratios.csv")
+#df <- read.csv("/home/rajesh/work/failed_milkings/codes/df_rate_ratios_without_device.csv
+df<-read.csv('/home/rajesh/work/failed_milkings/codes/df_rate_ratios_monthly.csv')
 library(forcats)
+# Install if necessary: install.packages("tidyverse")
+library(dplyr)
+library(forcats)
+
+# The variable to filter on is 'weeks'
+# The variable to recode is 'visit_results_new'
+
+df <- df %>%
+  # 1. Recode factor levels (stopped by user and Other reasons)
+  mutate(
+    visit_results_new = fct_collapse(
+      visit_results_new,
+      # New_Level_Name = c("Old_Level_1", "Old_Level_2")
+      "Other" = c("Stopped by user", "Other")
+      # All other levels of visit_results_new will remain unchanged
+    )
+  ) %>%
+  # 2. Filter observations (until 45 weeks, meaning 'weeks' <= 45)
+  filter(weeks <= 45, failed_count<=10)
+
+# Optional: Print the new factor levels and the number of rows
 
 df$visit_results_new <- fct_relevel(df$visit_results_new, "Other", after = Inf)
 
@@ -17,16 +39,19 @@ library(glmmTMB)
 
 # Mixed-effects Negative Binomial model, ##checked nb1--- it did not converage, again both of the models also checed 
 # without the weeks as random slope but with random slope we got lower aic/bic
-nb <- glmmTMB(
-  failed_count ~ parity+weeks+visit_results_new+Device.Name + (weeks|Animal.Number),
+
+
+## Divide by (1. montly--test), 55week, line plot by parity showing observation..trend..., model 
+nb_pen <- glmmTMB(
+  failed_count ~ parity*visit_results_new+weeks + (weeks|Animal.Number)+(1|Device.Name),
   family = truncated_nbinom2, 
   data = df
 )
 
-poisson <- glmmTMB(
-  failed_count ~ parity+weeks+visit_results_new+ Device.Name+ (1 |Animal.Number),
-  family = truncated_poisson,   
-  data = df1
+nb <- glmmTMB(
+  failed_count ~ parity+weeks+visit_results_new + (weeks|Animal.Number)+(1|Device.Name),
+  family = truncated_nbinom2, 
+  data = df
 )
 
 model_performance(nb)
@@ -84,6 +109,48 @@ model_performance(poisson)
       strip.text = element_text(size = 13),
       legend.position = "bottom")
 
+#==================================================================================
+  ## Plot of weeks vs counts 
+#=================================================================================
+  # --- Predicted counts ---
+  df_preds <- predict(nb, type = "link", se.fit = TRUE)
+  
+  df$predicted <- exp(df_preds$fit)          # predicted weekly counts
+  df$se <- df_preds$se.fit                   # SE on log scale
+  
+  # --- 95% CI ---
+  df <- df %>%
+    mutate(
+      lower = exp(log(predicted) - 1.96 * se),
+      upper = exp(log(predicted) + 1.96 * se)
+    )
+  
+  df_weekly <- df %>%
+    group_by(weeks) %>%
+    summarise(
+      weekly_pred = sum(predicted, na.rm = TRUE),
+      weekly_lower = sum(lower, na.rm = TRUE),
+      weekly_upper = sum(upper, na.rm = TRUE),
+      .groups = "drop"
+    )
+  
+  # --- Final Plot ---
+  ggplot(df_weekly, aes(x = weeks, y = weekly_pred)) +
+    geom_line() +
+    geom_point(size = 1) +
+    geom_errorbar(aes(ymin = weekly_lower, ymax = weekly_upper),
+                  width = 0.2, alpha = 0.3) +
+    theme_classic(base_size = 14) +
+    labs(
+      title = "Predicted failed milking count per week",
+      x = "Weeks in lactation",
+      y = "Predicted count "
+    )
+  
+  
+  
+  
+  
 #==========================================================================================
 ## Model despersion validation
 =========================================================================================
@@ -97,11 +164,11 @@ model_performance(poisson)
 results <- tidy(nb, effects = "fixed", conf.int = TRUE)
 
 
-results <- tidy(nb, effects = "fixed", conf.int = TRUE)
+results_rate <- tidy(nb, effects = "fixed", conf.int = TRUE)
 
 library(dplyr)
 
-results <- results %>%
+results_rate <- results_rate %>%
   mutate(
     estimate = as.numeric(estimate),
     std.error = as.numeric(std.error),
@@ -127,7 +194,7 @@ results <- results %>%
 ##==================================================================================================
 ## More model diagnositic using some packages
 #===================================================================================================
-
+library(DHARMa)
 res <- simulateResiduals(fittedModel = nb, plot = TRUE)
 testOutliers(res, type = "bootstrap")
 testUniformity(res)
@@ -157,6 +224,108 @@ p <- sjPlot::plot_model(
 
 p
 
+#==============================================================================
+## Plot of weeks vs parity vs total failed count
+#=============================================================================
+
+df1 <- df %>%
+  group_by(weeks, parity) %>%
+  summarize(total_failed = sum(failed_count, na.rm = TRUE)) %>%
+  ungroup()
+library(ggplot2)
+
+ggplot(df1, aes(x = weeks, y = total_failed, color = as.factor(parity))) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(se = FALSE, lwd = 1) +
+  labs(
+    x = "Weeks",
+    y = "Total Failed Count",
+    color = "Parity"
+  ) +
+  theme_minimal()
 
 
+#=========================================================================
+#plotting 
+#========================================================================
+library(ggplot2)
+library(dplyr)      # For data manipulation (group_by, mutate, etc.)
+library(scales)     # For percent formatting
 
+# === 1. Define the two datasets ===
+
+# Data 1: Overall Proportions (Modified to remove AS)
+df_overall <- data.frame(
+  Main_Reason = c(
+    "Connection Time (CT)", 
+    "Connection Attempts (CA)", 
+    "Dead milk time (DT)"
+    # "Automatic robot stops (AS)" - REMOVED
+  ),
+  Overall_Proportion = c(0.3512, 0.2188, 0.3538)
+)
+
+# Data 2: Teat-level *counts* (from your table)
+df_teat_counts <- data.frame(
+  Main_Reason = c(
+    rep("Dead milk time (DT)", 4), 
+    rep("Connection Attempts (CA)", 4)
+  ),
+  Teat = rep(c("LR", "RR", "RF", "LF"), 2),
+  Count = c(
+    434, 401, 508, 445,  # Counts for Dead milk time
+    368, 499, 116, 123   # Counts for Connection attempts
+  )
+)
+
+# === 2. Data Manipulation: Calculate Global Proportions ===
+# (This section is unchanged, it will just work on the smaller df_overall)
+
+# Calculate internal proportions for teat data
+df_teat_props <- df_teat_counts %>%
+  group_by(Main_Reason) %>%
+  mutate(Internal_Proportion = Count / sum(Count)) %>%
+  ungroup()
+
+# Join with overall proportions to get the global proportion
+df_teat_final <- df_teat_props %>%
+  left_join(df_overall, by = "Main_Reason") %>%
+  mutate(Global_Proportion = Internal_Proportion * Overall_Proportion) %>%
+  mutate(Plot_Label = paste(Teat)) %>% # Create a clean label
+  select(Main_Reason, Plot_Label, Global_Proportion)
+
+# Prepare the simple causes (CT)
+df_simple_final <- df_overall %>%
+  filter(!Main_Reason %in% c("Dead milk time (DT)", "Connection Attempts (CA)")) %>%
+  mutate(
+    Plot_Label = Main_Reason,              # Label is just the cause itself
+    Global_Proportion = Overall_Proportion
+  ) %>%
+  select(Main_Reason, Plot_Label, Global_Proportion)
+
+# Combine them into one final data frame
+df_plot_final <- bind_rows(df_teat_final, df_simple_final)
+
+
+# === 3. Plotting (Modified) ===
+
+# NEW: Set the factor levels to control the x-axis order
+df_plot_final$Main_Reason <- factor(df_plot_final$Main_Reason, 
+                                    levels = c("Dead milk time (DT)", 
+                                               "Connection Attempts (CA)", 
+                                               "Connection Time (CT)"))
+
+ggplot(df_plot_final, 
+       # MODIFIED: Use the new factor order, removed reorder()
+       aes(x = Main_Reason, 
+           y = Global_Proportion, 
+           fill = Plot_Label)) +
+  geom_bar(stat = "identity") +
+  scale_y_continuous(labels = scales::percent_format()) +
+  labs(
+    x = "Failure Reason",
+    y = "Proportion of Total Failures",
+    fill = "Cause / Teat",
+    title = "Combined FME Proportions with Teat-Level Breakdown"
+  ) +
+  theme_minimal()
