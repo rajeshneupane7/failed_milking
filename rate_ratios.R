@@ -329,3 +329,56 @@ ggplot(df_plot_final,
     title = "Combined FME Proportions with Teat-Level Breakdown"
   ) +
   theme_minimal()
+
+
+
+#====================================================================================
+# weekly plot
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+library(dplyr)
+library(glmmTMB)
+library(ggeffects)
+library(ggplot2)
+
+# 1. Aggregate: Sum failed_counts to get ONE row per cow per week
+# We remove 'parity' from the grouping since it's no longer needed
+df_weekly <- df %>%
+  group_by(Animal.Number, weeks, Device.Name) %>% 
+  summarise(
+    total_failures = sum(failed_count, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+# Check the first few rows to ensure it looks right
+head(df_weekly)
+# 2. Fit the Model
+# Note: We removed 'visit_results_new' from the predictors
+nb <- glmmTMB(
+  total_failures ~  weeks + (weeks | Animal.Number) + (1 | Device.Name),
+  family = truncated_nbinom2, 
+  data = df_weekly
+)
+
+# Optional: Check model summary
+# summary(nb)
+# 3. Generate Predictions
+# 3. Generate Predictions
+# We only predict for 'weeks' now. 
+df_preds <- ggpredict(nb, terms = "weeks [all]")
+
+# Ensure 'x' is numeric for proper line plotting
+df_preds$x <- as.numeric(as.character(df_preds$x))
+
+# 4. Plot
+# Note: We removed 'color' and 'fill' aesthetics because there is only one group
+ggplot(df_preds, aes(x = x, y = predicted)) +
+  geom_line(linewidth = 1, color = "#2c7bb6") + # Single color (blue)
+  # Confidence intervals
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = 0.2, fill = "#2c7bb6") +
+  theme_classic(base_size = 14) +
+  labs(
+    title = "Predicted failed milking events across lactation",
+    subtitle = "Model: glmmTMB (Adjusted for Cow and Robot effects)",
+    x = "Weeks in lactation",
+    y = "Predicted total failures per week"
+  )
