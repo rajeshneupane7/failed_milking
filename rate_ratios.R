@@ -43,7 +43,7 @@ library(glmmTMB)
 
 ## Divide by (1. montly--test), 55week, line plot by parity showing observation..trend..., model 
 nb_pen <- glmmTMB(
-  failed_count ~ parity*visit_results_new+weeks + (weeks|Animal.Number)+(1|Device.Name),
+  failed_count ~ parity+visit_results_new+weeks + (weeks|Animal.Number)+(1|Device.Name),
   family = truncated_nbinom2, 
   data = df
 )
@@ -343,7 +343,7 @@ library(ggplot2)
 # 1. Aggregate: Sum failed_counts to get ONE row per cow per week
 # We remove 'parity' from the grouping since it's no longer needed
 df_weekly <- df %>%
-  group_by(Animal.Number, weeks, Device.Name) %>% 
+  group_by(Animal.Number, Device.Name, weeks) %>% 
   summarise(
     total_failures = sum(failed_count, na.rm = TRUE),
     .groups = "drop"
@@ -354,7 +354,7 @@ head(df_weekly)
 # 2. Fit the Model
 # Note: We removed 'visit_results_new' from the predictors
 nb <- glmmTMB(
-  total_failures ~  weeks + (weeks | Animal.Number) + (1 | Device.Name),
+  total_failures ~  weeks + (weeks| Animal.Number) +(1|Device.Name),
   family = truncated_nbinom2, 
   data = df_weekly
 )
@@ -364,21 +364,33 @@ nb <- glmmTMB(
 # 3. Generate Predictions
 # 3. Generate Predictions
 # We only predict for 'weeks' now. 
-df_preds <- ggpredict(nb, terms = "weeks [all]")
+df_preds <- ggpredict(nb, type = 'simulate', terms = 'weeks', nsim = 1000)
 
-# Ensure 'x' is numeric for proper line plotting
+# Ensure x is numeric
 df_preds$x <- as.numeric(as.character(df_preds$x))
+df_preds <- as.data.frame(df_preds)
 
-# 4. Plot
-# Note: We removed 'color' and 'fill' aesthetics because there is only one group
+# 2. Plot with "Zoom"
 ggplot(df_preds, aes(x = x, y = predicted)) +
-  geom_line(linewidth = 1, color = "#2c7bb6") + # Single color (blue)
-  # Confidence intervals
-  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = 0.2, fill = "#2c7bb6") +
+  # The Trend Line (Thicker to be visible)
+  geom_line(linewidth = 1.5, color = "#2c7bb6") +
+  
+  # OPTIONAL: The Ribbon. 
+  # We make it very transparent (alpha=0.1) because for 'simulate', 
+  # this ribbon shows Cow Variance (huge), not Trend Confidence (tiny).
+  # You can also remove this line entirely if you just want the trend.
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = 0.1, fill = "#2c7bb6") +
+  
   theme_classic(base_size = 14) +
+  
+  # --- THE CRITICAL FIX ---
+  # Force the Y-axis to focus STRICTLY on your trend values (e.g., 1.2 to 1.35).
+  # Do not let the wide ribbon dictate the axis limits.
+  coord_cartesian(ylim = c(1.20, 1.35)) + 
+  
   labs(
     title = "Predicted failed milking events across lactation",
-    subtitle = "Model: glmmTMB (Adjusted for Cow and Robot effects)",
+    subtitle = "Adjusted for cow and robot effects",
     x = "Weeks in lactation",
-    y = "Predicted total failures per week"
+    y = "Predicted failures (Week)"
   )
