@@ -177,3 +177,75 @@ p <- sjPlot::plot_model(
     panel.grid.major.y = element_blank()
   ) +
   geom_hline(yintercept = 0, linetype = "dashed", color = "red")
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#getting a table to do post hoc test comparisions
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+library(emmeans)
+library(dplyr)
+
+# 1. GENERATE THE EMMEANS OBJECTS
+# -------------------------------------------------------
+# This calculates the marginal means from your model
+emm <- emmeans(model_pen_robot, ~ lac_no | lac_stage)
+
+# 2. CALCULATE CONTRASTS
+# -------------------------------------------------------
+# Table A: Parity effects inside each Stage (Primi vs Multi)
+contrasts_parity <- pairs(emm, reverse = TRUE, type = "response")
+
+# Table B: Stage effects inside each Parity (Mid/Late vs Early)
+contrasts_stage <- pairs(emmeans(model_pen_robot, ~ lac_stage | lac_no), 
+                         reverse = TRUE, type = "response")
+
+# 3. FORMATTING FUNCTION
+# -------------------------------------------------------
+# This function converts the raw emmeans output into a clean table
+make_pub_table <- function(contrast_obj) {
+  
+  # Step A: Get Confidence Intervals (and merge with P-values)
+  # confint() gets the CI but drops the p-value, summary() gets the p-value
+  ci_df <- confint(contrast_obj) %>% as.data.frame()
+  p_df  <- summary(contrast_obj) %>% as.data.frame()
+  
+  # Step B: Merge and Clean
+  final_table <- ci_df %>%
+    mutate(p.value = p_df$p.value) %>% # Add p-value back in
+    rename(
+      Contrast = contrast,
+      OR = odds.ratio,
+      CI_Lower = asymp.LCL,
+      CI_Upper = asymp.UCL,
+      P_Value = p.value
+    ) %>%
+    mutate(
+      # Rounding for clean presentation
+      OR = sprintf("%.3f", OR),
+      CI_Lower = sprintf("%.3f", CI_Lower),
+      CI_Upper = sprintf("%.3f", CI_Upper),
+      P_Value = sprintf("%.4f", P_Value),
+      
+      # Create a combined "95% CI" column (Optional, but often requested)
+      `95% CI` = paste0("(", CI_Lower, " – ", CI_Upper, ")")
+    ) %>%
+    # Select and reorder columns
+    select(matches("lac_stage|lac_no"), Contrast, OR, CI_Lower, CI_Upper, P_Value)
+  
+  return(final_table)
+}
+
+# 4. GENERATE AND VIEW TABLES
+# -------------------------------------------------------
+table_1_parity <- make_pub_table(contrasts_parity)
+table_2_stage  <- make_pub_table(contrasts_stage)
+
+# Print to console (ready to copy)
+print("TABLE 1: Parity Effect within Stage")
+print(table_1_parity)
+
+print("TABLE 2: Stage Effect within Parity")
+print(table_2_stage)
+
+# OPTIONAL: Export to CSV to open in Excel/Word
+write.csv(table_1_parity, "Table1_Parity_Interaction.csv", row.names = FALSE)
+write.csv(table_2_stage,  "Table2_Stage_Interaction.csv",  row.names = FALSE)
