@@ -10,6 +10,8 @@ data <- read.csv("/home/rajesh/work/failed_milkings/corrected_pen_df.csv")
 data <- data %>%
   mutate(lac_no = if_else(lac_no == 1, "primiparous", "multiparous")) %>%
   mutate(lac_no = factor(lac_no))  # Convert to factor again
+data$week <- floor(data$Lactation.Days / 7) + 1
+data$week_c <- scale(data$week, center = TRUE, scale = FALSE)
 
 
 # Convert appropriate columns to factors
@@ -45,7 +47,7 @@ data$Device.Name <-as.factor(data$Device.Name)
 
 # Drop NAs for model variables
 model_vars <- c('event_new_disease', 'lac_no', 'lac_stage', 'milking_int_cat',
-                'thi_class', 'milk_speed_cat', 'milk_yield_cat', 'Device.Name', 'Animal.Number')
+                'thi_class', 'milk_speed_cat', 'milk_yield_cat', 'Device.Name', 'Animal.Number', 'week')
 data <- data %>% drop_na(all_of(model_vars))
 
 # Control object with better optimizer and more iterations
@@ -70,7 +72,7 @@ library(glmmTMB)
 library(performance)
 library(broom.mixed)
 
-formula_pen_robot <- failed ~ event_new_disease + thi_class + lac_no * lac_stage +
+formula_pen_robot <- failed ~ event_new_disease + thi_class + week * lac_no +
   milking_int_cat + milk_yield_cat  + milk_speed_cat+
   (1 | Animal.Number) + (1|Device.Name)+ (1|correct_pen)
 
@@ -147,6 +149,80 @@ results <- results %>%
 
 # Print results as a formatted tablefa
 print(results, row.names = FALSE, n= Inf)
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#plotting predicted probabilites over the lactation weeks 
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ============================================================
+# Predicted probabilities with 95% CI by parity × lactation week
+# ============================================================
+
+# ============================================================
+# Predicted probabilities with 95% CI by parity × lactation week
+# Using glmmTMB::predict (ROBUST METHOD)
+# ============================================================
+
+library(dplyr)
+library(ggplot2)
+library(scales)
+
+# ------------------------------------------------------------
+# Create prediction grid
+# ------------------------------------------------------------
+newdata <- expand.grid(
+  week = seq(min(data$week), max(data$week), by = 1),
+  lac_no = levels(data$lac_no),
+  event_new_disease = "Healthy",
+  thi_class = "no_heat_stress",
+  milking_int_cat = "normal",
+  milk_yield_cat = "High",
+  milk_speed_cat = "High"
+)
+
+# ------------------------------------------------------------
+# Predict on link scale with SE (fixed effects only)
+# ------------------------------------------------------------
+pred <- predict(
+  model_pen_robot,
+  newdata = newdata,
+  type = "link",
+  se.fit = TRUE,
+  re.form = NA
+)
+
+# ------------------------------------------------------------
+# Compute probabilities and 95% CI
+# ------------------------------------------------------------
+newdata <- newdata %>%
+  mutate(
+    fit_link = pred$fit,
+    se_link  = pred$se.fit,
+    lwr_link = fit_link - 1.96 * se_link,
+    upr_link = fit_link + 1.96 * se_link,
+    fit = plogis(fit_link),
+    lwr = plogis(lwr_link),
+    upr = plogis(upr_link)
+  )
+
+# ------------------------------------------------------------
+# Plot predicted probabilities with confidence ribbons
+# ------------------------------------------------------------
+ggplot(newdata, aes(x = week, y = fit, color = lac_no, fill = lac_no)) +
+  geom_line(linewidth = 1.2) +
+  geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = 0.25, color = NA) +
+  labs(
+    x = "Lactation week",
+    y = "Predicted probability of failed milking",
+    color = "Parity",
+    fill = "Parity"
+  ) +
+  scale_y_continuous(
+    labels = scales::number_format(accuracy = 0.001)
+  ) +
+  coord_cartesian(
+    ylim = c(0, max(newdata$upr) * 1.05)
+  ) +
+  theme_classic(base_size = 14)
 
 
 #=============================================================================
