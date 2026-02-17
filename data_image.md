@@ -10,17 +10,17 @@ flowchart TB
     classDef harmon fill:lightgreen,stroke:seagreen,stroke-width:2px;
 
     %% --- Stream 1: Lely Milking Data ---
-    subgraph S1["🐄: Lely Milking Data"]
+    subgraph S1["🐄: Lely Milking"]
     direction TB
         %% <br/> added for separation, text simplified
         A["<br/>📋 Raw Milking Records"]:::lely -->|"715265 rows / 2153 cows"| B{"⚙️ Validation & Drop NaNs"}:::lely
     end
 
     %% --- Stream 2: DairyComp Management Data ---
-    subgraph S2["📑: DairyComp Data"]
-    direction TB
-        %% <br/> added for separation, text simplified
-        E["<br/>📋 Raw Management Records"]:::dairy -->|"165089 rows / 12670 cows + Events"| F{"⚙️ Validation & Drop NaNs"}:::dairy
+    subgraph S2 ["📑: DairyComp"]
+        direction TB
+        %% Adding a bit of space at the top of the first node label
+        E["<br/>📋 Raw Management Records<br/>"]:::dairy -->|"165089 rows / 12670 cows + Events"| F{"⚙️ Validation & Drop NaNs"}:::dairy
     end
 
     %% --- Data Harmonization & Final Steps (I and J are merged) ---
@@ -30,7 +30,7 @@ flowchart TB
         %% MERGED I and J into a single step for conciseness
         I{"🔍 **Match & Merge:**<br/>(Join on Cow ID & Filter by Event)"}:::harmon
         
-        K["📊 Final Dataset<br/>(613 cows / 619734 rows)"]:::harmon
+        K["📊 Final Dataset<br/>(613 cows / 614681 rows)"]:::harmon
         
         I --> K
         K --> L(["📈 Ready for Analysis"]):::harmon
